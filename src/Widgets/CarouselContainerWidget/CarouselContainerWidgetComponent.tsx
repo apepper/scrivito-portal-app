@@ -11,13 +11,15 @@ Scrivito.provideComponent(CarouselContainerWidget, ({ widget }) => {
           key={item.id()}
           className={itemClassName(item.get('backgroundColor'))}
         >
-          <Scrivito.InPlaceEditingOff>
-            <Scrivito.ImageTag
-              content={item}
-              attribute="background"
-              className="img-background"
-            />
-          </Scrivito.InPlaceEditingOff>
+          {item.get('background') && ( // TODO: Remove workaround once #9919 is resolved
+            <Scrivito.InPlaceEditingOff>
+              <Scrivito.ImageTag
+                content={item}
+                attribute="background"
+                className="img-background"
+              />
+            </Scrivito.InPlaceEditingOff>
+          )}
           <div className="container">
             <Scrivito.ContentTag
               content={item}
