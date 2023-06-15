@@ -25,7 +25,7 @@ Scrivito.provideEditingConfig(CarouselItemWidget, {
   },
   properties: ['background', 'backgroundColor'],
   initialContent: {
-    backgroundColor: 'transparent',
+    backgroundColor: 'primary',
     caption: [new HeadlineWidget({ headline: 'Lorem ipsum' })],
   },
 })
