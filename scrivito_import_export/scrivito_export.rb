@@ -10,6 +10,8 @@ class ScrivitoExport
     base_url = ENV.fetch("SCRIVITO_BASE_URL") { "https://api.scrivito.com" }
     tenant = ENV.fetch("EXPORT_FROM_SCRIVITO_TENANT") or raise "missing EXPORT_FROM_SCRIVITO_TENANT env"
     api_key = ENV.fetch("EXPORT_FROM_SCRIVITO_API_KEY") or raise "missing EXPORT_FROM_SCRIVITO_API_KEY env"
+
+    puts "Exporting from #{tenant} to #{dir_name}"
     api = RestApi.new(base_url, tenant, api_key)
 
     if File.exist?(dir_name)

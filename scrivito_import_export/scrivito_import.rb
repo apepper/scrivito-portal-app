@@ -11,6 +11,8 @@ class ScrivitoImport
     api_key = ENV.fetch("SCRIVITO_API_KEY")
     api = RestApi.new(base_url, tenant, api_key)
 
+    puts "Importing from #{dir_name} to #{tenant}"
+
     visibility_categories_ids_mapping = import_visibility_categories_and_generate_mapping(api, dir_name)
 
     workspace_id = api.post("workspaces", "workspace" => { "title" => workspace_title})["id"]
