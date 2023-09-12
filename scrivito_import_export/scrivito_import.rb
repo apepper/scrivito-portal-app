@@ -129,5 +129,5 @@ end
 current_directory = File.dirname(__FILE__)
 dir_name = File.join(current_directory, '../initialContent')
 
-workspace_title = ARGV.first or "loader (do not touch)"
+workspace_title = "Initial scrivito-portal-app content"
 ScrivitoImport.new.import(dir_name: dir_name, workspace_title: workspace_title)
