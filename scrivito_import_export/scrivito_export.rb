@@ -104,5 +104,8 @@ class ScrivitoExport
   end
 end
 
-dir_name = ARGV.first or raise "missing dir_name param"
+# dir_name = ARGV.first or raise "missing dir_name param"
+current_directory = File.dirname(__FILE__)
+dir_name = File.join(current_directory, '../initialContent')
+
 ScrivitoExport.new.export(dir_name: dir_name)

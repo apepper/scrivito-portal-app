@@ -125,6 +125,9 @@ class ScrivitoImport
   end
 end
 
-dir_name = ARGV.first or raise "missing dir_name param"
-workspace_title = ARGV.second or "loader (do not touch)"
+# dir_name = ARGV.first or raise "missing dir_name param"
+current_directory = File.dirname(__FILE__)
+dir_name = File.join(current_directory, '../initialContent')
+
+workspace_title = ARGV.first or "loader (do not touch)"
 ScrivitoImport.new.import(dir_name: dir_name, workspace_title: workspace_title)
