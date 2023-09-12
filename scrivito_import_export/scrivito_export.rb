@@ -1,12 +1,15 @@
 require "active_support/all"
+require 'dotenv'
 require "fileutils"
 require_relative "rest_api"
+
+Dotenv.load('.env', '.env.local')
 
 class ScrivitoExport
   def export(dir_name:)
     base_url = ENV.fetch("SCRIVITO_BASE_URL") { "https://api.scrivito.com" }
-    tenant = ENV.fetch("SCRIVITO_TENANT")
-    api_key = ENV.fetch("SCRIVITO_API_KEY")
+    tenant = ENV.fetch("EXPORT_FROM_SCRIVITO_TENANT") or raise "missing EXPORT_FROM_SCRIVITO_TENANT env"
+    api_key = ENV.fetch("EXPORT_FROM_SCRIVITO_API_KEY") or raise "missing EXPORT_FROM_SCRIVITO_API_KEY env"
     api = RestApi.new(base_url, tenant, api_key)
 
     if File.exist?(dir_name)

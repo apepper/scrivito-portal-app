@@ -1,5 +1,8 @@
 require "active_support/all"
+require 'dotenv'
 require_relative "rest_api"
+
+Dotenv.load('.env', '.env.local')
 
 class ScrivitoImport
   def import(dir_name:, workspace_title:)
