@@ -72,6 +72,12 @@ export default defineConfig(({ mode }) => {
 
           changeOrigin: true,
         },
+
+        '/pisa-api': {
+          target: 'https://web102.crm.pisasales.de/portal',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/pisa-api/, ''),
+        },
       },
     },
   }
