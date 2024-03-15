@@ -9,6 +9,6 @@ export function pisaUrl(): string {
 }
 
 export function pisaClient(subPath: string) {
-  const url = `../pisa-api/${subPath}`
+  const url = `${pisaUrl()}/${subPath}`
   return unstable_createApiClient(url)
 }
