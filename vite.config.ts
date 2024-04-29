@@ -61,6 +61,12 @@ export default defineConfig(({ mode }) => {
           rewrite: (path) => path.replace(/^\/auth/, ''),
           headers: { 'X-JR-Auth-Location': 'http://localhost:8080/auth' },
         },
+        '/jr-api': {
+          target: 'https://api.justrelate.com',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/jr-api/, ''),
+          headers: { 'X-JR-API-Location': 'http://localhost:8080/jr-api' },
+        },
       },
     },
   }
