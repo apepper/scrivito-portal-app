@@ -40,7 +40,6 @@ export default defineConfig(({ mode }) => {
       },
     },
     define: {
-      'import.meta.env.SCRIVITO_TENANT': JSON.stringify(env.SCRIVITO_TENANT),
       'import.meta.env.ENABLE_PISA': JSON.stringify(enablePisa),
     },
     optimizeDeps: {
