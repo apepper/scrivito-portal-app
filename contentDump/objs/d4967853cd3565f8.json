@@ -1,0 +1,547 @@
+{
+  "_obj_class": "Page",
+  "title": [
+    "string",
+    "Karriere"
+  ],
+  "body": [
+    "widgetlist",
+    [
+      "f959f264",
+      "76779ba2",
+      "c50d1a45",
+      "74266c7d"
+    ]
+  ],
+  "_conflicts": null,
+  "_content_id": "8942b689824112e6",
+  "_created_at": "20240405095730",
+  "_data_param": null,
+  "_editing_asset": false,
+  "_first_published_at": "20240405121103",
+  "_id": "d4967853cd3565f8",
+  "_language": "de",
+  "_last_changed": "20240405154515",
+  "_modification": null,
+  "_path": "/1f555d6a877a7662/d4967853cd3565f8",
+  "_permalink": null,
+  "_published_at": "20240405154733",
+  "_restriction": null,
+  "_site_id": "dc07b5fb5abd4c35",
+  "_version": "202404051547330000000000000000d638123954226ad5",
+  "_widget_pool": {
+    "f959f264": {
+      "_obj_class": "SectionWidget",
+      "background_image": [
+        "reference",
+        "2d2269d9b701ac2d"
+      ],
+      "background_color": [
+        "string",
+        "primary"
+      ],
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "d9c32694"
+        ]
+      ]
+    },
+    "c1855ba9": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "style": [
+        "string",
+        "h2"
+      ],
+      "headline": [
+        "string",
+        "Wie Sie bei Tynacoon eine Karriere starten"
+      ]
+    },
+    "080eaf90": {
+      "_obj_class": "TextWidget",
+      "text": [
+        "html",
+        "<p id=\"isPasted\">Tynacoon hat es sich stets zur Aufgabe gemacht, Designprozesse durch Offenheit und Transparenz zu revolutionieren. Wir sind fest davon überzeugt, dass eine Plattform, auf der Designer ihre laufenden Arbeiten teilen können, sie nicht nur befähigt, bessere Produkte zu schaffen, sondern auch deren persönliche Entwicklung fördert. Es erfüllt uns mit Stolz, Teil der Schaffung einer offeneren Kultur zu sein und ein Produkt zu entwickeln, das diese Vision unterstützt.</p><p>Im Laufe unserer Entwicklung haben wir beobachtet, wie Tynacoon Unternehmen wie Lorem, Morel, Airpumpe, GermanAir und Interpumpe dabei geholfen hat, ihre Designer enger zusammenzubringen und Großartiges zu erschaffen. Wir haben ebenfalls erkannt, dass eine Kultur des Teilens, die früher eingeführt wird, Teams ermöglicht, sich besser anzupassen und miteinander zu kommunizieren.</p><p>Daher freut es uns sehr, bekannt geben zu können, dass wir nun ein kostenloses Whitepaper über Tynacoon bereitstellen. Dies gibt individuellen Designern, Start-ups und anderen kleinen Teams die Möglichkeit, frühzeitig eine Kultur der Offenheit zu etablieren.</p>"
+      ]
+    },
+    "76779ba2": {
+      "_obj_class": "SectionWidget",
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "c1855ba9",
+          "080eaf90"
+        ]
+      ]
+    },
+    "c50d1a45": {
+      "_obj_class": "SectionWidget",
+      "background_color": [
+        "string",
+        "transparent"
+      ],
+      "container_width": [
+        "string",
+        "fixed"
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "2056d9dc"
+        ]
+      ]
+    },
+    "1074735b": {
+      "_obj_class": "ImageWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "image": [
+        "reference",
+        "c57ed6048b05e7d8"
+      ],
+      "round_corners": [
+        "boolean",
+        true
+      ]
+    },
+    "42af10a2": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "style": [
+        "string",
+        "h2"
+      ],
+      "headline": [
+        "string",
+        "Clara Corn"
+      ]
+    },
+    "a4f0df91": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "style": [
+        "string",
+        "h6"
+      ],
+      "headline": [
+        "string",
+        "Leiterin der Personalabteilung"
+      ]
+    },
+    "6ad3e1c7": {
+      "_obj_class": "ButtonWidget",
+      "button_size": [
+        "string",
+        "small"
+      ],
+      "button_color": [
+        "string",
+        "btn-outline-primary"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "target": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "bdbb81709c5e1c63",
+          "query": null,
+          "target": null,
+          "title": "Kontaktieren Sie mich",
+          "url": null
+        }
+      ]
+    },
+    "e4dd0be9": {
+      "_obj_class": "CardWidget",
+      "background_color": [
+        "string",
+        "primary"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "79b6239c"
+        ]
+      ]
+    },
+    "79b6239c": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "b0cfdd03",
+          "1fe8fd8b"
+        ]
+      ]
+    },
+    "b0cfdd03": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        4
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "1074735b"
+        ]
+      ]
+    },
+    "1fe8fd8b": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        8
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "42af10a2",
+          "a4f0df91",
+          "f2f28a24",
+          "42de9909",
+          "6ad3e1c7"
+        ]
+      ]
+    },
+    "2056d9dc": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "fee4a6c0",
+          "1bfa9faa",
+          "242aa193"
+        ]
+      ]
+    },
+    "fee4a6c0": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        2
+      ]
+    },
+    "1bfa9faa": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        8
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "e4dd0be9",
+          "2fc7e373"
+        ]
+      ]
+    },
+    "f2f28a24": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Schreiben Sie mir einfach und senden Sie mir Ihre E-Mails. Vielleicht werde ich sie lesen und Ihnen antworten.</p>"
+      ]
+    },
+    "2fc7e373": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<br>"
+      ]
+    },
+    "74266c7d": {
+      "_obj_class": "SectionWidget",
+      "background_color": [
+        "string",
+        "transparent"
+      ],
+      "container_width": [
+        "string",
+        "fixed"
+      ],
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "335ae0cf"
+        ]
+      ]
+    },
+    "5e45e400": {
+      "_obj_class": "HeadlineWidget",
+      "style": [
+        "string",
+        "h3"
+      ],
+      "headline": [
+        "string",
+        "EXPO 2024"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ]
+    },
+    "1691c301": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Produkte und viel Lorem Ipsum finden Sie hier</p>"
+      ]
+    },
+    "291978f3": {
+      "_obj_class": "ButtonWidget",
+      "button_color": [
+        "string",
+        "btn-outline-secondary"
+      ],
+      "target": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "bdbb81709c5e1c63",
+          "query": null,
+          "target": null,
+          "title": "Tickets buchen",
+          "url": null
+        }
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_size": [
+        "string",
+        "small"
+      ]
+    },
+    "f22483ec": {
+      "_obj_class": "CardWidget",
+      "background_animate_on_hover": [
+        "boolean",
+        true
+      ],
+      "background_image": [
+        "reference",
+        "2d2269d9b701ac2d"
+      ],
+      "background_color": [
+        "string",
+        "success"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "5e45e400",
+          "1691c301",
+          "291978f3"
+        ]
+      ]
+    },
+    "f5c83151": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "f22483ec"
+        ]
+      ]
+    },
+    "cc884840": {
+      "_obj_class": "HeadlineWidget",
+      "style": [
+        "string",
+        "h3"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "Hannover Industriemesse 2024"
+      ]
+    },
+    "53dd53b7": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Produkte und viel Lorem Ipsum finden Sie hier</p>"
+      ]
+    },
+    "b088085b": {
+      "_obj_class": "ButtonWidget",
+      "button_color": [
+        "string",
+        "btn-outline-secondary"
+      ],
+      "target": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "bdbb81709c5e1c63",
+          "query": null,
+          "target": null,
+          "title": "Tickets buchen",
+          "url": null
+        }
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_size": [
+        "string",
+        "small"
+      ]
+    },
+    "dbe25147": {
+      "_obj_class": "CardWidget",
+      "background_animate_on_hover": [
+        "boolean",
+        true
+      ],
+      "background_image": [
+        "reference",
+        "14c0a6ebac3c6e7b"
+      ],
+      "background_color": [
+        "string",
+        "secondary"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "cc884840",
+          "53dd53b7",
+          "b088085b"
+        ]
+      ]
+    },
+    "61ec9da2": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "dbe25147"
+        ]
+      ]
+    },
+    "335ae0cf": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "f5c83151",
+          "61ec9da2"
+        ]
+      ]
+    },
+    "242aa193": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        2
+      ]
+    },
+    "42de9909": {
+      "_obj_class": "SpaceWidget",
+      "size": [
+        "number",
+        2
+      ]
+    },
+    "96c57311": {
+      "_obj_class": "BannerHeadlineWidget",
+      "headline": [
+        "string",
+        "Karriere"
+      ],
+      "style": [
+        "string",
+        "h3"
+      ],
+      "background_color": [
+        "string",
+        "secondary"
+      ]
+    },
+    "d9c32694": {
+      "_obj_class": "BannerHeadlineContainerWidget",
+      "headlines": [
+        "widgetlist",
+        [
+          "96c57311"
+        ]
+      ]
+    }
+  },
+  "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_last_changed_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_published_by": "scrivito:943667111e7b464abf6dba5382978956"
+}

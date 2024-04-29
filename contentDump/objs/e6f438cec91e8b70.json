@@ -1,0 +1,545 @@
+{
+  "_obj_class": "Page",
+  "title": [
+    "string",
+    "Kontakt"
+  ],
+  "body": [
+    "widgetlist",
+    [
+      "1b95ac02",
+      "762cc117"
+    ]
+  ],
+  "_conflicts": null,
+  "_content_id": "d9d4a49fab05294e",
+  "_created_at": "20240405095742",
+  "_data_param": null,
+  "_editing_asset": false,
+  "_first_published_at": "20240405121103",
+  "_id": "e6f438cec91e8b70",
+  "_language": "de",
+  "_last_changed": "20240405152639",
+  "_modification": null,
+  "_path": "/1f555d6a877a7662/e6f438cec91e8b70",
+  "_permalink": null,
+  "_published_at": "20240405154733",
+  "_restriction": null,
+  "_site_id": "dc07b5fb5abd4c35",
+  "_version": "202404051547330000000000000000d638123954226ad5",
+  "_widget_pool": {
+    "62655458": {
+      "_obj_class": "FormInputFieldWidget",
+      "label": [
+        "string",
+        "E-Mail"
+      ],
+      "placeholder": [
+        "string",
+        "Ihre E-Mail-Adresse"
+      ],
+      "type": [
+        "string",
+        "email"
+      ],
+      "required": [
+        "boolean",
+        true
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
+      ]
+    },
+    "1b95ac02": {
+      "_obj_class": "SectionWidget",
+      "background_image": [
+        "reference",
+        "d7cb8d71df8ef049"
+      ],
+      "background_color": [
+        "string",
+        "primary"
+      ],
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "6ac84e7b"
+        ]
+      ]
+    },
+    "762cc117": {
+      "_obj_class": "SectionWidget",
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "17af6f87",
+          "166a12cc"
+        ]
+      ]
+    },
+    "dd211a97": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "179421f9"
+        ]
+      ]
+    },
+    "7fb45671": {
+      "_obj_class": "HeadlineWidget",
+      "style": [
+        "string",
+        "h3"
+      ],
+      "headline": [
+        "string",
+        "EXPO 2024"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ]
+    },
+    "a6d0df22": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Produkte und viel Lorem Ipsum bekommen Sie hier</p>"
+      ]
+    },
+    "caefe36b": {
+      "_obj_class": "ButtonWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "target": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "bdbb81709c5e1c63",
+          "query": null,
+          "target": null,
+          "title": "Tickets buchen",
+          "url": null
+        }
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_size": [
+        "string",
+        "small"
+      ]
+    },
+    "179421f9": {
+      "_obj_class": "CardWidget",
+      "background_animate_on_hover": [
+        "boolean",
+        true
+      ],
+      "background_color": [
+        "string",
+        "white"
+      ],
+      "background_image": [
+        "reference",
+        "b6307ad8551faa98"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "7fb45671",
+          "a6d0df22",
+          "caefe36b"
+        ]
+      ]
+    },
+    "5cc96a3e": {
+      "_obj_class": "HeadlineWidget",
+      "style": [
+        "string",
+        "h3"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "Hannover Messe 2024"
+      ]
+    },
+    "0cba35ee": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Produkte und viel Lorem Ipsum bekommen Sie hier</p>"
+      ]
+    },
+    "45e3679a": {
+      "_obj_class": "ButtonWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "target": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "bdbb81709c5e1c63",
+          "query": null,
+          "target": null,
+          "title": "Tickets buchen",
+          "url": null
+        }
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_size": [
+        "string",
+        "small"
+      ]
+    },
+    "364af88a": {
+      "_obj_class": "CardWidget",
+      "background_animate_on_hover": [
+        "boolean",
+        true
+      ],
+      "background_image": [
+        "reference",
+        "14c0a6ebac3c6e7b"
+      ],
+      "background_color": [
+        "string",
+        "secondary"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "5cc96a3e",
+          "0cba35ee",
+          "45e3679a"
+        ]
+      ]
+    },
+    "927b5418": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "364af88a"
+        ]
+      ]
+    },
+    "166a12cc": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "dd211a97",
+          "927b5418"
+        ]
+      ]
+    },
+    "4e174e6b": {
+      "_obj_class": "BannerHeadlineWidget",
+      "headline": [
+        "string",
+        "Kontakt"
+      ],
+      "style": [
+        "string",
+        "h3"
+      ],
+      "background_color": [
+        "string",
+        "secondary"
+      ]
+    },
+    "6ac84e7b": {
+      "_obj_class": "BannerHeadlineContainerWidget",
+      "headlines": [
+        "widgetlist",
+        [
+          "4e174e6b"
+        ]
+      ]
+    },
+    "17af6f87": {
+      "_obj_class": "CardWidget",
+      "background_color": [
+        "string",
+        "white"
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "5b578256",
+          "2348bf3a"
+        ]
+      ]
+    },
+    "2348bf3a": {
+      "_obj_class": "FormContainerWidget",
+      "form_id": [
+        "string",
+        "4cee52a19d60fa8f85043be93e1424b3"
+      ],
+      "failed_message": [
+        "string",
+        "We are sorry, your request could not be completed. Please try again later."
+      ],
+      "submitted_message": [
+        "string",
+        "Your message has been successfully sent. Thank you for your request. We will get back to you as soon as possible."
+      ],
+      "submitting_message": [
+        "string",
+        "Submitting..."
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "7405b38e",
+          "62655458",
+          "6845a873",
+          "2947c05e",
+          "bac22db8",
+          "f59984e4"
+        ]
+      ]
+    },
+    "7405b38e": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "c3e5e3d2",
+          "c58bda74"
+        ]
+      ]
+    },
+    "a162fde9": {
+      "_obj_class": "FormInputFieldWidget",
+      "type": [
+        "string",
+        "given_name"
+      ],
+      "label": [
+        "string",
+        "Vorname"
+      ],
+      "placeholder": [
+        "string",
+        "Ihr Vorname"
+      ],
+      "required": [
+        "boolean",
+        true
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
+      ]
+    },
+    "c3e5e3d2": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "a162fde9"
+        ]
+      ]
+    },
+    "03210fd6": {
+      "_obj_class": "FormInputFieldWidget",
+      "type": [
+        "string",
+        "family_name"
+      ],
+      "label": [
+        "string",
+        "Nachname"
+      ],
+      "placeholder": [
+        "string",
+        "Ihr Nachname"
+      ],
+      "required": [
+        "boolean",
+        true
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
+      ]
+    },
+    "c58bda74": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "03210fd6"
+        ]
+      ]
+    },
+    "6845a873": {
+      "_obj_class": "FormInputFieldWidget",
+      "type": [
+        "string",
+        "company"
+      ],
+      "label": [
+        "string",
+        "Firma"
+      ],
+      "placeholder": [
+        "string",
+        "Ihre Firma"
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
+      ]
+    },
+    "2947c05e": {
+      "_obj_class": "FormInputFieldWidget",
+      "type": [
+        "string",
+        "custom"
+      ],
+      "custom_type": [
+        "string",
+        "multi_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_message"
+      ],
+      "label": [
+        "string",
+        "Nachricht"
+      ],
+      "placeholder": [
+        "string",
+        "Ihre Nachricht"
+      ],
+      "required": [
+        "boolean",
+        true
+      ]
+    },
+    "bac22db8": {
+      "_obj_class": "TextWidget",
+      "text": [
+        "html",
+        "<p>Mit dem Absenden stimmen Sie den Bedingungen unserer Datenschutzerklärung zu.</p>"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ]
+    },
+    "f59984e4": {
+      "_obj_class": "FormButtonWidget",
+      "button_text": [
+        "string",
+        "Nachricht absenden"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ]
+    },
+    "5b578256": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "Nehmen Sie Kontakt mit uns auf"
+      ],
+      "style": [
+        "string",
+        "h2"
+      ]
+    }
+  },
+  "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_last_changed_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_published_by": "scrivito:943667111e7b464abf6dba5382978956"
+}

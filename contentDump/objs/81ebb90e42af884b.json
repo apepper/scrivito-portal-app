@@ -1,0 +1,565 @@
+{
+  "_obj_class": "Page",
+  "title": [
+    "string",
+    "Dienstleistungen"
+  ],
+  "body": [
+    "widgetlist",
+    [
+      "44b4a147",
+      "bb2cad0c",
+      "127d08b1",
+      "cafac6d2",
+      "f37d943c"
+    ]
+  ],
+  "_conflicts": null,
+  "_content_id": "f5993d6de3609ac0",
+  "_created_at": "20240405095255",
+  "_data_param": null,
+  "_editing_asset": false,
+  "_first_published_at": "20240405121103",
+  "_id": "81ebb90e42af884b",
+  "_language": "de",
+  "_last_changed": "20240405154023",
+  "_modification": null,
+  "_path": "/81ebb90e42af884b",
+  "_permalink": null,
+  "_published_at": "20240405154733",
+  "_restriction": null,
+  "_site_id": "dc07b5fb5abd4c35",
+  "_version": "202404051547330000000000000000d638123954226ad5",
+  "_widget_pool": {
+    "bb2cad0c": {
+      "_obj_class": "SectionWidget",
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "fff5089f",
+          "57b7c8aa"
+        ]
+      ]
+    },
+    "57b7c8aa": {
+      "_obj_class": "TextWidget",
+      "text": [
+        "html",
+        "<p id=\"isPasted\">Bei Tynacoon haben wir es uns stets zum Ziel gesetzt, den Gestaltungsprozess durchschaubarer und offener zu machen. Wir sind der Meinung, dass eine Umgebung, die es Designern ermöglicht, ihre Arbeiten zu teilen, nicht nur zu besseren Produkten führt, sondern auch deren Entwicklung fördert. Es erfüllt uns mit Stolz, zu einer offeneren Kultur beizutragen und ein Tool zu schaffen, das diese Philosophie unterstützt.</p><p>Im Laufe unserer Entwicklung haben wir beobachtet, dass Tynacoon Firmen wie Lorem, Morel, Airpumpe, GermanAir und Interpumpe dabei unterstützt hat, ihre Design-Teams zu vereinen, um Beeindruckendes zu erreichen. Zudem haben wir festgestellt, dass Teams effektiver kommunizieren und sich anpassen, wenn eine Kultur des Teilens frühzeitig etabliert wird.</p><p>Daher bieten wir von Tynacoon nun ein kostenloses Whitepaper an. Dies gibt Einzelpersonen im Designbereich, Start-ups und kleinen Teams die Möglichkeit, früh eine Kultur der Offenheit zu begründen.</p>"
+      ]
+    },
+    "44b4a147": {
+      "_obj_class": "SectionWidget",
+      "background_image": [
+        "reference",
+        "efb46cb2c7fa3cb5"
+      ],
+      "background_color": [
+        "string",
+        "primary"
+      ],
+      "container_width": [
+        "string",
+        "fixed"
+      ],
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "d6a7f970"
+        ]
+      ]
+    },
+    "fff5089f": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "So unterstützt der Product Assistant jetzt die Funktionserfassung für Teams"
+      ],
+      "style": [
+        "string",
+        "h2"
+      ]
+    },
+    "7762616a": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "d628d197",
+          "9db058b1",
+          "48a51614"
+        ]
+      ]
+    },
+    "d628d197": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        4
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "7e22697d"
+        ]
+      ]
+    },
+    "9db058b1": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        4
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "9781e90d"
+        ]
+      ]
+    },
+    "48a51614": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        4
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "2416a1cc"
+        ]
+      ]
+    },
+    "7e22697d": {
+      "_obj_class": "CardWidget",
+      "background_color": [
+        "string",
+        "transparent"
+      ],
+      "image": [
+        "reference",
+        "ab2921d83b66edb5"
+      ]
+    },
+    "9781e90d": {
+      "_obj_class": "CardWidget",
+      "background_color": [
+        "string",
+        "transparent"
+      ],
+      "image": [
+        "reference",
+        "1409db9bede134fb"
+      ]
+    },
+    "2416a1cc": {
+      "_obj_class": "CardWidget",
+      "background_color": [
+        "string",
+        "transparent"
+      ],
+      "image": [
+        "reference",
+        "518864722dad1deb"
+      ]
+    },
+    "abbf21da": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "style": [
+        "string",
+        "h2"
+      ],
+      "headline": [
+        "string",
+        "Machen Sie die Kultur der Offenheit für alle zugänglich"
+      ]
+    },
+    "b3652576": {
+      "_obj_class": "TextWidget",
+      "text": [
+        "html",
+        "<p>Wir sind überzeugt, dass das Teilen eine wahre Stärke besitzt. Wir möchten, dass jeder die Möglichkeit hat, Tynacoon zu nutzen und die transformative Kraft offener Kommunikation zu erleben. Jetzt können selbst kleine Teams, bestehend aus ein oder zwei Designern und beliebig vielen Teilnehmern wie Projektleitern, dem Management und dem Marketing, früh im Designprozess kollaborieren.</p><ul id=\"isPasted\"><li>„Dank Airpower ist Zusammenarbeit in Echtzeit möglich. Das hält das gesamte Team stets über die Fortschritte aller auf dem Laufenden,” berichtet Stewart Scott-Curran, Ingenieurdirektor bei Interpumpe24.</li><li>„Tynacoon hat das Konzept des Teilens neu definiert. Es ermöglicht es jedem, kontinuierlich Einblick in die Arbeit der anderen zu erhalten und diese zu verstehen,” erklärt David Scott, CEO von Airpower.</li></ul><p>Kleine Teams und Einzeldesigner benötigen einen Ort, wo sie den Designprozess mitverfolgen können - sei es für sich selbst oder andere, mit denen sie zusammenarbeiten, wie Mitdesigner, Produktmanager, Entwickler oder Kunden. Front bezieht mehr Personen in den Prozess ein und schafft einen zentralen Austauschplatz über Design. Mit dem Wachstum der Teams wird Transparenz und Zusammenarbeit ein zentraler Bestandteil ihrer Kommunikation und Vorgehensweise. Wir sind bestrebt, Tynacoon weiter zu entwickeln - für Fragen oder Feedback, kontaktieren Sie uns gerne!</p><p><br></p>"
+      ]
+    },
+    "f37d943c": {
+      "_obj_class": "SectionWidget",
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "container_width": [
+        "string",
+        "fixed"
+      ],
+      "background_color": [
+        "string",
+        "white"
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "c0786b72",
+          "abbf21da",
+          "b3652576",
+          "d7099c04"
+        ]
+      ]
+    },
+    "6d077677": {
+      "_obj_class": "HeadlineWidget",
+      "style": [
+        "string",
+        "h3"
+      ],
+      "headline": [
+        "string",
+        "EXPO 2024"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ]
+    },
+    "aea3ca38": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Entdecken Sie hier unsere Produkte und mehr</p>"
+      ]
+    },
+    "39f3c89a": {
+      "_obj_class": "ButtonWidget",
+      "button_color": [
+        "string",
+        "btn-outline-secondary"
+      ],
+      "target": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "bdbb81709c5e1c63",
+          "query": null,
+          "target": null,
+          "title": "Tickets buchen",
+          "url": null
+        }
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_size": [
+        "string",
+        "small"
+      ]
+    },
+    "5179904a": {
+      "_obj_class": "CardWidget",
+      "background_animate_on_hover": [
+        "boolean",
+        true
+      ],
+      "background_image": [
+        "reference",
+        "2d2269d9b701ac2d"
+      ],
+      "background_color": [
+        "string",
+        "success"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "6d077677",
+          "aea3ca38",
+          "39f3c89a"
+        ]
+      ]
+    },
+    "80ac888d": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "5179904a"
+        ]
+      ]
+    },
+    "8a34076f": {
+      "_obj_class": "HeadlineWidget",
+      "style": [
+        "string",
+        "h3"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "Hannoverer Industriemesse 2024"
+      ]
+    },
+    "242e0101": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Entdecken Sie hier unsere Produkte und mehr</p>"
+      ]
+    },
+    "300a2a18": {
+      "_obj_class": "ButtonWidget",
+      "button_color": [
+        "string",
+        "btn-outline-secondary"
+      ],
+      "target": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "bdbb81709c5e1c63",
+          "query": null,
+          "target": null,
+          "title": "Tickets buchen",
+          "url": null
+        }
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_size": [
+        "string",
+        "small"
+      ]
+    },
+    "03388235": {
+      "_obj_class": "CardWidget",
+      "background_animate_on_hover": [
+        "boolean",
+        true
+      ],
+      "background_image": [
+        "reference",
+        "14c0a6ebac3c6e7b"
+      ],
+      "background_color": [
+        "string",
+        "secondary"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "8a34076f",
+          "242e0101",
+          "300a2a18"
+        ]
+      ]
+    },
+    "5ccf1d22": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "03388235"
+        ]
+      ]
+    },
+    "d7099c04": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "80ac888d",
+          "5ccf1d22"
+        ]
+      ]
+    },
+    "d6a7f970": {
+      "_obj_class": "BannerHeadlineContainerWidget",
+      "headlines": [
+        "widgetlist",
+        [
+          "db82f764"
+        ]
+      ]
+    },
+    "db82f764": {
+      "_obj_class": "BannerHeadlineWidget",
+      "style": [
+        "string",
+        "h3"
+      ],
+      "background_color": [
+        "string",
+        "secondary"
+      ],
+      "headline": [
+        "string",
+        "Dienstleistungen"
+      ]
+    },
+    "98d38e7b": {
+      "_obj_class": "YoutubeVideoWidget",
+      "youtube_video_id": [
+        "string",
+        "O_f7U7DpvSM"
+      ],
+      "aspect_ratio": [
+        "string",
+        "16to9"
+      ]
+    },
+    "c0786b72": {
+      "_obj_class": "SpaceWidget",
+      "size": [
+        "number",
+        2
+      ]
+    },
+    "fc290027": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "c820d56f",
+          "771b5537",
+          "6500294e"
+        ]
+      ]
+    },
+    "c820d56f": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        2
+      ]
+    },
+    "771b5537": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        8
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "98d38e7b"
+        ]
+      ]
+    },
+    "6500294e": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        2
+      ]
+    },
+    "cafac6d2": {
+      "_obj_class": "SectionWidget",
+      "background_color": [
+        "string",
+        "white"
+      ],
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "container_width": [
+        "string",
+        "fixed"
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "61b19822",
+          "44b6117b",
+          "fc290027"
+        ]
+      ]
+    },
+    "127d08b1": {
+      "_obj_class": "SectionWidget",
+      "background_color": [
+        "string",
+        "transparent"
+      ],
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "container_width": [
+        "string",
+        "fixed"
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "7762616a"
+        ]
+      ]
+    },
+    "61b19822": {
+      "_obj_class": "TextWidget",
+      "text": [
+        "html",
+        "<p id=\"isPasted\">Bei Tynacoon haben wir es uns stets zum Ziel gesetzt, den Gestaltungsprozess durchschaubarer und offener zu machen. Wir sind der Meinung, dass eine Umgebung, die es Designern ermöglicht, ihre Arbeiten zu teilen, nicht nur zu besseren Produkten führt, sondern auch deren Entwicklung fördert. Es erfüllt uns mit Stolz, zu einer offeneren Kultur beizutragen und ein Tool zu schaffen, das diese Philosophie unterstützt.</p><p>Im Laufe unserer Entwicklung haben wir beobachtet, dass Tynacoon Firmen wie Lorem, Morel, Airpumpe, GermanAir und Interpumpe dabei unterstützt hat, ihre Design-Teams zu vereinen, um Beeindruckendes zu erreichen. Zudem haben wir festgestellt, dass Teams effektiver kommunizieren und sich anpassen, wenn eine Kultur des Teilens frühzeitig etabliert wird.</p><p>Daher bieten wir von Tynacoon nun ein kostenloses Whitepaper an. Dies gibt Einzelpersonen im Designbereich, Start-ups und kleinen Teams die Möglichkeit, früh eine Kultur der Offenheit zu begründen.</p>"
+      ]
+    },
+    "44b6117b": {
+      "_obj_class": "SpaceWidget",
+      "size": [
+        "number",
+        5
+      ]
+    }
+  },
+  "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_last_changed_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_published_by": "scrivito:943667111e7b464abf6dba5382978956"
+}
