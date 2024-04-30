@@ -19,14 +19,14 @@
   "_first_published_at": "20230516091834",
   "_id": "d9d4a49fab05294e",
   "_language": "en",
-  "_last_changed": "20240214090231",
+  "_last_changed": "20240429113417",
   "_modification": null,
   "_path": "/55d682c23b93bd62/d9d4a49fab05294e",
   "_permalink": "contact",
-  "_published_at": "20240214090608",
+  "_published_at": "20240429113513",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "202402140906080000000000000000ed342ddab685beb7",
+  "_version": "2024042911351300000000000000003e5908b63396e501",
   "_widget_pool": {
     "44610333": {
       "_obj_class": "ColumnWidget",
@@ -41,18 +41,31 @@
         6
       ]
     },
-    "76149396": {
-      "_obj_class": "ColumnContainerWidget",
-      "columns": [
-        "widgetlist",
-        [
-          "cfb1a346",
-          "bd245ee5"
-        ]
-      ],
-      "alignment": [
+    "92912952": {
+      "_obj_class": "FormInputFieldWidget",
+      "type": [
         "string",
-        "start"
+        "given_name"
+      ],
+      "label": [
+        "string",
+        "First name"
+      ],
+      "placeholder": [
+        "string",
+        "Your first name"
+      ],
+      "required": [
+        "boolean",
+        true
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
       ]
     },
     "1e884cfa": {
@@ -291,215 +304,6 @@
         ]
       ]
     },
-    "8de6bbb0": {
-      "_obj_class": "FormContainerWidget",
-      "content": [
-        "widgetlist",
-        [
-          "76149396",
-          "80ba8e97",
-          "a9af62be",
-          "22e0d417",
-          "b745c078",
-          "3a0fdd5f"
-        ]
-      ],
-      "form_id": [
-        "string",
-        "4cee52a19d60fa8f85043be93e1424b3"
-      ],
-      "failed_message": [
-        "string",
-        "We are sorry, your request could not be completed. Please try again later."
-      ],
-      "submitted_message": [
-        "string",
-        "Your message has been successfully sent. Thank you for your request. We will get back to you as soon as possible."
-      ],
-      "submitting_message": [
-        "string",
-        "Submitting..."
-      ]
-    },
-    "582d89ac": {
-      "_obj_class": "FormInputFieldWidget",
-      "type": [
-        "string",
-        "given_name"
-      ],
-      "label": [
-        "string",
-        "First name"
-      ],
-      "placeholder": [
-        "string",
-        "Your first name"
-      ],
-      "required": [
-        "boolean",
-        true
-      ],
-      "custom_type": [
-        "string",
-        "single_line"
-      ],
-      "custom_field_name": [
-        "string",
-        "custom_field_name"
-      ]
-    },
-    "cfb1a346": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        6
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "582d89ac"
-        ]
-      ]
-    },
-    "001c3d2f": {
-      "_obj_class": "FormInputFieldWidget",
-      "type": [
-        "string",
-        "family_name"
-      ],
-      "label": [
-        "string",
-        "Last name"
-      ],
-      "placeholder": [
-        "string",
-        "Your last name"
-      ],
-      "required": [
-        "boolean",
-        true
-      ],
-      "custom_type": [
-        "string",
-        "single_line"
-      ],
-      "custom_field_name": [
-        "string",
-        "custom_field_name"
-      ]
-    },
-    "bd245ee5": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        6
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "001c3d2f"
-        ]
-      ]
-    },
-    "80ba8e97": {
-      "_obj_class": "FormInputFieldWidget",
-      "label": [
-        "string",
-        "Email"
-      ],
-      "placeholder": [
-        "string",
-        "Your email address"
-      ],
-      "type": [
-        "string",
-        "email"
-      ],
-      "required": [
-        "boolean",
-        true
-      ],
-      "custom_type": [
-        "string",
-        "single_line"
-      ],
-      "custom_field_name": [
-        "string",
-        "custom_field_name"
-      ]
-    },
-    "a9af62be": {
-      "_obj_class": "FormInputFieldWidget",
-      "type": [
-        "string",
-        "company"
-      ],
-      "label": [
-        "string",
-        "Company"
-      ],
-      "placeholder": [
-        "string",
-        "Your company"
-      ],
-      "custom_type": [
-        "string",
-        "single_line"
-      ],
-      "custom_field_name": [
-        "string",
-        "custom_field_name"
-      ]
-    },
-    "22e0d417": {
-      "_obj_class": "FormInputFieldWidget",
-      "type": [
-        "string",
-        "custom"
-      ],
-      "custom_type": [
-        "string",
-        "multi_line"
-      ],
-      "custom_field_name": [
-        "string",
-        "custom_message"
-      ],
-      "label": [
-        "string",
-        "Message"
-      ],
-      "placeholder": [
-        "string",
-        "Your message"
-      ],
-      "required": [
-        "boolean",
-        true
-      ]
-    },
-    "b745c078": {
-      "_obj_class": "TextWidget",
-      "text": [
-        "html",
-        "<p>By submitting, you agree to the terms and conditions of our privacy policy.</p>"
-      ],
-      "alignment": [
-        "string",
-        "left"
-      ]
-    },
-    "3a0fdd5f": {
-      "_obj_class": "FormButtonWidget",
-      "button_text": [
-        "string",
-        "Send message"
-      ],
-      "alignment": [
-        "string",
-        "left"
-      ]
-    },
     "1a835a7a": {
       "_obj_class": "HeadlineWidget",
       "alignment": [
@@ -533,8 +337,257 @@
         "widgetlist",
         [
           "1a835a7a",
-          "8de6bbb0"
+          "1597174c"
         ]
+      ]
+    },
+    "1597174c": {
+      "_obj_class": "FormStepContainerWidget",
+      "captcha_alignment": [
+        "string",
+        "center"
+      ],
+      "friendly_captcha_theme": [
+        "string",
+        "light"
+      ],
+      "google_recaptcha_theme": [
+        "string",
+        "light"
+      ],
+      "friendly_captcha_start_mode": [
+        "string",
+        "none"
+      ],
+      "form_id": [
+        "string",
+        "4cee52a19d60fa8f85043be93e1424b3"
+      ],
+      "failed_message": [
+        "string",
+        "We are sorry, your request could not be completed. Please try again later."
+      ],
+      "submitted_message": [
+        "string",
+        "Your message has been successfully sent. Thank you for your request. We will get back to you as soon as possible."
+      ],
+      "submitting_message": [
+        "string",
+        "Submitting..."
+      ],
+      "form_type": [
+        "string",
+        "single-step"
+      ],
+      "steps": [
+        "widgetlist",
+        [
+          "ae630d2a"
+        ]
+      ],
+      "forward_button_text": [
+        "string",
+        "Forward"
+      ],
+      "backward_button_text": [
+        "string",
+        "Backward"
+      ],
+      "submit_button_text": [
+        "string",
+        "Send message"
+      ],
+      "review_button_text": [
+        "string",
+        "Review"
+      ],
+      "review_header_title": [
+        "string",
+        "Review"
+      ],
+      "review_close_button_text": [
+        "string",
+        "Close"
+      ],
+      "single_submit_button_alignment": [
+        "string",
+        "left"
+      ]
+    },
+    "e5a9fc39": {
+      "_obj_class": "FormInputFieldWidget",
+      "type": [
+        "string",
+        "family_name"
+      ],
+      "label": [
+        "string",
+        "Last name"
+      ],
+      "placeholder": [
+        "string",
+        "Your last name"
+      ],
+      "required": [
+        "boolean",
+        true
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
+      ]
+    },
+    "f1fb6f0d": {
+      "_obj_class": "FormInputFieldWidget",
+      "label": [
+        "string",
+        "Email"
+      ],
+      "placeholder": [
+        "string",
+        "Your email address"
+      ],
+      "type": [
+        "string",
+        "email"
+      ],
+      "required": [
+        "boolean",
+        true
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
+      ]
+    },
+    "22c6326d": {
+      "_obj_class": "FormInputFieldWidget",
+      "type": [
+        "string",
+        "company"
+      ],
+      "label": [
+        "string",
+        "Company"
+      ],
+      "placeholder": [
+        "string",
+        "Your company"
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
+      ]
+    },
+    "19f52595": {
+      "_obj_class": "FormInputFieldWidget",
+      "type": [
+        "string",
+        "custom"
+      ],
+      "custom_type": [
+        "string",
+        "multi_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_message"
+      ],
+      "label": [
+        "string",
+        "Message"
+      ],
+      "placeholder": [
+        "string",
+        "Your message"
+      ],
+      "required": [
+        "boolean",
+        true
+      ]
+    },
+    "ae630d2a": {
+      "_obj_class": "FormStepWidget",
+      "items": [
+        "widgetlist",
+        [
+          "2069a67d",
+          "f1fb6f0d",
+          "22c6326d",
+          "19f52595",
+          "c9b8e5f8"
+        ]
+      ],
+      "step_number": [
+        "number",
+        1
+      ],
+      "is_single_step": [
+        "boolean",
+        true
+      ]
+    },
+    "2069a67d": {
+      "_obj_class": "ColumnContainerWidget",
+      "columns": [
+        "widgetlist",
+        [
+          "ef3ccc69",
+          "f9fefb8d"
+        ]
+      ],
+      "alignment": [
+        "string",
+        "start"
+      ]
+    },
+    "ef3ccc69": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "92912952"
+        ]
+      ]
+    },
+    "f9fefb8d": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "e5a9fc39"
+        ]
+      ]
+    },
+    "c9b8e5f8": {
+      "_obj_class": "TextWidget",
+      "text": [
+        "html",
+        "<p>By submitting, you agree to the terms and conditions of our privacy policy.</p>"
+      ],
+      "alignment": [
+        "string",
+        "left"
       ]
     }
   },

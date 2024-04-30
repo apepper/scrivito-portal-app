@@ -19,42 +19,15 @@
   "_first_published_at": "20240405121103",
   "_id": "e6f438cec91e8b70",
   "_language": "de",
-  "_last_changed": "20240405152639",
+  "_last_changed": "20240429113347",
   "_modification": null,
   "_path": "/1f555d6a877a7662/e6f438cec91e8b70",
   "_permalink": null,
-  "_published_at": "20240405154733",
+  "_published_at": "20240429113513",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404051547330000000000000000d638123954226ad5",
+  "_version": "2024042911351300000000000000003e5908b63396e501",
   "_widget_pool": {
-    "62655458": {
-      "_obj_class": "FormInputFieldWidget",
-      "label": [
-        "string",
-        "E-Mail"
-      ],
-      "placeholder": [
-        "string",
-        "Ihre E-Mail-Adresse"
-      ],
-      "type": [
-        "string",
-        "email"
-      ],
-      "required": [
-        "boolean",
-        true
-      ],
-      "custom_type": [
-        "string",
-        "single_line"
-      ],
-      "custom_field_name": [
-        "string",
-        "custom_field_name"
-      ]
-    },
     "1b95ac02": {
       "_obj_class": "SectionWidget",
       "background_image": [
@@ -304,81 +277,84 @@
         ]
       ]
     },
-    "17af6f87": {
-      "_obj_class": "CardWidget",
-      "background_color": [
+    "5d452112": {
+      "_obj_class": "FormStepContainerWidget",
+      "captcha_alignment": [
         "string",
-        "white"
+        "center"
       ],
-      "padding": [
+      "friendly_captcha_theme": [
         "string",
-        "p-4"
+        "light"
       ],
-      "margin": [
+      "google_recaptcha_theme": [
         "string",
-        "mb-4"
+        "light"
       ],
-      "card_body": [
-        "widgetlist",
-        [
-          "5b578256",
-          "2348bf3a"
-        ]
-      ]
-    },
-    "2348bf3a": {
-      "_obj_class": "FormContainerWidget",
+      "friendly_captcha_start_mode": [
+        "string",
+        "none"
+      ],
       "form_id": [
         "string",
         "4cee52a19d60fa8f85043be93e1424b3"
       ],
       "failed_message": [
         "string",
-        "We are sorry, your request could not be completed. Please try again later."
+        "Es tut uns leid, Ihre Anfrage konnte nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.\""
       ],
       "submitted_message": [
         "string",
-        "Your message has been successfully sent. Thank you for your request. We will get back to you as soon as possible."
+        "Ihre Nachricht wurde erfolgreich übertragen. Vielen Dank für Ihre Anfrage. Wir werden uns so schnell wie möglich bei Ihnen melden."
       ],
       "submitting_message": [
         "string",
-        "Submitting..."
+        "Wird übertragen..."
       ],
-      "content": [
-        "widgetlist",
-        [
-          "7405b38e",
-          "62655458",
-          "6845a873",
-          "2947c05e",
-          "bac22db8",
-          "f59984e4"
-        ]
-      ]
-    },
-    "7405b38e": {
-      "_obj_class": "ColumnContainerWidget",
-      "alignment": [
+      "form_type": [
         "string",
-        "start"
+        "single-step"
       ],
-      "columns": [
+      "steps": [
         "widgetlist",
         [
-          "c3e5e3d2",
-          "c58bda74"
+          "292a77d0"
         ]
+      ],
+      "forward_button_text": [
+        "string",
+        "Forward"
+      ],
+      "backward_button_text": [
+        "string",
+        "Backward"
+      ],
+      "submit_button_text": [
+        "string",
+        "Nachricht absenden"
+      ],
+      "review_button_text": [
+        "string",
+        "Review"
+      ],
+      "review_header_title": [
+        "string",
+        "Review"
+      ],
+      "review_close_button_text": [
+        "string",
+        "Close"
+      ],
+      "single_submit_button_alignment": [
+        "string",
+        "left"
       ]
     },
-    "a162fde9": {
+    "7ac4d858": {
       "_obj_class": "FormInputFieldWidget",
       "type": [
         "string",
         "given_name"
-      ],
-      "label": [
-        "string",
-        "Vorname"
       ],
       "placeholder": [
         "string",
@@ -395,22 +371,13 @@
       "custom_field_name": [
         "string",
         "custom_field_name"
-      ]
-    },
-    "c3e5e3d2": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        6
       ],
-      "content": [
-        "widgetlist",
-        [
-          "a162fde9"
-        ]
+      "label": [
+        "string",
+        "​Vorname"
       ]
     },
-    "03210fd6": {
+    "e559fb02": {
       "_obj_class": "FormInputFieldWidget",
       "type": [
         "string",
@@ -437,20 +404,34 @@
         "custom_field_name"
       ]
     },
-    "c58bda74": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        6
+    "f8803ece": {
+      "_obj_class": "FormInputFieldWidget",
+      "label": [
+        "string",
+        "E-Mail"
       ],
-      "content": [
-        "widgetlist",
-        [
-          "03210fd6"
-        ]
+      "placeholder": [
+        "string",
+        "Ihre E-Mail-Adresse"
+      ],
+      "type": [
+        "string",
+        "email"
+      ],
+      "required": [
+        "boolean",
+        true
+      ],
+      "custom_type": [
+        "string",
+        "single_line"
+      ],
+      "custom_field_name": [
+        "string",
+        "custom_field_name"
       ]
     },
-    "6845a873": {
+    "0b92a02c": {
       "_obj_class": "FormInputFieldWidget",
       "type": [
         "string",
@@ -473,7 +454,7 @@
         "custom_field_name"
       ]
     },
-    "2947c05e": {
+    "cac05073": {
       "_obj_class": "FormInputFieldWidget",
       "type": [
         "string",
@@ -500,7 +481,68 @@
         true
       ]
     },
-    "bac22db8": {
+    "292a77d0": {
+      "_obj_class": "FormStepWidget",
+      "items": [
+        "widgetlist",
+        [
+          "96416b98",
+          "f8803ece",
+          "0b92a02c",
+          "cac05073",
+          "6a22d742"
+        ]
+      ],
+      "step_number": [
+        "number",
+        1
+      ],
+      "is_single_step": [
+        "boolean",
+        true
+      ]
+    },
+    "96416b98": {
+      "_obj_class": "ColumnContainerWidget",
+      "columns": [
+        "widgetlist",
+        [
+          "b4b5ae5f",
+          "d72f4e24"
+        ]
+      ],
+      "alignment": [
+        "string",
+        "start"
+      ]
+    },
+    "b4b5ae5f": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "7ac4d858"
+        ]
+      ]
+    },
+    "d72f4e24": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "e559fb02"
+        ]
+      ]
+    },
+    "6a22d742": {
       "_obj_class": "TextWidget",
       "text": [
         "html",
@@ -511,15 +553,26 @@
         "left"
       ]
     },
-    "f59984e4": {
-      "_obj_class": "FormButtonWidget",
-      "button_text": [
+    "17af6f87": {
+      "_obj_class": "CardWidget",
+      "background_color": [
         "string",
-        "Nachricht absenden"
+        "white"
       ],
-      "alignment": [
+      "padding": [
         "string",
-        "left"
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "5b578256",
+          "5d452112"
+        ]
       ]
     },
     "5b578256": {
@@ -540,6 +593,6 @@
   },
   "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
   "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
-  "_last_changed_by": "scrivito:943667111e7b464abf6dba5382978956",
-  "_published_by": "scrivito:943667111e7b464abf6dba5382978956"
+  "_last_changed_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
+  "_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71"
 }
