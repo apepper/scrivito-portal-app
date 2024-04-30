@@ -82,11 +82,13 @@ async function clearContent() {
   const objs = await load(() => Obj.onAllSites().all().toArray())
 
   log({ text: '🗑️ Deleting existing content', count: objs.length })
-  for (const obj of objs) {
-    log({ step: ['deleting', obj.objClass(), obj.permalink() || obj.id()] })
+  const promises = objs.map((obj) => {
     obj.delete()
-    await obj.finishSaving()
-  }
+    return obj.finishSaving()
+  })
+
+  await Promise.all(promises)
+  log({ text: '🗑️ Deleted existing content' })
 }
 
 /**
