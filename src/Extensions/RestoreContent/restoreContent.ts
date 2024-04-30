@@ -79,7 +79,9 @@ export async function restoreContent({
 
 async function clearContent() {
   log({ text: '🔍 Looking for existing content' })
-  const objs = await load(() => Obj.onAllSites().all().toArray())
+  const objs = await load(() =>
+    Obj.onAllSites().all().andNot('_siteId', 'equals', 'mailing-app').toArray(),
+  )
 
   log({ text: '🗑️ Deleting existing content', count: objs.length })
   const promises = objs.map((obj) => {
