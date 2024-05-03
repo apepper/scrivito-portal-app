@@ -12,22 +12,6 @@
     "string",
     "Siebe & Filter"
   ],
-  "headline": [
-    "string",
-    "Produktgruppe"
-  ],
-  "results_headline": [
-    "string",
-    "__count__ Artikel"
-  ],
-  "results_headline1": [
-    "string",
-    "1 Artikel"
-  ],
-  "results_headline0": [
-    "string",
-    "Keine Artikel"
-  ],
   "_conflicts": null,
   "_content_id": "fa725f0b47fdc408",
   "_created_at": "20240405100006",
@@ -36,14 +20,14 @@
   "_first_published_at": "20240405121103",
   "_id": "93ed03e1af1c242d",
   "_language": "de",
-  "_last_changed": "20240418160922",
+  "_last_changed": "20240430142759",
   "_modification": null,
   "_path": "/ed043d1606eaf539/93ed03e1af1c242d",
   "_permalink": null,
-  "_published_at": "20240423110102",
+  "_published_at": "20240503094340",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404231101020000000000000000ab8180327d867c07",
+  "_version": "202405030943400000000000000000ef9e6a762004a2af",
   "_widget_pool": {},
   "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
   "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
