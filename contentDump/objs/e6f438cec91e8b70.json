@@ -19,14 +19,14 @@
   "_first_published_at": "20240405121103",
   "_id": "e6f438cec91e8b70",
   "_language": "de",
-  "_last_changed": "20240429113347",
+  "_last_changed": "20240506101156",
   "_modification": null,
   "_path": "/1f555d6a877a7662/e6f438cec91e8b70",
   "_permalink": null,
-  "_published_at": "20240429113513",
+  "_published_at": "20240506101501",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024042911351300000000000000003e5908b63396e501",
+  "_version": "20240506101501000000000000000062505874729738c7",
   "_widget_pool": {
     "1b95ac02": {
       "_obj_class": "SectionWidget",
@@ -99,7 +99,7 @@
       ],
       "text": [
         "html",
-        "<p>Produkte und viel Lorem Ipsum bekommen Sie hier</p>"
+        "<p>Produkte und vieles mehr</p>"
       ]
     },
     "caefe36b": {
@@ -174,7 +174,7 @@
       ],
       "text": [
         "html",
-        "<p>Produkte und viel Lorem Ipsum bekommen Sie hier</p>"
+        "<p>Produkte und vieles mehr</p>"
       ]
     },
     "45e3679a": {

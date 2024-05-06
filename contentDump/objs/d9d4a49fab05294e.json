@@ -19,14 +19,14 @@
   "_first_published_at": "20230516091834",
   "_id": "d9d4a49fab05294e",
   "_language": "en",
-  "_last_changed": "20240429113417",
+  "_last_changed": "20240506101030",
   "_modification": null,
   "_path": "/55d682c23b93bd62/d9d4a49fab05294e",
   "_permalink": "contact",
-  "_published_at": "20240429113513",
+  "_published_at": "20240506101501",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "2024042911351300000000000000003e5908b63396e501",
+  "_version": "20240506101501000000000000000062505874729738c7",
   "_widget_pool": {
     "44610333": {
       "_obj_class": "ColumnWidget",
@@ -126,7 +126,7 @@
       ],
       "text": [
         "html",
-        "<p>Products and much lorem ipsum you get here</p>"
+        "<p>Products and much more</p>"
       ]
     },
     "82e0fa5f": {
@@ -201,7 +201,7 @@
       ],
       "text": [
         "html",
-        "<p>Products and much lorem ipsum you get here</p>"
+        "<p>Products and much more</p>"
       ]
     },
     "546b75ea": {

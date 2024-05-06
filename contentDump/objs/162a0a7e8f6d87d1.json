@@ -57,14 +57,14 @@
   "_first_published_at": "20230831080316",
   "_id": "162a0a7e8f6d87d1",
   "_language": "en",
-  "_last_changed": "20240412082246",
+  "_last_changed": "20240506091839",
   "_modification": null,
   "_path": "/587d96465c3c69c4/7e48284613344ef2/162a0a7e8f6d87d1",
   "_permalink": null,
-  "_published_at": "20240412095207",
+  "_published_at": "20240506101501",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "202404120952070000000000000000fb8857982a6a720f",
+  "_version": "20240506101501000000000000000062505874729738c7",
   "_widget_pool": {
     "cf2d81e9": {
       "_obj_class": "TextWidget",
@@ -74,7 +74,7 @@
       ],
       "text": [
         "html",
-        "<p id=\"isPasted\">Plug-in nozzle 0.5mm cabinet socket for DIN rail and screw mounting; for plug type F, CEE 7/4 (Company®); common in DE, NL, AT with LED status display with Push-in CAGE Tynacoon® double connection light grey blue cap.</p><p><br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>"
+        "<p id=\"isPasted\">Plug-in nozzle 0.5mm cabinet socket for DIN rail and screw mounting; for plug type F, CEE 7/4 (Company®); common in DE, NL, AT with LED status display with Push-in CAGE Tynacoon® double connection light grey blue cap.</p><p><br>This nozzle is designed to work with a wide range of devices that use the same socket standard and offers reliable performance thanks to its high quality construction and materials. The LED status display allows for easy monitoring of device status, while the Push-in CAGE Tynacoon® double connection ensures secure connections even in demanding environments.</p>"
       ]
     },
     "5a55b288": {

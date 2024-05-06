@@ -87,14 +87,14 @@
   "_first_published_at": "20240405121103",
   "_id": "bdbb81709c5e1c63",
   "_language": "de",
-  "_last_changed": "20240430113504",
+  "_last_changed": "20240506091331",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240430114352",
+  "_published_at": "20240506101501",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404301143520000000000000000a6af4747fd5e2d62",
+  "_version": "20240506101501000000000000000062505874729738c7",
   "_widget_pool": {
     "43891776": {
       "_obj_class": "ColumnWidget",
@@ -292,7 +292,7 @@
       ],
       "text": [
         "html",
-        "<p>Mit 33 Tochtergesellschaften in 29 Ländern auf fünf Kontinenten, 19 Produktionsstätten und anderen Importeuren und Agenturen ist das Unternehmen in über 70 Ländern präsent. Sicherheitsrelevante Komponenten unterliegen der externen Überwachung durch das Forschungs- und Materialprüfungsinstitut für das Bauwesen (FMPA).</p>"
+        "<p>Mit einer globalen Präsenz in über 70 Ländern durch 33 Tochtergesellschaften, 19 Produktionsstandorten und einem Netzwerk von Importeuren und Agenturen garantiert unser Unternehmen die Zugänglichkeit. Sicherheitskritische Komponenten werden strengsten Tests unterzogen vom Forschungs- und Materialprüfungsinstitut für das Bauwesen (FMPA).</p>"
       ]
     },
     "39d3a71d": {
@@ -623,7 +623,7 @@
       ],
       "text": [
         "html",
-        "<p>Dieser Lorem Ipsum ist mehr als das, was Sie je wollten, und noch viel mehr, bezogen auf dieses Publikum. Durch das Lesen dieser Zeilen verpflichten Sie all Ihre Ideen und es kommt noch viel mehr Inhalt.</p>"
+        "<p>Erkunden Sie unsere Ecoline-Serie, die für Nachhaltigkeit und Effizienz entwickelt wurde. Verbessern Sie Ihre Betriebsabläufe mit umweltfreundlichen Lösungen, ohne auf Qualität zu verzichten.</p>"
       ]
     },
     "44a2b98b": {
@@ -730,7 +730,7 @@
       ],
       "text": [
         "html",
-        "<p>Dieser Lorem Ipsum ist mehr als das, was Sie je wollten, und noch viel mehr, bezogen auf dieses Publikum. Durch das Lesen dieser Zeilen verpflichten Sie all Ihre Ideen und es kommt noch viel mehr Inhalt.</p>"
+        "<p>Entdecken Sie unsere Proline-Serie für Profis, die erstklassige Qualität und Leistung suchen. Bringen Sie Ihr Unternehmen mit führenden Lösungen auf ein neues Niveau, die speziell für anspruchsvolle Anwendungen entwickelt wurden.</p>"
       ]
     },
     "dffc234b": {
@@ -1981,7 +1981,7 @@
       ],
       "text": [
         "html",
-        "<p>Mit 33 Tochtergesellschaften in 29 Ländern auf fünf Kontinenten, 19 Produktionsstätten sowie weiteren Importeuren und Agenturen.</p>"
+        "<p>Über fünf Kontinente verteilt mit 33 Tochtergesellschaften in 29 Ländern sowie 19 Produktionsstandorten und verschiedenen Importeuren und Agenturen.</p>"
       ]
     },
     "1ba85f73": {

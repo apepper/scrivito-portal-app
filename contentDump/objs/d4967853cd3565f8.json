@@ -21,14 +21,14 @@
   "_first_published_at": "20240405121103",
   "_id": "d4967853cd3565f8",
   "_language": "de",
-  "_last_changed": "20240405154515",
+  "_last_changed": "20240506101210",
   "_modification": null,
   "_path": "/1f555d6a877a7662/d4967853cd3565f8",
   "_permalink": null,
-  "_published_at": "20240405154733",
+  "_published_at": "20240506101501",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404051547330000000000000000d638123954226ad5",
+  "_version": "20240506101501000000000000000062505874729738c7",
   "_widget_pool": {
     "f959f264": {
       "_obj_class": "SectionWidget",
@@ -70,7 +70,7 @@
       "_obj_class": "TextWidget",
       "text": [
         "html",
-        "<p id=\"isPasted\">Tynacoon hat es sich stets zur Aufgabe gemacht, Designprozesse durch Offenheit und Transparenz zu revolutionieren. Wir sind fest davon überzeugt, dass eine Plattform, auf der Designer ihre laufenden Arbeiten teilen können, sie nicht nur befähigt, bessere Produkte zu schaffen, sondern auch deren persönliche Entwicklung fördert. Es erfüllt uns mit Stolz, Teil der Schaffung einer offeneren Kultur zu sein und ein Produkt zu entwickeln, das diese Vision unterstützt.</p><p>Im Laufe unserer Entwicklung haben wir beobachtet, wie Tynacoon Unternehmen wie Lorem, Morel, Airpumpe, GermanAir und Interpumpe dabei geholfen hat, ihre Designer enger zusammenzubringen und Großartiges zu erschaffen. Wir haben ebenfalls erkannt, dass eine Kultur des Teilens, die früher eingeführt wird, Teams ermöglicht, sich besser anzupassen und miteinander zu kommunizieren.</p><p>Daher freut es uns sehr, bekannt geben zu können, dass wir nun ein kostenloses Whitepaper über Tynacoon bereitstellen. Dies gibt individuellen Designern, Start-ups und anderen kleinen Teams die Möglichkeit, frühzeitig eine Kultur der Offenheit zu etablieren.</p>"
+        "<p>\n  Im heutigen schnelllebigen Geschäftsumfeld kann es eine Herausforderung sein, einen Job zu finden, der sowohl Stabilität als auch Wachstumspotenzial bietet. Tynacoon bietet jedoch eine hervorragende Möglichkeit für Personen, die ihre Karriere auf die nächste Stufe heben möchten. Hier sind die Gründe, warum Sie eine Arbeit bei Tynacoon in Betracht ziehen sollten:\n</p>\n<ol>\n  <li>\n    <strong>Globaler Marktführer</strong> - Als einer der weltweit führenden Hersteller von Düsen und Abfüllanlagen ist Tynacoon ein etabliertes Unternehmen mit einem ausgezeichneten Ruf für die Bereitstellung hochwertiger Produkte. Indem Sie unserem Team beitreten, werden Sie Teil eines globalen Marktführers, der jedes Jahr seine Reichweite in neue Märkte erweitert.\n  </li>\n  <li>\n    <strong>Möglichkeiten für Wachstum</strong> - Bei Tynacoon glauben wir daran, in unsere Mitarbeiter zu investieren und ihnen zu helfen, sich beruflich weiterzuentwickeln. Wir bieten eine Reihe von Schulungsprogrammen und Entwicklungsmöglichkeiten an, die darauf abzielen, Ihnen die Fähigkeiten und das Wissen zu vermitteln, das Sie benötigen, um Ihre Karriere im Unternehmen voranzutreiben. Egal, ob Sie gerade erst anfangen oder neue Herausforderungen suchen, es gibt viele Möglichkeiten zum Wachstum bei Tynacoon.\n  </li>\n  <li>\n    <strong>Wettbewerbsfähige Gehälter und Vorteile</strong> - Wir verstehen, dass unsere Mitarbeiter unser größtes Vermögen sind, weshalb wir wettbewerbsfähige Gehälter und Vorteilspakete bieten, die darauf abzielen, ihnen zu helfen, eine gesunde Work-Life-Balance zu erreichen. Von umfassenden Krankenversicherungsplänen bis zu flexiblen Arbeitsarrangements streben wir danach, eine Umgebung zu schaffen, in der jeder sowohl persönlich als auch beruflich gedeihen kann.\n  </li>\n  <li>\n    <strong>Spitzentechnologie</strong> - Als führender Hersteller von Düsen und Abfüllanlagen investieren wir ständig in neue Technologien, die darauf abzielen, Effizienz und Produktivität in allen Bereichen unseres Geschäfts zu verbessern. Indem Sie bei Tynacoon arbeiten, haben Sie Zugang zu einigen der fortschrittlichsten Ausrüstungen, die heute verfügbar sind, was es Ihnen ermöglicht, auf dem neuesten Stand der Industrietrends zu bleiben und gleichzeitig Ihre technischen Fähigkeiten zu erweitern.\n  </li>\n  <li>\n    <strong>Kollaborative Arbeitsumgebung</strong> - Bei Tynacoon glauben wir an die Förderung einer kollaborativen Arbeitsumgebung, in der alle zusammenarbeiten, um gemeinsame Ziele zu erreichen. Wir fördern offene Kommunikation und Zusammenarbeit zwischen Teammitgliedern in allen Abteilungen, um sicherzustellen, dass jede Stimme gehört und wertgeschätzt wird. Indem Sie bei Tynacoon arbeiten, werden Sie Teil eines dynamischen Teams, das sich der Bereitstellung außergewöhnlicher Ergebnisse für unsere Kunden weltweit widmet.\n  </li>\n</ol>\n<p>\n  Wenn Sie nach einer Möglichkeit suchen, Ihre Karriere voranzutreiben, während Sie zum Erfolg eines der weltweit führenden Hersteller von Düsen und Abfüllanlagen beitragen, dann suchen Sie nicht weiter als Tynacoon. Mit wettbewerbsfähigen Gehältern, umfassenden Vorteilspaketen, Spitzentechnologie und einer kollaborativen Arbeitsumgebung bieten wir alles, was Sie brauchen, um sowohl persönlich als auch beruflich erfolgreich zu sein. Treten Sie noch heute unserem Team bei!\n</p>"
       ]
     },
     "76779ba2": {
@@ -226,7 +226,6 @@
         [
           "42af10a2",
           "a4f0df91",
-          "f2f28a24",
           "42de9909",
           "6ad3e1c7"
         ]
@@ -266,17 +265,6 @@
           "e4dd0be9",
           "2fc7e373"
         ]
-      ]
-    },
-    "f2f28a24": {
-      "_obj_class": "TextWidget",
-      "alignment": [
-        "string",
-        "left"
-      ],
-      "text": [
-        "html",
-        "<p>Schreiben Sie mir einfach und senden Sie mir Ihre E-Mails. Vielleicht werde ich sie lesen und Ihnen antworten.</p>"
       ]
     },
     "2fc7e373": {
@@ -334,7 +322,7 @@
       ],
       "text": [
         "html",
-        "<p>Produkte und viel Lorem Ipsum finden Sie hier</p>"
+        "<p>Produkte und vieles mehr</p>"
       ]
     },
     "291978f3": {
@@ -422,7 +410,7 @@
       ],
       "text": [
         "html",
-        "<p>Produkte und viel Lorem Ipsum finden Sie hier</p>"
+        "<p>Produkte und vieles mehr</p>"
       ]
     },
     "b088085b": {
@@ -542,6 +530,6 @@
   },
   "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
   "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
-  "_last_changed_by": "scrivito:943667111e7b464abf6dba5382978956",
-  "_published_by": "scrivito:943667111e7b464abf6dba5382978956"
+  "_last_changed_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
+  "_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71"
 }

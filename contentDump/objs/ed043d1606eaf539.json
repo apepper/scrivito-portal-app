@@ -10,6 +10,7 @@
       "2e9f2e07aeab717e",
       "93ed03e1af1c242d",
       "5c00595a07768f9d",
+      "41bff0c5d0d381c0",
       "cb4df3bce5e37dd3"
     ]
   ],
@@ -31,14 +32,14 @@
   "_first_published_at": "20240405121103",
   "_id": "ed043d1606eaf539",
   "_language": "de",
-  "_last_changed": "20240419135152",
+  "_last_changed": "20240506091946",
   "_modification": null,
   "_path": "/ed043d1606eaf539",
   "_permalink": null,
-  "_published_at": "20240419135317",
+  "_published_at": "20240506101501",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404191353170000000000000000591fc8bb0425a74f",
+  "_version": "20240506101501000000000000000062505874729738c7",
   "_widget_pool": {
     "cbc01229": {
       "_obj_class": "SectionWidget",
@@ -118,6 +119,6 @@
   },
   "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
   "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
-  "_last_changed_by": "scrivito:943667111e7b464abf6dba5382978956",
-  "_published_by": "scrivito:943667111e7b464abf6dba5382978956"
+  "_last_changed_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
+  "_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71"
 }

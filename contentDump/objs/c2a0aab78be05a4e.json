@@ -86,14 +86,14 @@
   "_first_published_at": "20230509091931",
   "_id": "c2a0aab78be05a4e",
   "_language": "en",
-  "_last_changed": "20240430113519",
+  "_last_changed": "20240506085922",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240430114352",
+  "_published_at": "20240506101501",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "202404301143520000000000000000a6af4747fd5e2d62",
+  "_version": "20240506101501000000000000000062505874729738c7",
   "_widget_pool": {
     "10914562": {
       "_obj_class": "ColumnContainerWidget",
@@ -165,7 +165,7 @@
       ],
       "text": [
         "html",
-        "<p>This lorem Ipsum is more than you ever want and even more related to this audience. By reading these lines you commit all your ideas and much more content comes up.</p>"
+        "<p>Explore our Ecoline series, designed with sustainability and efficiency in mind. Enhance your operations with ecological solutions that do not compromise on quality.</p>"
       ]
     },
     "7646d1c4": {
@@ -323,7 +323,7 @@
       ],
       "text": [
         "html",
-        "<p>With 33 subsidiaries in 29 countries on five continents, 19 production sites and other importers and agencies, the company is present in over 70 countries. Safety-relevant components are subject to external monitoring by the Research and Material Testing Institute for the Building Industry (FMPA).</p>"
+        "<p>With a global presence in over 70 countries through 33 subsidiaries, 19 production facilities, and a network of importers and agencies, our company guarantees accessibility. Safety-critical components are rigorously tested by the Research and Material Testing Institute for the Construction Industry (FMPA).</p>"
       ]
     },
     "eaef75af": {
@@ -727,7 +727,7 @@
       ],
       "text": [
         "html",
-        "<p>This lorem Ipsum is more than you ever want and even more related to this audience. By reading these lines you commit all your ideas and much more content comes up.</p>"
+        "<p>Discover our Proline series for professionals seeking unsurpassed quality and performance. Elevate your business with leading-edge solutions tailored for the most demanding applications.</p>"
       ]
     },
     "b344c6a1": {
@@ -1980,7 +1980,7 @@
       ],
       "text": [
         "html",
-        "<p>With 33 subsidiaries in 29 countries on five continents, 19 production sites and other importers and agencies.</p>"
+        "<p>Spanning five continents with 33 subsidiaries in 29 countries, along with 19 manufacturing sites, and various importers and agencies.</p>"
       ]
     },
     "ce7f506f": {
