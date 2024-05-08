@@ -87,14 +87,14 @@
   "_first_published_at": "20240405121103",
   "_id": "bdbb81709c5e1c63",
   "_language": "de",
-  "_last_changed": "20240506091331",
+  "_last_changed": "20240508084211",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240506101501",
+  "_published_at": "20240508084308",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "20240506101501000000000000000062505874729738c7",
+  "_version": "20240508084308000000000000000063848b80a0b367e0",
   "_widget_pool": {
     "43891776": {
       "_obj_class": "ColumnWidget",
@@ -1563,7 +1563,7 @@
         [
           "c3c01d07",
           "84be0fc6",
-          "a753e7f7"
+          "c99d43cb"
         ]
       ]
     },
@@ -1622,11 +1622,11 @@
         "link",
         {
           "fragment": null,
-          "obj_id": null,
+          "obj_id": "bdbb81709c5e1c63",
           "query": null,
           "target": null,
-          "title": "Go to Homepage",
-          "url": "/"
+          "title": "Zur Startseite gehen",
+          "url": null
         }
       ]
     },
@@ -2036,6 +2036,71 @@
       "size": [
         "number",
         2
+      ]
+    },
+    "3c7d4160": {
+      "_obj_class": "DataWidget",
+      "content": [
+        "widgetlist",
+        [
+          "a753e7f7"
+        ]
+      ]
+    },
+    "b2ddd4c1": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Melden Sie sich an, um zu sehen, ob mehr verfügbar ist.</p>"
+      ]
+    },
+    "00dfc91c": {
+      "_obj_class": "LoginButtonWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "button_size": [
+        "string",
+        "large"
+      ],
+      "title": [
+        "string",
+        "Anmelden"
+      ]
+    },
+    "2ca2373d": {
+      "_obj_class": "DataEmptyWidget",
+      "content": [
+        "widgetlist",
+        [
+          "b2ddd4c1",
+          "00dfc91c"
+        ]
+      ]
+    },
+    "c99d43cb": {
+      "_obj_class": "DataGroupWidget",
+      "content": [
+        "widgetlist",
+        [
+          "3c7d4160",
+          "2ca2373d"
+        ]
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser"
+        }
       ]
     }
   },

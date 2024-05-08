@@ -86,14 +86,14 @@
   "_first_published_at": "20230509091931",
   "_id": "c2a0aab78be05a4e",
   "_language": "en",
-  "_last_changed": "20240506085922",
+  "_last_changed": "20240508094815",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240506101501",
+  "_published_at": "20240508094854",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "20240506101501000000000000000062505874729738c7",
+  "_version": "202405080948540000000000000000e91f8b08ee05a8f0",
   "_widget_pool": {
     "10914562": {
       "_obj_class": "ColumnContainerWidget",
@@ -1576,7 +1576,7 @@
         [
           "10b64d96",
           "d8bbc171",
-          "97df70bf"
+          "473ae35b"
         ]
       ]
     },
@@ -1635,11 +1635,11 @@
         "link",
         {
           "fragment": null,
-          "obj_id": null,
+          "obj_id": "c2a0aab78be05a4e",
           "query": null,
           "target": null,
           "title": "Go to Homepage",
-          "url": "/"
+          "url": null
         }
       ]
     },
@@ -2035,6 +2035,71 @@
       "size": [
         "number",
         2
+      ]
+    },
+    "473ae35b": {
+      "_obj_class": "DataGroupWidget",
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser"
+        }
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "ff9ecd02",
+          "d0bea222"
+        ]
+      ]
+    },
+    "d0bea222": {
+      "_obj_class": "DataEmptyWidget",
+      "content": [
+        "widgetlist",
+        [
+          "87a5e2b6",
+          "25b96364"
+        ]
+      ]
+    },
+    "25b96364": {
+      "_obj_class": "LoginButtonWidget",
+      "title": [
+        "string",
+        "Log in"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "button_size": [
+        "string",
+        "large"
+      ]
+    },
+    "87a5e2b6": {
+      "_obj_class": "TextWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "text": [
+        "html",
+        "<p>Log in to see if there's more available.</p>"
+      ]
+    },
+    "ff9ecd02": {
+      "_obj_class": "DataWidget",
+      "content": [
+        "widgetlist",
+        [
+          "97df70bf"
+        ]
       ]
     }
   },
