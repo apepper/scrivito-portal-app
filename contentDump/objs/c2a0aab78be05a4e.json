@@ -86,14 +86,14 @@
   "_first_published_at": "20230509091931",
   "_id": "c2a0aab78be05a4e",
   "_language": "en",
-  "_last_changed": "20240508094815",
+  "_last_changed": "20240508214005",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240508094854",
+  "_published_at": "20240508214012",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "202405080948540000000000000000e91f8b08ee05a8f0",
+  "_version": "2024050821401200000000000000006247bdaadc023ef0",
   "_widget_pool": {
     "10914562": {
       "_obj_class": "ColumnContainerWidget",
@@ -2059,27 +2059,8 @@
         "widgetlist",
         [
           "87a5e2b6",
-          "25b96364"
+          "cce316fa"
         ]
-      ]
-    },
-    "25b96364": {
-      "_obj_class": "LoginButtonWidget",
-      "title": [
-        "string",
-        "Log in"
-      ],
-      "alignment": [
-        "string",
-        "left"
-      ],
-      "button_color": [
-        "string",
-        "btn-primary"
-      ],
-      "button_size": [
-        "string",
-        "large"
       ]
     },
     "87a5e2b6": {
@@ -2100,6 +2081,25 @@
         [
           "97df70bf"
         ]
+      ]
+    },
+    "cce316fa": {
+      "_obj_class": "LogInButtonWidget",
+      "title": [
+        "string",
+        "Log in"
+      ],
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "button_size": [
+        "string",
+        "medium"
       ]
     }
   },

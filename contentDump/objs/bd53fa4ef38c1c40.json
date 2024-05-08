@@ -39,16 +39,16 @@
   "_first_published_at": "20240405121103",
   "_id": "bd53fa4ef38c1c40",
   "_language": "de",
-  "_last_changed": "20240418085639",
+  "_last_changed": "20240508212639",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40",
   "_permalink": null,
-  "_published_at": "20240418085825",
+  "_published_at": "20240508212801",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024041808582500000000000000009438266ab389ba45",
+  "_version": "202405082128010000000000000000012eb81ab77d8d1f",
   "_widget_pool": {
     "88220160": {
       "_obj_class": "TextWidget",
@@ -1301,6 +1301,10 @@
             }
           ]
         }
+      ],
+      "headline": [
+        "string",
+        "Ihr Vertriebskontakt"
       ]
     },
     "9fa7252c": {
@@ -1314,10 +1318,8 @@
       "content": [
         "widgetlist",
         [
-          "09e1b36b",
           "aa1a146e",
           "b57771ac",
-          "809fdaf0",
           "03092e1f"
         ]
       ]
@@ -1338,6 +1340,10 @@
             }
           ]
         }
+      ],
+      "headline": [
+        "string",
+        "Ihr Supportkontakt"
       ]
     },
     "52e9c872": {
@@ -1539,44 +1545,6 @@
       "datetime_format": [
         "string",
         "date"
-      ]
-    },
-    "09e1b36b": {
-      "_obj_class": "HeadlineWidget",
-      "alignment": [
-        "string",
-        "left"
-      ],
-      "headline": [
-        "string",
-        "Ihr Vertriebskontakt"
-      ],
-      "style": [
-        "string",
-        "h6"
-      ],
-      "uppercase": [
-        "boolean",
-        true
-      ]
-    },
-    "809fdaf0": {
-      "_obj_class": "HeadlineWidget",
-      "alignment": [
-        "string",
-        "left"
-      ],
-      "headline": [
-        "string",
-        "Ihr Supportkontakt"
-      ],
-      "style": [
-        "string",
-        "h6"
-      ],
-      "uppercase": [
-        "boolean",
-        true
       ]
     },
     "3293b377": {
