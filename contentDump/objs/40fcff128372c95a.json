@@ -29,16 +29,16 @@
   "_first_published_at": "20240405121103",
   "_id": "40fcff128372c95a",
   "_language": "de",
-  "_last_changed": "20240418084207",
+  "_last_changed": "20240513123533",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/40fcff128372c95a",
   "_permalink": null,
-  "_published_at": "20240418085825",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024041808582500000000000000009438266ab389ba45",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "ec1aa439": {
       "_obj_class": "DataWidget",
@@ -159,7 +159,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine Abonnements verfügbar.</p>"
+        "<p>Keine Abonnements gefunden.</p>"
       ]
     },
     "c150cd0e": {

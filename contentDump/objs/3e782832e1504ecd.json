@@ -21,16 +21,16 @@
   "_first_published_at": "20240405121103",
   "_id": "3e782832e1504ecd",
   "_language": "de",
-  "_last_changed": "20240426093011",
+  "_last_changed": "20240513123540",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/31f54bc713bc6050/3e782832e1504ecd",
   "_permalink": null,
-  "_published_at": "20240426093932",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024042609393200000000000000003405ac05de87887e",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "48411211": {
       "_obj_class": "DataLabelWidget",
@@ -648,7 +648,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine Downloads verfügbar.</p>"
+        "<p>Keine Downloads gefunden.</p>"
       ]
     },
     "fcb85d26": {

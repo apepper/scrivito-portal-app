@@ -47,16 +47,16 @@
   "_first_published_at": "20240214090608",
   "_id": "7f5d7c4c3879174f",
   "_language": "en",
-  "_last_changed": "20240419084836",
+  "_last_changed": "20240513123240",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/125f0003cf11c725/7f5d7c4c3879174f",
   "_permalink": null,
-  "_published_at": "20240419100224",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202404191002240000000000000000e8527f146aadbc65",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "20115999": {
       "_obj_class": "DataLabelWidget",
@@ -315,7 +315,7 @@
       ],
       "text": [
         "html",
-        "<p>No tickets available.</p>"
+        "<p>No tickets found.</p>"
       ]
     },
     "5c69c3da": {

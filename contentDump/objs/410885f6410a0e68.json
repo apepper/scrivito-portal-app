@@ -37,16 +37,16 @@
   "_first_published_at": "20240405121103",
   "_id": "410885f6410a0e68",
   "_language": "de",
-  "_last_changed": "20240419084927",
+  "_last_changed": "20240513123458",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/410885f6410a0e68",
   "_permalink": null,
-  "_published_at": "20240419100224",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404191002240000000000000000e8527f146aadbc65",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "a08bf41f": {
       "_obj_class": "DataWidget",
@@ -216,7 +216,7 @@
       "_obj_class": "TextWidget",
       "text": [
         "html",
-        "<p>Keine Veranstaltungen verfügbar.</p>"
+        "<p>Keine Veranstaltungen gefunden.</p>"
       ],
       "alignment": [
         "string",

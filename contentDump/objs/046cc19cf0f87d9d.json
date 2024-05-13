@@ -43,16 +43,16 @@
   "_first_published_at": "20240402122425",
   "_id": "046cc19cf0f87d9d",
   "_language": "en",
-  "_last_changed": "20240419084449",
+  "_last_changed": "20240513090716",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/046cc19cf0f87d9d",
   "_permalink": "equipment",
-  "_published_at": "20240419100224",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202404191002240000000000000000e8527f146aadbc65",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "5795a282": {
       "_obj_class": "DataWidget",
@@ -281,7 +281,7 @@
       ],
       "text": [
         "html",
-        "<p>No equipment available.</p>"
+        "<p>No equipment found.</p>"
       ]
     },
     "48eb5a15": {

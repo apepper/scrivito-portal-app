@@ -45,16 +45,16 @@
   "_first_published_at": "20240405121103",
   "_id": "7e68ab76a338b481",
   "_language": "de",
-  "_last_changed": "20240419084843",
+  "_last_changed": "20240513123451",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/f16dc0fbeddfaa9f/7e68ab76a338b481",
   "_permalink": null,
-  "_published_at": "20240419100224",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404191002240000000000000000e8527f146aadbc65",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "54958389": {
       "_obj_class": "ColumnWidget",
@@ -295,7 +295,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine Angebote verfügbar.</p>"
+        "<p>Keine Angebote gefunden.</p>"
       ]
     },
     "595323c2": {

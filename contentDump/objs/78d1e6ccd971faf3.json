@@ -37,16 +37,16 @@
   "_first_published_at": "20240130134453",
   "_id": "78d1e6ccd971faf3",
   "_language": "en",
-  "_last_changed": "20240419084849",
+  "_last_changed": "20240513123252",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/c6db14f1d824259c",
   "_permalink": "documents",
-  "_published_at": "20240419100224",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202404191002240000000000000000e8527f146aadbc65",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "ed8d9e2b": {
       "_obj_class": "DataWidget",
@@ -367,7 +367,7 @@
       ],
       "text": [
         "html",
-        "<p>No documents available.</p>"
+        "<p>No documents found.</p>"
       ]
     },
     "6c2e26b8": {

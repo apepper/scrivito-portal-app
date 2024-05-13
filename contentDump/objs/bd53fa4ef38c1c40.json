@@ -39,16 +39,16 @@
   "_first_published_at": "20240405121103",
   "_id": "bd53fa4ef38c1c40",
   "_language": "de",
-  "_last_changed": "20240508212639",
+  "_last_changed": "20240513123424",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40",
   "_permalink": null,
-  "_published_at": "20240508212801",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405082128010000000000000000012eb81ab77d8d1f",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "88220160": {
       "_obj_class": "TextWidget",
@@ -58,7 +58,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine offenen Angebote verfügbar.</p>"
+        "<p>Keine offenen Angebote gefunden.</p>"
       ]
     },
     "c833c494": {
@@ -977,7 +977,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine offenen Tickets verfügbar.</p>"
+        "<p>Keine offenen Tickets gefunden.</p>"
       ]
     },
     "19cd0106": {
@@ -988,7 +988,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine offenen Bestellungen verfügbar.</p>"
+        "<p>Keine offenen Bestellungen gefunden.</p>"
       ]
     },
     "bacc9802": {
@@ -999,7 +999,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine Dokumente verfügbar.</p>"
+        "<p>Keine Dokumente gefunden.</p>"
       ]
     },
     "d3e85575": {
@@ -1560,7 +1560,7 @@
       "_obj_class": "TextWidget",
       "text": [
         "html",
-        "<p>Keine Veranstaltungen verfügbar.</p>"
+        "<p>Keine Veranstaltungen gefunden.</p>"
       ],
       "alignment": [
         "string",

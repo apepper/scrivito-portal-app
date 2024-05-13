@@ -39,16 +39,16 @@
   "_first_published_at": "20230609092828",
   "_id": "59274260f223b65f",
   "_language": "en",
-  "_last_changed": "20240508211620",
+  "_last_changed": "20240513123200",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89",
   "_permalink": "my-tynacoon",
-  "_published_at": "20240508212801",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405082128010000000000000000012eb81ab77d8d1f",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "59469149": {
       "_obj_class": "SpaceWidget",
@@ -751,13 +751,6 @@
         0.5
       ]
     },
-    "2b937ea9": {
-      "_obj_class": "SpaceWidget",
-      "size": [
-        "number",
-        1
-      ]
-    },
     "6b896f67": {
       "_obj_class": "SpaceWidget",
       "size": [
@@ -966,7 +959,7 @@
       ],
       "text": [
         "html",
-        "<p>No open tickets available.</p>"
+        "<p>No open tickets found.</p>"
       ]
     },
     "25d236b1": {
@@ -977,7 +970,7 @@
       ],
       "text": [
         "html",
-        "<p>No open quotes available.</p>"
+        "<p>No open quotes found.</p>"
       ]
     },
     "3fc8b88e": {
@@ -988,7 +981,7 @@
       ],
       "text": [
         "html",
-        "<p>No open orders available.</p>"
+        "<p>No open orders found.</p>"
       ]
     },
     "710d2ad6": {
@@ -999,7 +992,7 @@
       ],
       "text": [
         "html",
-        "<p>No documents available.</p>"
+        "<p>No documents found.</p>"
       ]
     },
     "c10c1c4c": {
@@ -1285,67 +1278,6 @@
         ]
       ]
     },
-    "52d5b68b": {
-      "_obj_class": "DataPersonCardWidget",
-      "data": [
-        "datalocator",
-        {
-          "class": "User",
-          "query": [
-            {
-              "field": "_id",
-              "value_via": {
-                "class": "CurrentUser",
-                "field": "salesUserId"
-              }
-            }
-          ]
-        }
-      ],
-      "headline": [
-        "string",
-        "Your sales representative"
-      ]
-    },
-    "c6de65b5": {
-      "_obj_class": "DataGroupWidget",
-      "data": [
-        "datalocator",
-        {
-          "class": "CurrentUser"
-        }
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "52d5b68b",
-          "2b937ea9",
-          "5fd6a5b9"
-        ]
-      ]
-    },
-    "5fd6a5b9": {
-      "_obj_class": "DataPersonCardWidget",
-      "data": [
-        "datalocator",
-        {
-          "class": "User",
-          "query": [
-            {
-              "field": "_id",
-              "value_via": {
-                "class": "CurrentUser",
-                "field": "serviceUserId"
-              }
-            }
-          ]
-        }
-      ],
-      "headline": [
-        "string",
-        "Your support contact"
-      ]
-    },
     "f0f1f32f": {
       "_obj_class": "DataGroupWidget",
       "content": [
@@ -1560,11 +1492,79 @@
       "_obj_class": "TextWidget",
       "text": [
         "html",
-        "<p>No events available.</p>"
+        "<p>No events found.</p>"
       ],
       "alignment": [
         "string",
         "left"
+      ]
+    },
+    "c6de65b5": {
+      "_obj_class": "DataGroupWidget",
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser"
+        }
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "52d5b68b",
+          "2b937ea9",
+          "5fd6a5b9"
+        ]
+      ]
+    },
+    "52d5b68b": {
+      "_obj_class": "DataPersonCardWidget",
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "query": [
+            {
+              "field": "_id",
+              "value_via": {
+                "class": "CurrentUser",
+                "field": "salesUserId"
+              }
+            }
+          ]
+        }
+      ],
+      "headline": [
+        "string",
+        "Your sales representative"
+      ]
+    },
+    "2b937ea9": {
+      "_obj_class": "SpaceWidget",
+      "size": [
+        "number",
+        1
+      ]
+    },
+    "5fd6a5b9": {
+      "_obj_class": "DataPersonCardWidget",
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "query": [
+            {
+              "field": "_id",
+              "value_via": {
+                "class": "CurrentUser",
+                "field": "serviceUserId"
+              }
+            }
+          ]
+        }
+      ],
+      "headline": [
+        "string",
+        "Your support contact"
       ]
     }
   },

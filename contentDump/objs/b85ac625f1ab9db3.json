@@ -55,16 +55,16 @@
   "_first_published_at": "20240405121103",
   "_id": "b85ac625f1ab9db3",
   "_language": "de",
-  "_last_changed": "20240419084802",
+  "_last_changed": "20240513123505",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/b85ac625f1ab9db3",
   "_permalink": null,
-  "_published_at": "20240419100224",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404191002240000000000000000e8527f146aadbc65",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "8b788ec7": {
       "_obj_class": "ButtonWidget",
@@ -311,7 +311,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine Tickets verfügbar.</p>"
+        "<p>Keine Tickets gefunden.</p>"
       ]
     },
     "2f9e817c": {

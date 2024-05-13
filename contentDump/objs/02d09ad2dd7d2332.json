@@ -49,16 +49,16 @@
   "_first_published_at": "20230526064258",
   "_id": "02d09ad2dd7d2332",
   "_language": "en",
-  "_last_changed": "20240419084954",
+  "_last_changed": "20240513123246",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/02d09ad2dd7d2332",
   "_permalink": "orders",
-  "_published_at": "20240419100224",
+  "_published_at": "20240513123753",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202404191002240000000000000000e8527f146aadbc65",
+  "_version": "202405131237530000000000000000478d9653d10e681a",
   "_widget_pool": {
     "ff8cf44a": {
       "_obj_class": "DataWidget",
@@ -306,7 +306,7 @@
       ],
       "text": [
         "html",
-        "<p>No orders available.</p>"
+        "<p>No orders found.</p>"
       ]
     },
     "356ce1e6": {

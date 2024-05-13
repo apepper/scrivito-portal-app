@@ -26,14 +26,14 @@
   "_first_published_at": "20240405121103",
   "_id": "f70ac27424b4ba20",
   "_language": "de",
-  "_last_changed": "20240419083811",
+  "_last_changed": "20240508204103",
   "_modification": null,
   "_path": "/f70ac27424b4ba20",
   "_permalink": null,
-  "_published_at": "20240419100224",
+  "_published_at": "20240513081012",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202404191002240000000000000000e8527f146aadbc65",
+  "_version": "20240513081012000000000000000074834ca43f96a79d",
   "_widget_pool": {
     "84453744": {
       "_obj_class": "SearchResultsWidget",
@@ -68,6 +68,10 @@
       "show_more_results_label": [
         "string",
         "Mehr laden"
+      ],
+      "results_loading_headline": [
+        "string",
+        "Ergebnisse"
       ]
     }
   },

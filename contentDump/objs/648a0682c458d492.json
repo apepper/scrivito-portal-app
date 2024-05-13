@@ -31,14 +31,14 @@
   "_first_published_at": "20240422102317",
   "_id": "648a0682c458d492",
   "_language": "en",
-  "_last_changed": "20240508103434",
+  "_last_changed": "20240513124828",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/52140a4c9cae9b7c/648a0682c458d492",
   "_permalink": "white-paper/filling-lines",
-  "_published_at": "20240508103440",
+  "_published_at": "20240513124852",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "2024050810344000000000000000001498bc8e78381ed8",
+  "_version": "202405131248520000000000000000e83cb7ff5dd5d6c7",
   "_widget_pool": {
     "65647889": {
       "_obj_class": "ImageWidget",
@@ -175,7 +175,7 @@
       ],
       "headline": [
         "string",
-        "Whats inside this whitepaper?"
+        "Whats inside this white paper?"
       ],
       "level": [
         "string",
@@ -205,7 +205,7 @@
       ],
       "headline": [
         "string",
-        "Download white paper"
+        "Download White Paper"
       ],
       "style": [
         "string",
