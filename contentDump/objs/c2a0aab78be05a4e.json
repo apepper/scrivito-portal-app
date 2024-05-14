@@ -52,6 +52,10 @@
     "reference",
     "a8ede3121df9e2f6"
   ],
+  "site_portal_overview_page": [
+    "reference",
+    "0e0e03ae10d47eee"
+  ],
   "site_search_results_page": [
     "reference",
     "70f1003260d74f46"
@@ -65,10 +69,6 @@
     [
       "a4b0baf5"
     ]
-  ],
-  "site_portal_overview_page": [
-    "reference",
-    "0e0e03ae10d47eee"
   ],
   "content_title": [
     "string",
@@ -86,14 +86,14 @@
   "_first_published_at": "20230509091931",
   "_id": "c2a0aab78be05a4e",
   "_language": "en",
-  "_last_changed": "20240508214005",
+  "_last_changed": "20240514083849",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240508214012",
+  "_published_at": "20240514083925",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "2024050821401200000000000000006247bdaadc023ef0",
+  "_version": "202405140839250000000000000000c03585c78bfc7347",
   "_widget_pool": {
     "10914562": {
       "_obj_class": "ColumnContainerWidget",
@@ -308,7 +308,7 @@
       ],
       "headline": [
         "string",
-        "Systems for industry and trade in premium quality"
+        "Systems for Industry and Trade in Premium Quality"
       ],
       "style": [
         "string",
@@ -647,7 +647,7 @@
           "obj_id": "c2a0aab78be05a4e",
           "query": null,
           "target": null,
-          "title": "More Infos",
+          "title": "Learn more",
           "url": null
         }
       ],
@@ -739,7 +739,7 @@
           "obj_id": "c2a0aab78be05a4e",
           "query": null,
           "target": null,
-          "title": "More Infos",
+          "title": "Learn more",
           "url": null
         }
       ],
@@ -849,7 +849,7 @@
       ],
       "headline": [
         "string",
-        "Subscribe to our Newsletter"
+        "Subscribe to Our Newsletter"
       ],
       "style": [
         "string",
@@ -945,10 +945,10 @@
         "link",
         {
           "fragment": null,
-          "obj_id": "c2a0aab78be05a4e",
+          "obj_id": "648a0682c458d492",
           "query": null,
           "target": null,
-          "title": "Subscibe now and get our White-Paper",
+          "title": "Subscibe now and get our white paper for free",
           "url": null
         }
       ]
@@ -957,7 +957,7 @@
       "_obj_class": "HeadlineWidget",
       "headline": [
         "string",
-        "Complete solutions for industry and trade"
+        "Complete Solutions for Industry and Trade"
       ],
       "alignment": [
         "string",
@@ -1022,7 +1022,7 @@
       ],
       "headline": [
         "string",
-        "View individual products in more details"
+        "View Individual Products in more Detail"
       ],
       "style": [
         "string",
@@ -1333,7 +1333,7 @@
       ],
       "text": [
         "html",
-        "<p id=\"isPasted\">© Tynacoon 2024&nbsp; All rights reserved.</p>"
+        "<p>© Tynacoon 2024 All rights reserved.</p>"
       ]
     },
     "c385ac43": {
@@ -1916,7 +1916,7 @@
       ],
       "headline": [
         "string",
-        "The right solution for your industry"
+        "The Right Solution for Your Industry"
       ],
       "style": [
         "string",
@@ -1980,7 +1980,7 @@
       ],
       "text": [
         "html",
-        "<p>Spanning five continents with 33 subsidiaries in 29 countries, along with 19 manufacturing sites, and various importers and agencies.</p>"
+        "<p>Spanning five continents with 33 subsidiaries in 29 countries, along with 19 manufacturing sites, and numerous importers and agencies.</p>"
       ]
     },
     "ce7f506f": {

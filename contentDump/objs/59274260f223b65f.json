@@ -39,16 +39,16 @@
   "_first_published_at": "20230609092828",
   "_id": "59274260f223b65f",
   "_language": "en",
-  "_last_changed": "20240513123200",
+  "_last_changed": "20240513152233",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89",
   "_permalink": "my-tynacoon",
-  "_published_at": "20240513123753",
+  "_published_at": "20240514080213",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "2024051408021300000000000000004022c6aa2c64cc9c",
   "_widget_pool": {
     "59469149": {
       "_obj_class": "SpaceWidget",
@@ -65,7 +65,7 @@
       ],
       "text": [
         "html",
-        "<p>Welcome to My Tynacoon! Here you can see your orders and shipments.</p>"
+        "<p>Welcome to <strong>My Tynacoon</strong>! Here you can see your orders and shipments.</p>"
       ]
     },
     "5ff3b46e": {
@@ -1570,6 +1570,6 @@
   },
   "_created_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
   "_first_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
-  "_last_changed_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
+  "_last_changed_by": "scrivito:95cc3b45bac04c01b7f9efdd41e262ce",
   "_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71"
 }

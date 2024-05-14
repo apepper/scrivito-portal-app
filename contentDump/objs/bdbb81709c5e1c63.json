@@ -87,14 +87,14 @@
   "_first_published_at": "20240405121103",
   "_id": "bdbb81709c5e1c63",
   "_language": "de",
-  "_last_changed": "20240508205919",
+  "_last_changed": "20240514083815",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240508210136",
+  "_published_at": "20240514083925",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "20240508210136000000000000000095a2f4816a4cd14c",
+  "_version": "202405140839250000000000000000c03585c78bfc7347",
   "_widget_pool": {
     "43891776": {
       "_obj_class": "ColumnWidget",
@@ -292,7 +292,7 @@
       ],
       "text": [
         "html",
-        "<p>Mit einer globalen Präsenz in über 70 Ländern durch 33 Tochtergesellschaften, 19 Produktionsstandorten und einem Netzwerk von Importeuren und Agenturen garantiert unser Unternehmen die Zugänglichkeit. Sicherheitskritische Komponenten werden strengsten Tests unterzogen vom Forschungs- und Materialprüfungsinstitut für das Bauwesen (FMPA).</p>"
+        "<p>Mit einer globalen Präsenz in über 70 Ländern durch 33 Tochtergesellschaften, 19 Produktionsstandorten und einem Netzwerk von Importeuren und Agenturen garantiert unser Unternehmen die Zugänglichkeit. Sicherheitskritische Komponenten werden vom Forschungs- und Materialprüfungsinstitut für das Bauwesen (FMPA) strengsten Tests unterzogen.</p>"
       ]
     },
     "39d3a71d": {
@@ -650,7 +650,7 @@
           "obj_id": "bdbb81709c5e1c63",
           "query": null,
           "target": null,
-          "title": "Weitere Infos",
+          "title": "Mehr erfahren",
           "url": null
         }
       ],
@@ -730,7 +730,7 @@
       ],
       "text": [
         "html",
-        "<p>Entdecken Sie unsere Proline-Serie für Profis, die erstklassige Qualität und Leistung suchen. Bringen Sie Ihr Unternehmen mit führenden Lösungen auf ein neues Niveau, die speziell für anspruchsvolle Anwendungen entwickelt wurden.</p>"
+        "<p>Entdecken Sie unsere Proline-Serie für Profis, die erstklassige Qualität und Leistung suchen. Bringen Sie Ihr Unternehmen auf ein neues Niveau mit führenden Lösungen, die speziell für anspruchsvolle Anwendungen entwickelt wurden.</p>"
       ]
     },
     "dffc234b": {
@@ -742,7 +742,7 @@
           "obj_id": "bdbb81709c5e1c63",
           "query": null,
           "target": null,
-          "title": "Weitere Infos",
+          "title": "Mehr erfahren",
           "url": null
         }
       ],
@@ -927,10 +927,10 @@
         "link",
         {
           "fragment": null,
-          "obj_id": "bdbb81709c5e1c63",
+          "obj_id": "df208b86b908e06d",
           "query": null,
           "target": null,
-          "title": "Abonnieren Sie jetzt und erhalten Sie unser Whitepaper",
+          "title": "Jetzt abonnieren und unser Whitepaper kostenlos erhalten",
           "url": null
         }
       ]
@@ -1315,7 +1315,7 @@
       ],
       "text": [
         "html",
-        "<p id=\"isPasted\">© Tynacoon 2024&nbsp; Alle Rechte vorbehalten.</p>"
+        "<p>© Tynacoon 2024 Alle Rechte vorbehalten.</p>"
       ]
     },
     "53914d0f": {
@@ -1981,7 +1981,7 @@
       ],
       "text": [
         "html",
-        "<p>Über fünf Kontinente verteilt mit 33 Tochtergesellschaften in 29 Ländern sowie 19 Produktionsstandorten und verschiedenen Importeuren und Agenturen.</p>"
+        "<p>Über fünf Kontinente verteilt mit 33 Tochtergesellschaften in 29 Ländern sowie 19 Produktionsstandorten und zahlreichen Importeuren und Agenturen.</p>"
       ]
     },
     "1ba85f73": {

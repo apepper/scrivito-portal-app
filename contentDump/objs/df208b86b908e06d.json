@@ -10,48 +10,51 @@
   ],
   "title": [
     "string",
-    "White Paper “Filling lines”"
-  ],
-  "body": [
-    "widgetlist",
-    [
-      "490cd257",
-      "5aa540dc"
-    ]
+    "Whitepaper \"Hochmoderne Abfüllanlagen\""
   ],
   "show_as_landing_page": [
     "boolean",
     true
   ],
+  "body": [
+    "widgetlist",
+    [
+      "984aa7c0",
+      "a220f28e"
+    ]
+  ],
   "_conflicts": null,
   "_content_id": "28718c1fe9dd5169",
-  "_created_at": "20240419094038",
+  "_created_at": "20240514071754",
   "_data_param": null,
   "_editing_asset": false,
-  "_first_published_at": "20240422102317",
-  "_id": "648a0682c458d492",
-  "_language": "en",
-  "_last_changed": "20240513140255",
+  "_first_published_at": "20240514080213",
+  "_id": "df208b86b908e06d",
+  "_language": "de",
+  "_last_changed": "20240514075753",
   "_modification": null,
-  "_path": "/33cbdf671c7b83b1/52140a4c9cae9b7c/648a0682c458d492",
-  "_permalink": "white-paper/filling-lines",
+  "_path": "/84435b45662730da/6a5898770a646824/df208b86b908e06d",
+  "_permalink": "whitepaper/hochmoderne-abfuellanlagen",
   "_published_at": "20240514080213",
   "_restriction": null,
-  "_site_id": "default",
+  "_site_id": "dc07b5fb5abd4c35",
   "_version": "2024051408021300000000000000004022c6aa2c64cc9c",
   "_widget_pool": {
-    "65647889": {
-      "_obj_class": "ImageWidget",
+    "86887669": {
+      "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
-        "left"
+        "start"
       ],
-      "image": [
-        "reference",
-        "11a20e6047134560"
+      "columns": [
+        "widgetlist",
+        [
+          "f7a9dbfb",
+          "ce1dc475"
+        ]
       ]
     },
-    "490cd257": {
+    "984aa7c0": {
       "_obj_class": "SectionWidget",
       "background_color": [
         "string",
@@ -61,12 +64,6 @@
         "string",
         "fixed"
       ],
-      "content": [
-        "widgetlist",
-        [
-          "d65fb485"
-        ]
-      ],
       "show_padding": [
         "boolean",
         true
@@ -74,9 +71,15 @@
       "background_image": [
         "reference",
         "fd456e1a38e85cfb"
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "b08b12f0"
+        ]
       ]
     },
-    "d65fb485": {
+    "b08b12f0": {
       "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
@@ -85,12 +88,12 @@
       "columns": [
         "widgetlist",
         [
-          "f3eee0a9",
-          "bf167883"
+          "a0c14b6b",
+          "3bd2a2be"
         ]
       ]
     },
-    "f3eee0a9": {
+    "a0c14b6b": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -99,12 +102,12 @@
       "content": [
         "widgetlist",
         [
-          "f84cd40d",
-          "b6afd968"
+          "9d6ce3f4",
+          "e6411aee"
         ]
       ]
     },
-    "bf167883": {
+    "3bd2a2be": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -113,12 +116,12 @@
       "content": [
         "widgetlist",
         [
-          "3f6ca5a4",
-          "1c4fb518"
+          "832d3b9f",
+          "8a6cadaa"
         ]
       ]
     },
-    "1c4fb518": {
+    "8a6cadaa": {
       "_obj_class": "CardWidget",
       "background_color": [
         "string",
@@ -135,14 +138,14 @@
       "card_body": [
         "widgetlist",
         [
-          "5b830bb3",
-          "8c0077c5",
-          "bba38be3",
-          "5da50d81"
+          "6aa82d84",
+          "73f8b9c1",
+          "673555fb",
+          "ffa08dfe"
         ]
       ]
     },
-    "5da50d81": {
+    "ffa08dfe": {
       "_obj_class": "TextWidget",
       "alignment": [
         "string",
@@ -150,20 +153,20 @@
       ],
       "text": [
         "html",
-        "<p class=\"text-small\">We respect your privacy and are committed to protecting your personal data. These will be processed by us to respond to your inquiry. You can find further information in the <a href=\"https://www.iubenda.com/privacy-policy/49159983\">Privacy Policy</a> and <a href=\"https://www.justrelate.com/de/transparente-information\">Transparent Information</a>.</p>"
+        "<p class=\"text-small\">Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten zu schützen. Diese werden von uns verarbeitet, um Ihre Anfrage zu beantworten. Weitere Informationen finden Sie in der <a href=\"https://www.iubenda.com/privacy-policy/49159983\">Datenschutzerklärung</a> und den <a href=\"https://www.justrelate.com/de/transparente-information\">Transparenten Informationen</a>.</p>"
       ]
     },
-    "eae14f41": {
+    "60d48751": {
       "_obj_class": "BannerHeadlineContainerWidget",
       "headlines": [
         "widgetlist",
         [
-          "f91545db",
-          "83416d62"
+          "9e82b21a",
+          "8433e90a"
         ]
       ]
     },
-    "f91545db": {
+    "9e82b21a": {
       "_obj_class": "BannerHeadlineWidget",
       "style": [
         "string",
@@ -175,14 +178,14 @@
       ],
       "headline": [
         "string",
-        "What’s Inside this White Paper?"
+        "Was enthält dieses Whitepaper?"
       ],
       "level": [
         "string",
         "h1"
       ]
     },
-    "83416d62": {
+    "8433e90a": {
       "_obj_class": "BannerHeadlineWidget",
       "background_color": [
         "string",
@@ -194,10 +197,10 @@
       ],
       "headline": [
         "string",
-        "Experience the Power of Efficiency"
+        "Erleben Sie die Kraft der Effizienz"
       ]
     },
-    "5b830bb3": {
+    "6aa82d84": {
       "_obj_class": "HeadlineWidget",
       "alignment": [
         "string",
@@ -205,14 +208,14 @@
       ],
       "headline": [
         "string",
-        "Download White Paper"
+        "Whitepaper herunterladen"
       ],
       "style": [
         "string",
         "h2"
       ]
     },
-    "b6afd968": {
+    "e6411aee": {
       "_obj_class": "ImageWidget",
       "alignment": [
         "string",
@@ -223,21 +226,21 @@
         "4f4d221b9e654c82"
       ]
     },
-    "a6afc4ad": {
+    "411f8237": {
       "_obj_class": "ColumnContainerWidget",
-      "columns": [
-        "widgetlist",
-        [
-          "034c07fa",
-          "61d97b2d"
-        ]
-      ],
       "alignment": [
         "string",
         "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "17111fe4",
+          "eb54cd8c"
+        ]
       ]
     },
-    "034c07fa": {
+    "17111fe4": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -246,14 +249,14 @@
       "content": [
         "widgetlist",
         [
-          "9f342cb6",
-          "0bfd77b3",
-          "325dc14e",
-          "8bb94f31"
+          "61738a2b",
+          "dc910108",
+          "86887669",
+          "e76af65a"
         ]
       ]
     },
-    "61d97b2d": {
+    "eb54cd8c": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -262,12 +265,12 @@
       "content": [
         "widgetlist",
         [
-          "bc0c59f8",
-          "036da6fd"
+          "e151f187",
+          "df888657"
         ]
       ]
     },
-    "bc0c59f8": {
+    "e151f187": {
       "_obj_class": "ImageWidget",
       "alignment": [
         "string",
@@ -282,7 +285,7 @@
         true
       ]
     },
-    "a393eb2c": {
+    "2b75d440": {
       "_obj_class": "IconWidget",
       "icon": [
         "string",
@@ -297,7 +300,7 @@
         "center"
       ]
     },
-    "2fd5e70f": {
+    "290ff65a": {
       "_obj_class": "HeadlineWidget",
       "alignment": [
         "string",
@@ -309,14 +312,14 @@
       ],
       "headline": [
         "string",
-        "Custom Solutions, Rapid Results"
+        "Individuelle Lösungen, schnelle Resultate"
       ],
       "level": [
         "string",
         "h1"
       ]
     },
-    "6ddfaa64": {
+    "acd86cd0": {
       "_obj_class": "TextWidget",
       "alignment": [
         "string",
@@ -324,23 +327,21 @@
       ],
       "text": [
         "html",
-        "<p>Need a tailored solution for your unique requirements? Our expert team will work with you to design and deploy a customized filling line that fits your exact specifications. From concept to completion, we deliver results fast, so you can start reaping the benefits sooner.</p>"
+        "<p>Brauchen Sie eine maßgeschneiderte Lösung für Ihre speziellen Anforderungen? Unser Expertenteam arbeitet mit Ihnen zusammen, um eine auf Ihre genauen Spezifikationen zugeschnittene Abfüllanlage zu entwerfen und einzuführen. Vom Konzept bis zur Fertigstellung liefern wir Ergebnisse schnell, damit Sie die Vorteile früher genießen können.</p>"
       ]
     },
-    "91191b26": {
-      "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "65647889"
-        ]
+    "fa3ce3d7": {
+      "_obj_class": "ImageWidget",
+      "alignment": [
+        "string",
+        "left"
       ],
-      "col_size": [
-        "number",
-        6
+      "image": [
+        "reference",
+        "11a20e6047134560"
       ]
     },
-    "861495d3": {
+    "34f980a2": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -349,42 +350,55 @@
       "content": [
         "widgetlist",
         [
-          "29dc755c",
-          "5b9f9991",
-          "186a73d9",
-          "279b2c37"
+          "fa3ce3d7"
         ]
       ]
     },
-    "e5d3f8ce": {
-      "_obj_class": "ColumnContainerWidget",
-      "columns": [
+    "3058f52b": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
         "widgetlist",
         [
-          "91191b26",
-          "861495d3"
+          "f2863413",
+          "31641b22",
+          "eb48813b",
+          "e2d2a37d"
         ]
-      ],
+      ]
+    },
+    "672a189e": {
+      "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
         "start"
-      ]
-    },
-    "186a73d9": {
-      "_obj_class": "ColumnContainerWidget",
+      ],
       "columns": [
         "widgetlist",
         [
-          "e35f86ff",
-          "d750af11"
+          "34f980a2",
+          "3058f52b"
         ]
-      ],
+      ]
+    },
+    "eb48813b": {
+      "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
         "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "72383db6",
+          "bec7590a"
+        ]
       ]
     },
-    "e35f86ff": {
+    "72383db6": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -393,11 +407,11 @@
       "content": [
         "widgetlist",
         [
-          "a393eb2c"
+          "2b75d440"
         ]
       ]
     },
-    "d750af11": {
+    "bec7590a": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -406,12 +420,12 @@
       "content": [
         "widgetlist",
         [
-          "2fd5e70f",
-          "6ddfaa64"
+          "290ff65a",
+          "acd86cd0"
         ]
       ]
     },
-    "5696b8af": {
+    "1cbb7eb8": {
       "_obj_class": "IconWidget",
       "size": [
         "string",
@@ -426,20 +440,20 @@
         "bi-patch-check"
       ]
     },
-    "2967b25b": {
+    "f7a9dbfb": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "5696b8af"
-        ]
-      ],
       "col_size": [
         "number",
         2
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "1cbb7eb8"
+        ]
       ]
     },
-    "ec02d9eb": {
+    "dcf32883": {
       "_obj_class": "HeadlineWidget",
       "style": [
         "string",
@@ -447,14 +461,14 @@
       ],
       "headline": [
         "string",
-        "100% Accuracy Guaranteed"
+        "100% Genauigkeit garantiert"
       ],
       "alignment": [
         "string",
         "left"
       ]
     },
-    "a0fa055f": {
+    "b0d6c490": {
       "_obj_class": "TextWidget",
       "alignment": [
         "string",
@@ -462,38 +476,24 @@
       ],
       "text": [
         "html",
-        "<p>Our precision dosing systems ensure 100% accuracy in fill levels, eliminating costly overfills and minimizing product waste. Every drop counts, and our filling lines deliver consistent results, batch after batch.</p>"
+        "<p>Unsere Präzisionsdosiersysteme gewährleisten eine 100%ige Genauigkeit bei den Füllniveaus, eliminieren kostspielige Überfüllungen und minimieren Produktverschwendung. Jeder Tropfen zählt, und unsere Abfüllanlagen liefern konstante Ergebnisse, Charge für Charge.</p>"
       ]
     },
-    "81ce4048": {
+    "ce1dc475": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "ec02d9eb",
-          "a0fa055f"
-        ]
-      ],
       "col_size": [
         "number",
         10
-      ]
-    },
-    "325dc14e": {
-      "_obj_class": "ColumnContainerWidget",
-      "columns": [
+      ],
+      "content": [
         "widgetlist",
         [
-          "2967b25b",
-          "81ce4048"
+          "dcf32883",
+          "b0d6c490"
         ]
-      ],
-      "alignment": [
-        "string",
-        "start"
       ]
     },
-    "8e4b4b4a": {
+    "9a4c45ff": {
       "_obj_class": "IconWidget",
       "size": [
         "string",
@@ -508,24 +508,24 @@
         "bi-clock-history"
       ]
     },
-    "047f91b0": {
+    "de838b10": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "8e4b4b4a"
-        ]
-      ],
       "col_size": [
         "number",
         2
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "9a4c45ff"
+        ]
       ]
     },
-    "cfabf7e8": {
+    "a3f95a5f": {
       "_obj_class": "HeadlineWidget",
       "headline": [
         "string",
-        "24/7 Productivity"
+        "Rund um die Uhr Produktivität"
       ],
       "alignment": [
         "string",
@@ -540,7 +540,7 @@
         "h5"
       ]
     },
-    "54a20c29": {
+    "08c02e6b": {
       "_obj_class": "TextWidget",
       "alignment": [
         "string",
@@ -548,38 +548,38 @@
       ],
       "text": [
         "html",
-        "<p>Maximize uptime and keep your production lines humming around the clock. Our filling lines are built to withstand the rigors of continuous operation, so you can meet deadlines and exceed expectations without missing a beat.</p>"
+        "<p>Maximieren Sie die Betriebszeit und halten Sie Ihre Produktionslinien rund um die Uhr am Laufen. Unsere Abfüllanlagen sind auf die Anforderungen eines kontinuierlichen Betriebs ausgelegt, so dass Sie Fristen einhalten und Erwartungen ohne Unterbrechung übertreffen können.</p>"
       ]
     },
-    "9699f80a": {
+    "c3947d8f": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "cfabf7e8",
-          "54a20c29"
-        ]
-      ],
       "col_size": [
         "number",
         10
-      ]
-    },
-    "5b9f9991": {
-      "_obj_class": "ColumnContainerWidget",
-      "columns": [
+      ],
+      "content": [
         "widgetlist",
         [
-          "047f91b0",
-          "9699f80a"
+          "a3f95a5f",
+          "08c02e6b"
         ]
-      ],
+      ]
+    },
+    "31641b22": {
+      "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
         "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "de838b10",
+          "c3947d8f"
+        ]
       ]
     },
-    "ae0aa38d": {
+    "01aee323": {
       "_obj_class": "IconWidget",
       "size": [
         "string",
@@ -594,24 +594,24 @@
         "bi-graph-up-arrow"
       ]
     },
-    "16dc95df": {
+    "ff8decc6": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "ae0aa38d"
-        ]
-      ],
       "col_size": [
         "number",
         2
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "01aee323"
+        ]
       ]
     },
-    "9736421b": {
+    "cfaf9918": {
       "_obj_class": "HeadlineWidget",
       "headline": [
         "string",
-        "40% Increase in Throughput"
+        "40% Steigerung des Durchsatzes"
       ],
       "alignment": [
         "string",
@@ -626,7 +626,7 @@
         "h5"
       ]
     },
-    "d25536d6": {
+    "3e2a28f3": {
       "_obj_class": "TextWidget",
       "alignment": [
         "string",
@@ -634,38 +634,38 @@
       ],
       "text": [
         "html",
-        "<p>With our advanced filling lines, you can elevate your production output by up to 40%. Say goodbye to bottlenecks and hello to streamlined operations that keep pace with your growing demand.</p>"
+        "<p>Durch unsere fortschrittlichen Abfüllanlagen können Sie Ihren Produktionsausstoß um bis zu 40% erhöhen. Verabschieden Sie sich von Engpässen und begrüßen Sie reibungslose Abläufe, die mit Ihrer wachsenden Nachfrage Schritt halten.</p>"
       ]
     },
-    "48e718ec": {
+    "6f1d4d8c": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "9736421b",
-          "d25536d6"
-        ]
-      ],
       "col_size": [
         "number",
         10
-      ]
-    },
-    "0bfd77b3": {
-      "_obj_class": "ColumnContainerWidget",
-      "columns": [
+      ],
+      "content": [
         "widgetlist",
         [
-          "16dc95df",
-          "48e718ec"
+          "cfaf9918",
+          "3e2a28f3"
         ]
-      ],
+      ]
+    },
+    "dc910108": {
+      "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
         "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "ff8decc6",
+          "6f1d4d8c"
+        ]
       ]
     },
-    "5aa540dc": {
+    "a220f28e": {
       "_obj_class": "SectionWidget",
       "background_color": [
         "string",
@@ -682,48 +682,48 @@
       "content": [
         "widgetlist",
         [
-          "eae14f41",
-          "a6afc4ad",
-          "e5d3f8ce"
+          "60d48751",
+          "411f8237",
+          "672a189e"
         ]
       ]
     },
-    "29dc755c": {
+    "f2863413": {
       "_obj_class": "SpaceWidget",
       "size": [
         "number",
         5
       ]
     },
-    "9f342cb6": {
+    "61738a2b": {
       "_obj_class": "SpaceWidget",
       "size": [
         "number",
         5
       ]
     },
-    "036da6fd": {
+    "df888657": {
       "_obj_class": "SpaceWidget",
       "size": [
         "number",
         5
       ]
     },
-    "3f6ca5a4": {
+    "832d3b9f": {
       "_obj_class": "SpaceWidget",
       "size": [
         "number",
         4
       ]
     },
-    "bba38be3": {
+    "673555fb": {
       "_obj_class": "SpaceWidget",
       "size": [
         "number",
         1
       ]
     },
-    "004abbd5": {
+    "4aa50514": {
       "_obj_class": "BannerHeadlineWidget",
       "style": [
         "string",
@@ -731,7 +731,7 @@
       ],
       "headline": [
         "string",
-        "White Paper Download"
+        "Whitepaper-Download"
       ],
       "level": [
         "string",
@@ -742,7 +742,7 @@
         "primary"
       ]
     },
-    "202400ac": {
+    "db121751": {
       "_obj_class": "BannerHeadlineWidget",
       "style": [
         "string",
@@ -750,24 +750,24 @@
       ],
       "headline": [
         "string",
-        "Cutting-Edge Filling Lines"
+        "Hochmoderne Abfüllanlagen"
       ],
       "background_color": [
         "string",
         "white"
       ]
     },
-    "f84cd40d": {
+    "9d6ce3f4": {
       "_obj_class": "BannerHeadlineContainerWidget",
       "headlines": [
         "widgetlist",
         [
-          "004abbd5",
-          "202400ac"
+          "4aa50514",
+          "db121751"
         ]
       ]
     },
-    "8c0077c5": {
+    "73f8b9c1": {
       "_obj_class": "FormStepContainerWidget",
       "captcha_alignment": [
         "string",
@@ -791,25 +791,19 @@
       ],
       "failed_message": [
         "string",
-        "We are sorry, your request could not be completed. Please try again later."
+        "Es tut uns leid, Ihre Anfrage konnte nicht abgeschlossen werden. Bitte versuchen Sie es später erneut."
       ],
       "submitted_message": [
         "string",
-        "Thank you. Please check your mailbox. We have sent you a download link by e-mail."
+        "Vielen Dank. Bitte überprüfen Sie Ihren Posteingang. Wir haben Ihnen einen Downloadlink per E-Mail geschickt."
       ],
       "submitting_message": [
         "string",
-        "Submitting..."
+        "Wird übertragen..."
       ],
       "form_type": [
         "string",
         "single-step"
-      ],
-      "steps": [
-        "widgetlist",
-        [
-          "e093a4ed"
-        ]
       ],
       "forward_button_text": [
         "string",
@@ -821,7 +815,7 @@
       ],
       "submit_button_text": [
         "string",
-        "Send"
+        "Absenden"
       ],
       "review_button_text": [
         "string",
@@ -838,9 +832,15 @@
       "single_submit_button_alignment": [
         "string",
         "left"
+      ],
+      "steps": [
+        "widgetlist",
+        [
+          "7cd5e4d6"
+        ]
       ]
     },
-    "4e007fc5": {
+    "c7d1a187": {
       "_obj_class": "FormInputFieldWidget",
       "type": [
         "string",
@@ -848,11 +848,11 @@
       ],
       "label": [
         "string",
-        "First name"
+        "Vorname"
       ],
       "placeholder": [
         "string",
-        "Your first name"
+        "Ihr Vorname"
       ],
       "required": [
         "boolean",
@@ -867,7 +867,7 @@
         "custom_field_name"
       ]
     },
-    "42f742da": {
+    "81e477fd": {
       "_obj_class": "FormInputFieldWidget",
       "type": [
         "string",
@@ -875,11 +875,11 @@
       ],
       "label": [
         "string",
-        "Last name"
+        "Nachname"
       ],
       "placeholder": [
         "string",
-        "Your last name"
+        "Ihr Nachname"
       ],
       "required": [
         "boolean",
@@ -894,15 +894,15 @@
         "custom_field_name"
       ]
     },
-    "24ebb450": {
+    "6093a553": {
       "_obj_class": "FormInputFieldWidget",
       "label": [
         "string",
-        "Email"
+        "E-Mail"
       ],
       "placeholder": [
         "string",
-        "Your email address"
+        "Ihre E-Mail-Adresse"
       ],
       "type": [
         "string",
@@ -921,16 +921,8 @@
         "custom_field_name"
       ]
     },
-    "e093a4ed": {
+    "7cd5e4d6": {
       "_obj_class": "FormStepWidget",
-      "items": [
-        "widgetlist",
-        [
-          "8e79c89f",
-          "24ebb450",
-          "de5a743b"
-        ]
-      ],
       "step_number": [
         "number",
         1
@@ -938,23 +930,31 @@
       "is_single_step": [
         "boolean",
         true
-      ]
-    },
-    "8e79c89f": {
-      "_obj_class": "ColumnContainerWidget",
-      "columns": [
+      ],
+      "items": [
         "widgetlist",
         [
-          "101dc03b",
-          "148ce171"
+          "d6701af9",
+          "6093a553",
+          "5d8ec2fe"
         ]
-      ],
+      ]
+    },
+    "d6701af9": {
+      "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
         "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "c61897b4",
+          "f14411d9"
+        ]
       ]
     },
-    "101dc03b": {
+    "c61897b4": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -963,11 +963,11 @@
       "content": [
         "widgetlist",
         [
-          "4e007fc5"
+          "c7d1a187"
         ]
       ]
     },
-    "148ce171": {
+    "f14411d9": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -976,11 +976,11 @@
       "content": [
         "widgetlist",
         [
-          "42f742da"
+          "81e477fd"
         ]
       ]
     },
-    "de5a743b": {
+    "5d8ec2fe": {
       "_obj_class": "FormCheckboxWidget",
       "type": [
         "string",
@@ -992,10 +992,10 @@
       ],
       "label": [
         "string",
-        "Please subscribe me to the newsletter"
+        "Bitte melden Sie mich für Ihren Newsletter an"
       ]
     },
-    "bfecec1a": {
+    "3fdd5bb7": {
       "_obj_class": "IconWidget",
       "size": [
         "string",
@@ -1010,20 +1010,20 @@
         "bi-hourglass-split"
       ]
     },
-    "097dbf02": {
+    "6c75b1bf": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "bfecec1a"
-        ]
-      ],
       "col_size": [
         "number",
         2
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "3fdd5bb7"
+        ]
       ]
     },
-    "3bf5d236": {
+    "1657e33b": {
       "_obj_class": "HeadlineWidget",
       "style": [
         "string",
@@ -1035,10 +1035,10 @@
       ],
       "headline": [
         "string",
-        "30% Reduction in Downtime"
+        "30% Reduzierung der Stillstandszeiten"
       ]
     },
-    "b3e05adc": {
+    "6f5c74c7": {
       "_obj_class": "TextWidget",
       "alignment": [
         "string",
@@ -1046,38 +1046,38 @@
       ],
       "text": [
         "html",
-        "<p>Experience smoother operations with our reliable filling lines. With built-in predictive maintenance features and robust construction, you can reduce downtime by up to 30% and keep your production running at full throttle.</p>"
+        "<p>Erleben Sie reibungsarme Betriebsabläufe mit unseren zuverlässigen Abfüllanlagen. Mit integrierten Funktionen für die vorausschauende Wartung und der robusten Konstruktion können Sie die Stillstandszeiten um bis zu 30% reduzieren und Ihre Produktion auf Höchstleistung halten.</p>"
       ]
     },
-    "62b04825": {
+    "a9636ee7": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "3bf5d236",
-          "b3e05adc"
-        ]
-      ],
       "col_size": [
         "number",
         10
-      ]
-    },
-    "8bb94f31": {
-      "_obj_class": "ColumnContainerWidget",
-      "columns": [
+      ],
+      "content": [
         "widgetlist",
         [
-          "097dbf02",
-          "62b04825"
+          "1657e33b",
+          "6f5c74c7"
         ]
-      ],
+      ]
+    },
+    "e76af65a": {
+      "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
         "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "6c75b1bf",
+          "a9636ee7"
+        ]
       ]
     },
-    "187f9a3f": {
+    "75d189d1": {
       "_obj_class": "IconWidget",
       "icon": [
         "string",
@@ -1092,20 +1092,20 @@
         "center"
       ]
     },
-    "24411c3f": {
+    "75a18eeb": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "187f9a3f"
-        ]
-      ],
       "col_size": [
         "number",
         2
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "75d189d1"
+        ]
       ]
     },
-    "2a40ba87": {
+    "5e7fe31f": {
       "_obj_class": "HeadlineWidget",
       "alignment": [
         "string",
@@ -1121,10 +1121,10 @@
       ],
       "headline": [
         "string",
-        "ROI in Months, Not Years"
+        "ROI in Monaten, nicht Jahren"
       ]
     },
-    "261536b3": {
+    "eeb1f5ce": {
       "_obj_class": "TextWidget",
       "alignment": [
         "string",
@@ -1132,35 +1132,35 @@
       ],
       "text": [
         "html",
-        "<p>Invest in efficiency and watch your bottom line soar. With our filling lines, you'll see a rapid return on investment, with payback periods measured in months, not years. It's a smart investment that pays dividends for years to come.</p>"
+        "<p>Investieren Sie in Effizienz und beobachten Sie, wie Ihre Gewinnmargen steigen. Mit unseren Abfüllanlagen sehen Sie eine schnelle Amortisation der Investition, mit Payback-Zeiten, die in Monaten, nicht Jahren, gemessen werden. Es ist eine kluge Investition, die sich jahrelang auszahlt.</p>"
       ]
     },
-    "b6218d1d": {
+    "c1ede161": {
       "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "2a40ba87",
-          "261536b3"
-        ]
-      ],
       "col_size": [
         "number",
         10
-      ]
-    },
-    "279b2c37": {
-      "_obj_class": "ColumnContainerWidget",
-      "columns": [
+      ],
+      "content": [
         "widgetlist",
         [
-          "24411c3f",
-          "b6218d1d"
+          "5e7fe31f",
+          "eeb1f5ce"
         ]
-      ],
+      ]
+    },
+    "e2d2a37d": {
+      "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
         "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "75a18eeb",
+          "c1ede161"
+        ]
       ]
     }
   },
