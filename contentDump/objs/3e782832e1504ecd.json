@@ -11,6 +11,14 @@
       "77ea8f82"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "75f5feaca1004671",
   "_created_at": "20240405114223",
@@ -21,16 +29,16 @@
   "_first_published_at": "20240405121103",
   "_id": "3e782832e1504ecd",
   "_language": "de",
-  "_last_changed": "20240513123540",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/31f54bc713bc6050/3e782832e1504ecd",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "48411211": {
       "_obj_class": "DataLabelWidget",
@@ -50,13 +58,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "salesPartner"
-      ],
       "label": [
         "string",
         "Vertriebspartner"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "salesPartner",
+          "via_ref": "single"
+        }
       ]
     },
     "53054350": {
@@ -250,13 +262,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Order.number__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "9afb1502": {
@@ -277,10 +293,6 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "orderAt"
-      ],
       "label": [
         "string",
         "Bestellt am"
@@ -288,6 +300,14 @@
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "orderAt",
+          "via_ref": "single"
+        }
       ]
     },
     "71b4209c": {
@@ -295,10 +315,6 @@
       "margin_bottom": [
         "boolean",
         true
-      ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
       ],
       "show_as": [
         "string",
@@ -311,6 +327,14 @@
       "value_size": [
         "string",
         "h3"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "c6225845": {
@@ -335,9 +359,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "termsOfPayment"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "termsOfPayment",
+          "via_ref": "single"
+        }
       ]
     },
     "8064017a": {
@@ -371,10 +399,6 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "deliveryAt"
-      ],
       "label": [
         "string",
         "Lieferung am"
@@ -382,6 +406,14 @@
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "deliveryAt",
+          "via_ref": "single"
+        }
       ]
     },
     "862817eb": {
@@ -402,13 +434,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "termsOfDelivery"
-      ],
       "label": [
         "string",
         "Lieferbedingungen"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "termsOfDelivery",
+          "via_ref": "single"
+        }
       ]
     },
     "7f99df54": {
@@ -443,13 +479,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "type"
-      ],
       "label": [
         "string",
         "Bestelltyp"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "171387e9": {
@@ -470,13 +510,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "description"
-      ],
       "label": [
         "string",
         "Beschreibung"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "description",
+          "via_ref": "single"
+        }
       ]
     },
     "9bde2cc1": {
@@ -549,9 +593,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "cfd3683b": {
@@ -572,9 +620,13 @@
         "string",
         "Technischer Beauftragter"
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "8e4f839f": {
@@ -604,9 +656,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "dff97236": {
@@ -626,9 +682,13 @@
     },
     "5d6ef855": {
       "_obj_class": "DataAttachmentsWidget",
-      "attribute_name": [
-        "string",
-        "body"
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "body",
+          "via_ref": "single"
+        }
       ]
     },
     "d2686eb5": {
@@ -665,9 +725,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "ec3227f0": {
@@ -713,13 +777,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "3e913856": {
@@ -764,9 +832,13 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "single"
+        }
       ]
     },
     "4f022e71": {
@@ -775,9 +847,13 @@
         "string",
         "Attachments"
       ],
-      "attribute_name": [
-        "string",
-        "Anhänge"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "Anhänge",
+          "via_ref": "single"
+        }
       ]
     },
     "2c73ff3b": {
@@ -887,9 +963,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "some_not_existing_attribute"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "some_not_existing_attribute",
+          "via_ref": "single"
+        }
       ]
     },
     "132cb282": {
@@ -910,9 +990,13 @@
         "string",
         "Technischer Beauftragter"
       ],
-      "attribute_name": [
-        "string",
-        "some_not_existing_attribute"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "some_not_existing_attribute",
+          "via_ref": "single"
+        }
       ]
     },
     "bf40612b": {

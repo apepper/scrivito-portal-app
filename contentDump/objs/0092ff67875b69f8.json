@@ -8,10 +8,18 @@
     "widgetlist",
     [
       "be0cc32c",
-      "82283333",
+      "2869d28b",
       "7317e9a1",
       "b4c42e17"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "0092ff67875b69f8",
@@ -23,16 +31,16 @@
   "_first_published_at": "20230626113100",
   "_id": "0092ff67875b69f8",
   "_language": "en",
-  "_last_changed": "20240529105104",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/f7da3de531e46fe9/c8e3f4867be41a12",
   "_permalink": null,
-  "_published_at": "20240529122919",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "2024052912291900000000000000000e4a64d6aaae8da2",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "30855209": {
       "_obj_class": "DataWidget",
@@ -54,35 +62,6 @@
       "submitted_message": [
         "string",
         "Thank you for your order! We will process your request as quickly as possible."
-      ]
-    },
-    "82283333": {
-      "_obj_class": "DataGroupWidget",
-      "data": [
-        "datalocator",
-        {
-          "class": "Quote",
-          "query": [
-            {
-              "field": "_id",
-              "value_via": {
-                "class": "Quote",
-                "field": "_id"
-              }
-            },
-            {
-              "field": "open",
-              "value": "true"
-            }
-          ],
-          "size": 1
-        }
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "5aa2670a"
-        ]
       ]
     },
     "69a40350": {
@@ -151,13 +130,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Quote.number__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "fe010420": {
@@ -189,9 +172,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "termsOfPayment"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "termsOfPayment",
+          "via_ref": "single"
+        }
       ]
     },
     "7462570a": {
@@ -213,10 +200,6 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
-      ],
       "show_as": [
         "string",
         "currency"
@@ -228,6 +211,14 @@
       "value_size": [
         "string",
         "h3"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "1232c1aa": {
@@ -302,9 +293,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "8473e9ab": {
@@ -362,13 +357,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "deliveryAt"
-      ],
       "label": [
         "string",
         "Delivery At"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "deliveryAt",
+          "via_ref": "single"
+        }
       ]
     },
     "cecaa01b": {
@@ -389,13 +388,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "termsOfDelivery"
-      ],
       "label": [
         "string",
         "Terms of Delivery"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "termsOfDelivery",
+          "via_ref": "single"
+        }
       ]
     },
     "b05b0ce0": {
@@ -431,13 +434,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "type"
-      ],
       "label": [
         "string",
         "Quote Type"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "5c30e661": {
@@ -458,13 +465,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "description"
-      ],
       "label": [
         "string",
         "Description"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "description",
+          "via_ref": "single"
+        }
       ]
     },
     "3fdc1d7e": {
@@ -499,9 +510,13 @@
         "string",
         "Technical Agent"
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "fb1b7e2b": {
@@ -531,13 +546,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "salesPartner"
-      ],
       "label": [
         "string",
         "Sales Partner"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "salesPartner",
+          "via_ref": "single"
+        }
       ]
     },
     "e3701236": {
@@ -587,13 +606,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "validUntil"
-      ],
       "label": [
         "string",
         "Valid Until"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "validUntil",
+          "via_ref": "single"
+        }
       ]
     },
     "4cdbc448": {
@@ -614,9 +637,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "fc668314": {
@@ -637,10 +664,6 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "quoteAt"
-      ],
       "label": [
         "string",
         "Created At"
@@ -648,6 +671,14 @@
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "quoteAt",
+          "via_ref": "single"
+        }
       ]
     },
     "7c739d48": {
@@ -661,9 +692,13 @@
     },
     "4a928575": {
       "_obj_class": "DataAttachmentsWidget",
-      "attribute_name": [
-        "string",
-        "body"
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "body",
+          "via_ref": "single"
+        }
       ]
     },
     "97dc3c14": {
@@ -706,9 +741,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "38c64537": {
@@ -745,13 +784,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "74a9ef08": {
@@ -796,9 +839,13 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "single"
+        }
       ]
     },
     "4880bc0d": {
@@ -807,9 +854,13 @@
         "string",
         "Attachments"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "attachments",
+          "via_ref": "single"
+        }
       ]
     },
     "64ddbc05": {
@@ -919,9 +970,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "some_not_existing_attribute"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "some_not_existing_attribute",
+          "via_ref": "single"
+        }
       ]
     },
     "3f66089b": {
@@ -942,9 +997,13 @@
         "string",
         "Technical Agent"
       ],
-      "attribute_name": [
-        "string",
-        "some_not_existing_attribute"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "some_not_existing_attribute",
+          "via_ref": "single"
+        }
       ]
     },
     "7020cb03": {
@@ -1171,15 +1230,6 @@
         1
       ]
     },
-    "5aa2670a": {
-      "_obj_class": "DataWidget",
-      "content": [
-        "widgetlist",
-        [
-          "2869d28b"
-        ]
-      ]
-    },
     "5067ec1a": {
       "_obj_class": "DataFormSubmitButtonWidget",
       "submit_title": [
@@ -1257,6 +1307,6 @@
   },
   "_created_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
   "_first_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
-  "_last_changed_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_last_changed_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
   "_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71"
 }

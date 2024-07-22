@@ -29,6 +29,14 @@
     "string",
     "bi-calendar4-event"
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "fb302b23c46fea41",
   "_created_at": "20240307093302",
@@ -37,16 +45,16 @@
   "_first_published_at": "20240318105630",
   "_id": "fb302b23c46fea41",
   "_language": "en",
-  "_last_changed": "20240513123221",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/7516c8021fa03851",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "30cd044b": {
       "_obj_class": "DataWidget",
@@ -99,10 +107,6 @@
         "string",
         "h5"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Event.number__"
@@ -110,6 +114,14 @@
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "83158e79": {
@@ -122,10 +134,6 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "beginsAt"
-      ],
       "margin_bottom": [
         "boolean",
         true
@@ -137,6 +145,14 @@
       "datetime_format": [
         "string",
         "date"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "beginsAt",
+          "via_ref": "single"
+        }
       ]
     },
     "e4b3a6e1": {
@@ -153,24 +169,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
-      ]
-    },
-    "066abadb": {
-      "_obj_class": "ImageWidget",
-      "alignment": [
-        "string",
-        "left"
-      ],
-      "image_from_data_item": [
-        "boolean",
-        true
-      ],
-      "attribute_name": [
-        "string",
-        "logo"
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "75788a2b": {
@@ -187,9 +192,13 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "location"
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "location",
+          "via_ref": "single"
+        }
       ]
     },
     "e38f27f0": {
@@ -236,7 +245,7 @@
       "content": [
         "widgetlist",
         [
-          "066abadb"
+          "101c5cc1"
         ]
       ]
     },
@@ -387,6 +396,21 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "101c5cc1": {
+      "_obj_class": "DataImageWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "logo",
+          "via_ref": "single"
+        }
       ]
     }
   },

@@ -12,6 +12,14 @@
       "6cb333ad"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "fec151165aeb27da",
   "_created_at": "20230516091658",
@@ -20,14 +28,14 @@
   "_first_published_at": "20230516091834",
   "_id": "fec151165aeb27da",
   "_language": "en",
-  "_last_changed": "20240506100958",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/3cc07265490102de",
   "_permalink": null,
-  "_published_at": "20240506101501",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "20240506101501000000000000000062505874729738c7",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "74168031": {
       "_obj_class": "HeadlineWidget",
@@ -600,7 +608,7 @@
       ],
       "headline": [
         "string",
-        "Hannover Industry Exibition 2024"
+        "Hannover Industry Exhibition 2024"
       ]
     },
     "804588a6": {

@@ -15,6 +15,10 @@
     "boolean",
     true
   ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "b084080e1fd4de8c",
   "_created_at": "20240412121359",
@@ -23,14 +27,14 @@
   "_first_published_at": "20240415084452",
   "_id": "b084080e1fd4de8c",
   "_language": "en",
-  "_last_changed": "20240415084407",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/046cc19cf0f87d9d/1e241bae572507e8/b084080e1fd4de8c",
   "_permalink": null,
-  "_published_at": "20240415084452",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "2024041508445200000000000000005193e75a86a5011c",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "c9c01ac8": {
       "_obj_class": "DataFormInputFieldWidget",
@@ -223,10 +227,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "product"
-      ],
       "details": [
         "string",
         "__ServiceObject.number__\n__ServiceObject.information__"
@@ -238,6 +238,14 @@
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "product",
+          "via_ref": "single"
+        }
       ]
     }
   },

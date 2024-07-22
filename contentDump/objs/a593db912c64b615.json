@@ -13,6 +13,14 @@
       "1c4e5f0d"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "e7118807488a6364",
   "_created_at": "20240405114051",
@@ -23,16 +31,16 @@
   "_first_published_at": "20240405121103",
   "_id": "a593db912c64b615",
   "_language": "de",
-  "_last_changed": "20240426093421",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/b85ac625f1ab9db3/a593db912c64b615",
   "_permalink": null,
-  "_published_at": "20240426093932",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024042609393200000000000000003405ac05de87887e",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "c30d0694": {
       "_obj_class": "DataLabelWidget",
@@ -48,13 +56,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "0b7419b2": {
@@ -71,13 +83,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "0b65bd49": {
@@ -244,9 +260,13 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "single"
+        }
       ]
     },
     "737382a9": {
@@ -263,9 +283,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "227f6cac": {
@@ -291,9 +315,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "f2ce6581": {
@@ -326,9 +354,13 @@
         "string",
         "Anhänge"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "attachments",
+          "via_ref": "single"
+        }
       ]
     },
     "6d0dfafe": {
@@ -345,13 +377,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "details": [
         "string",
         "__Ticket.number__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "title",
+          "via_ref": "single"
+        }
       ]
     },
     "61691bd3": {
@@ -394,13 +430,17 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "status"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "34029f8a": {
@@ -417,10 +457,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "referenceNumber"
-      ],
       "show_as": [
         "string",
         "text"
@@ -428,6 +464,14 @@
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "referenceNumber",
+          "via_ref": "single"
+        }
       ]
     },
     "15966dc1": {
@@ -444,9 +488,13 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "0d13c3cd": {
@@ -523,9 +571,13 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "description"
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "description",
+          "via_ref": "single"
+        }
       ]
     },
     "018a02dd": {
@@ -534,9 +586,13 @@
         "string",
         "Anhänge"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "attachments",
+          "via_ref": "single"
+        }
       ]
     },
     "0402927a": {
@@ -783,10 +839,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "product"
-      ],
       "details": [
         "string",
         "__ServiceObject.number__\n__ServiceObject.information__"
@@ -794,6 +846,14 @@
       "label": [
         "string",
         "Betroffene Ausrüstung"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "product",
+          "via_ref": "single"
+        }
       ]
     },
     "88a8b1d5": {
@@ -840,13 +900,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "installedAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "installedAt",
+          "via_ref": "single"
+        }
       ]
     },
     "953a259b": {
@@ -876,9 +940,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "36242a4b": {
@@ -959,13 +1027,17 @@
         "string",
         "bi-2x"
       ],
-      "attribute_name": [
-        "string",
-        "type"
-      ],
       "label": [
         "string",
         "Type"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "8244bb91": {

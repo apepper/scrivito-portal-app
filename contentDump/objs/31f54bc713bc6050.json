@@ -10,7 +10,7 @@
   ],
   "meta_data_description": [
     "string",
-    "Verwalten Sie Ihre vergangenen Bestellungen bei Tynacoon ganz einfach. Erhalten Sie detaillierte Informationen zu jeder Bestellung, wie ID, Datum, Zahlungsmethode und Gesamtpreis. Greifen Sie schnell auf Ihre Bestellhistorie zu."
+    "Behalten Sie den Überblick über Ihre Tynacoon-Bestellungen: IDs, Daten, Zahlungen und Preise einsehen. Einfacher Zugriff auf Ihre Bestellhistorie."
   ],
   "data": [
     "datalocator",
@@ -34,12 +34,21 @@
   "body": [
     "widgetlist",
     [
+      "f3518e3b",
       "6dd1ab80",
       "f255cb92",
       "e3a0118d",
       "8ee2c00a",
       "cc7aa23a"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "02d09ad2dd7d2332",
@@ -49,16 +58,16 @@
   "_first_published_at": "20240405121103",
   "_id": "31f54bc713bc6050",
   "_language": "de",
-  "_last_changed": "20240513123521",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/31f54bc713bc6050",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "6dd1ab80": {
       "_obj_class": "DataWidget",
@@ -213,10 +222,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Order.number__"
@@ -224,6 +229,14 @@
       "label": [
         "string",
         "Bestellung"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "21d15970": {
@@ -244,13 +257,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "orderAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "orderAt",
+          "via_ref": "single"
+        }
       ]
     },
     "c8de0d6f": {
@@ -267,9 +284,13 @@
         "string",
         "h4"
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "19453d31": {
@@ -293,9 +314,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "2880b8be": {
@@ -368,6 +393,21 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "f3518e3b": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Nach Bestellung suchen"
       ]
     }
   },

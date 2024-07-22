@@ -8,8 +8,17 @@
     "widgetlist",
     [
       "509cd1b9",
-      "cd6f32a5"
+      "9026037d",
+      "972e27ad"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "9a601c5b409e510d",
@@ -21,30 +30,30 @@
   "_first_published_at": "20240318105630",
   "_id": "9a601c5b409e510d",
   "_language": "en",
-  "_last_changed": "20240418082946",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/7516c8021fa03851/ebabde125c44e563",
   "_permalink": null,
-  "_published_at": "20240418085825",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "2024041808582500000000000000009438266ab389ba45",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
-    "e876800c": {
-      "_obj_class": "ImageWidget",
+    "34156763": {
+      "_obj_class": "DataImageWidget",
       "alignment": [
         "string",
         "left"
       ],
-      "image_from_data_item": [
-        "boolean",
-        true
-      ],
-      "attribute_name": [
-        "string",
-        "logo"
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "logo",
+          "via_ref": "single"
+        }
       ]
     },
     "5d6e5487": {
@@ -57,13 +66,17 @@
         "string",
         "h3"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Event.number__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "56b35228": {
@@ -80,13 +93,17 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "location"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "location",
+          "via_ref": "single"
+        }
       ]
     },
     "139ffba0": {
@@ -103,13 +120,17 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "status"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "f08762ab": {
@@ -126,13 +147,17 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "language"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "language",
+          "via_ref": "single"
+        }
       ]
     },
     "0c3bb1de": {
@@ -149,13 +174,17 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "attendanceFee"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "attendanceFee",
+          "via_ref": "single"
+        }
       ]
     },
     "fc53c80f": {
@@ -172,13 +201,17 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "organizer"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "organizer",
+          "via_ref": "single"
+        }
       ]
     },
     "303bd277": {
@@ -195,13 +228,17 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "url"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "url",
+          "via_ref": "single"
+        }
       ]
     },
     "02c38d9d": {
@@ -218,10 +255,6 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "beginsAt"
-      ],
       "margin_bottom": [
         "boolean",
         true
@@ -229,6 +262,14 @@
       "datetime_format": [
         "string",
         "datetime"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "beginsAt",
+          "via_ref": "single"
+        }
       ]
     },
     "505f8cc5": {
@@ -236,10 +277,6 @@
       "value_size": [
         "string",
         "body-font-size"
-      ],
-      "attribute_name": [
-        "string",
-        "endsAt"
       ],
       "show_as": [
         "string",
@@ -256,58 +293,14 @@
       "datetime_format": [
         "string",
         "datetime"
-      ]
-    },
-    "4b453b51": {
-      "_obj_class": "DataGroupWidget",
+      ],
       "data": [
         "datalocator",
         {
-          "class": "User",
-          "query": [
-            {
-              "field": "_id",
-              "value_via": {
-                "class": "Event",
-                "field": "responsibleAgent"
-              }
-            }
-          ]
+          "class": "Event",
+          "field": "endsAt",
+          "via_ref": "single"
         }
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "15fca0f7"
-        ]
-      ]
-    },
-    "15fca0f7": {
-      "_obj_class": "DataWidget",
-      "content": [
-        "widgetlist",
-        [
-          "1165f140"
-        ]
-      ]
-    },
-    "1165f140": {
-      "_obj_class": "ImageWidget",
-      "alignment": [
-        "string",
-        "left"
-      ],
-      "attribute_name": [
-        "string",
-        "image"
-      ],
-      "image_from_data_item": [
-        "boolean",
-        true
-      ],
-      "round_corners": [
-        "boolean",
-        true
       ]
     },
     "cb347e5a": {
@@ -368,7 +361,7 @@
       "content": [
         "widgetlist",
         [
-          "e876800c"
+          "34156763"
         ]
       ]
     },
@@ -427,7 +420,7 @@
       "content": [
         "widgetlist",
         [
-          "4b453b51"
+          "dce4528e"
         ]
       ]
     },
@@ -440,7 +433,8 @@
       "content": [
         "widgetlist",
         [
-          "9026037d"
+          "a77932e9",
+          "e770cfb7"
         ]
       ]
     },
@@ -458,9 +452,13 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "e770cfb7": {
@@ -477,9 +475,13 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "position"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "position",
+          "via_ref": "single"
+        }
       ]
     },
     "8d907da7": {
@@ -487,8 +489,7 @@
       "content": [
         "widgetlist",
         [
-          "a77932e9",
-          "e770cfb7"
+          "cd6f32a5"
         ]
       ]
     },
@@ -576,7 +577,7 @@
       ],
       "submitted_message": [
         "string",
-        "Attendance confirmed."
+        "Attendance confirmed"
       ]
     },
     "8b84d8f0": {
@@ -633,7 +634,7 @@
       ],
       "deleted_message": [
         "string",
-        "Attendance canceled."
+        "Attendance canceled"
       ],
       "title": [
         "string",
@@ -646,6 +647,164 @@
       "confirm_title": [
         "string",
         "Yes, Cancel My Attendance"
+      ]
+    },
+    "dce4528e": {
+      "_obj_class": "DataImageWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "image",
+          "via_ref": "single"
+        }
+      ],
+      "round_corners": [
+        "boolean",
+        true
+      ]
+    },
+    "e21c0199": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "Downloads"
+      ],
+      "style": [
+        "string",
+        "h5"
+      ]
+    },
+    "6d7aeff6": {
+      "_obj_class": "DataAttachmentsWidget",
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "body",
+          "via_ref": "single"
+        }
+      ]
+    },
+    "083fd50e": {
+      "_obj_class": "DataWidget",
+      "content": [
+        "widgetlist",
+        [
+          "6d7aeff6"
+        ]
+      ]
+    },
+    "24b0dc83": {
+      "_obj_class": "DataGroupWidget",
+      "content": [
+        "widgetlist",
+        [
+          "083fd50e"
+        ]
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "query": [
+            {
+              "field": "_id",
+              "value_via": {
+                "class": "EventDocument",
+                "field": "documentId"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "737f5cbf": {
+      "_obj_class": "DataColumnListWidget",
+      "content": [
+        "widgetlist",
+        [
+          "24b0dc83"
+        ]
+      ],
+      "columns_count": [
+        "string",
+        "4"
+      ]
+    },
+    "8b3d61de": {
+      "_obj_class": "DataGroupWidget",
+      "data": [
+        "datalocator",
+        {
+          "class": "EventDocument",
+          "query": [
+            {
+              "field": "eventId",
+              "value_via": {
+                "class": "Event",
+                "field": "_id"
+              }
+            }
+          ]
+        }
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "737f5cbf",
+          "a3b637c2"
+        ]
+      ]
+    },
+    "972e27ad": {
+      "_obj_class": "CardWidget",
+      "background_color": [
+        "string",
+        "white"
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
+      ],
+      "card_body": [
+        "widgetlist",
+        [
+          "e21c0199",
+          "8b3d61de"
+        ]
+      ]
+    },
+    "a3b637c2": {
+      "_obj_class": "DataEmptyWidget",
+      "content": [
+        "widgetlist",
+        [
+          "8fc56747"
+        ]
+      ]
+    },
+    "8fc56747": {
+      "_obj_class": "TextWidget",
+      "text": [
+        "html",
+        "<p>No downloads found.</p>"
+      ],
+      "alignment": [
+        "string",
+        "left"
       ]
     }
   },

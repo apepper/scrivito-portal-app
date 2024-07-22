@@ -11,6 +11,7 @@
   "body": [
     "widgetlist",
     [
+      "09ea403d",
       "7a835890",
       "f6c36068",
       "4516000e",
@@ -20,7 +21,7 @@
   ],
   "meta_data_description": [
     "string",
-    "Effortlessly manage your quotes with us at Tynacoon! View detailed information about each quote such as ID, quote date, current status, and total price. Quickly access your complete quote history."
+    "Easily organize your quotes with Tynacoon! Access detailed info like ID, date, status, and total price. View your complete quote history in seconds."
   ],
   "data": [
     "datalocator",
@@ -41,6 +42,14 @@
       "size": 10
     }
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "f7da3de531e46fe9",
   "_created_at": "20230626084910",
@@ -49,16 +58,16 @@
   "_first_published_at": "20230626113100",
   "_id": "f7da3de531e46fe9",
   "_language": "en",
-  "_last_changed": "20240513123257",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/f7da3de531e46fe9",
   "_permalink": "quotes",
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "39707421": {
       "_obj_class": "ColumnWidget",
@@ -213,10 +222,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Quote.number__"
@@ -224,6 +229,14 @@
       "label": [
         "string",
         "Quote"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "ac8fbec9": {
@@ -244,13 +257,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "quoteAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "quoteAt",
+          "via_ref": "single"
+        }
       ]
     },
     "4fb4b95d": {
@@ -267,9 +284,13 @@
         "string",
         "h4"
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "2f0790e1": {
@@ -286,9 +307,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "2ca69985": {
@@ -368,6 +393,21 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "09ea403d": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Search for quote"
       ]
     }
   },

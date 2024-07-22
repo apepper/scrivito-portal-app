@@ -23,6 +23,14 @@
       "b977834e"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "e8f5370d6569478a",
   "_created_at": "20240307162236",
@@ -31,16 +39,16 @@
   "_first_published_at": "20240318105701",
   "_id": "e8f5370d6569478a",
   "_language": "en",
-  "_last_changed": "20240513123207",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/4df09188b1541b70/e8f5370d6569478a",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "25d8b24d": {
       "_obj_class": "DataWidget",
@@ -129,13 +137,17 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "name"
-      ],
       "details": [
         "string",
         "__Gdpr.description__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Gdpr",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "9604d60e": {

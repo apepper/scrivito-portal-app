@@ -10,7 +10,7 @@
   ],
   "meta_data_description": [
     "string",
-    "Verwalten Sie Ihre Angebote mühelos bei uns auf Tynacoon! Sehen Sie detaillierte Informationen über jedes Angebot wie ID, Angebotsdatum, aktuellen Status und Gesamtpreis ein. Greifen Sie schnell auf Ihre komplette Angebots-Historie zu."
+    "Verwalten Sie Ihre Angebote effizient auf Tynacoon! Sehen Sie alle Details wie ID, Datum, Status und Preis ein, inklusive vollständiger Historie."
   ],
   "data": [
     "datalocator",
@@ -34,12 +34,21 @@
   "body": [
     "widgetlist",
     [
+      "f81cfa07",
       "584cb3f6",
       "3d538b32",
       "a02ca071",
       "55f4bc65",
       "732671c9"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "f7da3de531e46fe9",
@@ -49,16 +58,16 @@
   "_first_published_at": "20240405121103",
   "_id": "f16dc0fbeddfaa9f",
   "_language": "de",
-  "_last_changed": "20240513123516",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/f16dc0fbeddfaa9f",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "94402649": {
       "_obj_class": "DataLabelWidget",
@@ -74,10 +83,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Quote.number__"
@@ -85,6 +90,14 @@
       "label": [
         "string",
         "Angebot"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "584cb3f6": {
@@ -244,13 +257,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "quoteAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "quoteAt",
+          "via_ref": "single"
+        }
       ]
     },
     "98050bf5": {
@@ -267,9 +284,13 @@
         "string",
         "h4"
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "3829e760": {
@@ -286,9 +307,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "bd59fd8d": {
@@ -368,6 +393,21 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "f81cfa07": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Nach Angebot suchen"
       ]
     }
   },

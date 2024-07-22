@@ -47,6 +47,14 @@
     "string",
     "Efficient Fluid Filtration"
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "8252c6d5cff8c608",
   "_created_at": "20230824120655",
@@ -55,14 +63,14 @@
   "_first_published_at": "20230831080316",
   "_id": "8252c6d5cff8c608",
   "_language": "en",
-  "_last_changed": "20240412073557",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/587d96465c3c69c4/fa725f0b47fdc408/a16aa5b4498271f8",
   "_permalink": null,
-  "_published_at": "20240412095207",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "202404120952070000000000000000fb8857982a6a720f",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "569c14a0": {
       "_obj_class": "ProductParameterWidget",

@@ -17,6 +17,14 @@
       "f1872f13"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "f909e9691db27360",
   "_created_at": "20240405114044",
@@ -25,16 +33,16 @@
   "_first_published_at": "20240405121103",
   "_id": "29580917605abc9c",
   "_language": "de",
-  "_last_changed": "20240418084058",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/b85ac625f1ab9db3/29580917605abc9c",
   "_permalink": null,
-  "_published_at": "20240418085825",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024041808582500000000000000009438266ab389ba45",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "dfc9e2eb": {
       "_obj_class": "DataFormContainerWidget",

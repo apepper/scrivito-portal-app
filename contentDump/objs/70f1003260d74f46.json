@@ -18,6 +18,10 @@
     "boolean",
     true
   ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "70f1003260d74f46",
   "_created_at": "20231129091315",
@@ -26,14 +30,14 @@
   "_first_published_at": "20231211111224",
   "_id": "70f1003260d74f46",
   "_language": "en",
-  "_last_changed": "20240508202516",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/daa7010ab323b083",
   "_permalink": "search-results",
-  "_published_at": "20240513081012",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "20240513081012000000000000000074834ca43f96a79d",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "ddcc5167": {
       "_obj_class": "SearchResultsWidget",

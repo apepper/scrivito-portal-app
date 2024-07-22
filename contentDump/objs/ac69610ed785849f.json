@@ -10,6 +10,14 @@
       "a4a81571"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "8d6e2ff3001b9a03",
   "_created_at": "20240405114010",
@@ -20,16 +28,16 @@
   "_first_published_at": "20240405121103",
   "_id": "ac69610ed785849f",
   "_language": "de",
-  "_last_changed": "20240418084203",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/5ea4d48ed6e829a7/ac69610ed785849f",
   "_permalink": null,
-  "_published_at": "20240418085825",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024041808582500000000000000009438266ab389ba45",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "43794171": {
       "_obj_class": "ColumnWidget",
@@ -78,10 +86,6 @@
         "string",
         "h3"
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "details": [
         "string",
         "__Document.number__"
@@ -89,6 +93,14 @@
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "title",
+          "via_ref": "single"
+        }
       ]
     },
     "2eaaa9ab": {
@@ -125,10 +137,6 @@
         "string",
         "text"
       ],
-      "attribute_name": [
-        "string",
-        "language"
-      ],
       "label": [
         "string",
         "Sprache"
@@ -140,14 +148,18 @@
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "language",
+          "via_ref": "single"
+        }
       ]
     },
     "67a01198": {
       "_obj_class": "DataLabelWidget",
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "show_as": [
         "string",
         "datetime"
@@ -167,6 +179,14 @@
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "7383900a": {
@@ -183,24 +203,32 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "type"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "bdf34faa": {
       "_obj_class": "DataAttachmentsWidget",
-      "attribute_name": [
-        "string",
-        "body"
-      ],
       "label": [
         "string",
         "Datei"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "body",
+          "via_ref": "single"
+        }
       ]
     },
     "e918afad": {
@@ -213,10 +241,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "version"
-      ],
       "label": [
         "string",
         "Version"
@@ -224,6 +248,14 @@
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "version",
+          "via_ref": "single"
+        }
       ]
     }
   },

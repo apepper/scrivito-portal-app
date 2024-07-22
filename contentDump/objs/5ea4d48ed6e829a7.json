@@ -24,10 +24,19 @@
   "body": [
     "widgetlist",
     [
+      "33729477",
       "3102b264",
       "f43ba8ef",
       "097daacb"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "78d1e6ccd971faf3",
@@ -37,16 +46,16 @@
   "_first_published_at": "20240405121103",
   "_id": "5ea4d48ed6e829a7",
   "_language": "de",
-  "_last_changed": "20240513123527",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/5ea4d48ed6e829a7",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "11245646": {
       "_obj_class": "DataLabelWidget",
@@ -58,10 +67,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "details": [
         "string",
         "__Document.number__"
@@ -69,6 +74,29 @@
       "label": [
         "string",
         "Dokument"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "title",
+          "via_ref": "single"
+        }
+      ]
+    },
+    "33729477": {
+      "_obj_class": "DataSearchWidget",
+      "placeholder": [
+        "string",
+        "Nach Dokument suchen"
+      ],
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
       ]
     },
     "3102b264": {
@@ -183,13 +211,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "c4dd12d1": {
@@ -206,9 +238,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "language"
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "language",
+          "via_ref": "single"
+        }
       ]
     },
     "2df037c3": {
@@ -258,9 +294,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "type"
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "3ab5cf9a": {
@@ -277,10 +317,6 @@
         "string",
         "bi-3x"
       ],
-      "attribute_name": [
-        "string",
-        "format"
-      ],
       "conditions": [
         "widgetlist",
         [
@@ -291,6 +327,14 @@
           "6e2c1818",
           "d2aa9a4c"
         ]
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "format",
+          "via_ref": "single"
+        }
       ]
     },
     "120e7fa1": {

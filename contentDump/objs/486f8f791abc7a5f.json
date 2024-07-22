@@ -22,6 +22,10 @@
         {
           "field": "isCustomer",
           "value": "true"
+        },
+        {
+          "field": "parentId",
+          "value": "null"
         }
       ],
       "size": 10
@@ -30,10 +34,19 @@
   "body": [
     "widgetlist",
     [
+      "4d6efd7d",
       "0df0fe53",
       "5d12cae5",
       "cae4899a"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "046cc19cf0f87d9d",
@@ -43,16 +56,16 @@
   "_first_published_at": "20240405121103",
   "_id": "486f8f791abc7a5f",
   "_language": "de",
-  "_last_changed": "20240513123438",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/486f8f791abc7a5f",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "23550928": {
       "_obj_class": "TextWidget",
@@ -127,7 +140,7 @@
       "content": [
         "widgetlist",
         [
-          "f0dd3c01"
+          "a755585d"
         ]
       ]
     },
@@ -218,10 +231,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "product"
-      ],
       "details": [
         "string",
         "__ServiceObject.number__\n__ServiceObject.information__"
@@ -229,6 +238,14 @@
       "label": [
         "string",
         "Ausrüstungsgegenstand"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "product",
+          "via_ref": "single"
+        }
       ]
     },
     "2fcc7c20": {
@@ -249,13 +266,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "installedAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "installedAt",
+          "via_ref": "single"
+        }
       ]
     },
     "1cdd788f": {
@@ -279,9 +300,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "cae4899a": {
@@ -291,25 +316,6 @@
         [
           "23550928"
         ]
-      ]
-    },
-    "f0dd3c01": {
-      "_obj_class": "ImageWidget",
-      "alignment": [
-        "string",
-        "center"
-      ],
-      "image_from_data_item": [
-        "boolean",
-        true
-      ],
-      "attribute_name": [
-        "string",
-        "picture"
-      ],
-      "round_corners": [
-        "boolean",
-        true
       ]
     },
     "5d12cae5": {
@@ -329,6 +335,40 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "a755585d": {
+      "_obj_class": "DataImageWidget",
+      "alignment": [
+        "string",
+        "center"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "picture",
+          "via_ref": "single"
+        }
+      ],
+      "round_corners": [
+        "boolean",
+        true
+      ]
+    },
+    "4d6efd7d": {
+      "_obj_class": "DataSearchWidget",
+      "placeholder": [
+        "string",
+        "Nach Ausrüstungsgegenstand suchen"
+      ],
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
       ]
     }
   },

@@ -11,6 +11,14 @@
       "762cc117"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "d9d4a49fab05294e",
   "_created_at": "20240405095742",
@@ -19,14 +27,14 @@
   "_first_published_at": "20240405121103",
   "_id": "e6f438cec91e8b70",
   "_language": "de",
-  "_last_changed": "20240514072414",
+  "_last_changed": "20240716130559",
   "_modification": null,
   "_path": "/1f555d6a877a7662/e6f438cec91e8b70",
   "_permalink": null,
-  "_published_at": "20240514080213",
+  "_published_at": "20240716130846",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024051408021300000000000000004022c6aa2c64cc9c",
+  "_version": "202407161308460000000000000000a0e36a9ca1025732",
   "_widget_pool": {
     "1b95ac02": {
       "_obj_class": "SectionWidget",
@@ -84,7 +92,7 @@
       ],
       "headline": [
         "string",
-        "EXPO 2024"
+        "GLOBE Expo"
       ],
       "alignment": [
         "string",
@@ -99,7 +107,7 @@
       ],
       "text": [
         "html",
-        "<p>Produkte und vieles mehr</p>"
+        "<p>Thema: „Fill Your Future with Efficiency“</p>"
       ]
     },
     "caefe36b": {
@@ -112,7 +120,7 @@
         "link",
         {
           "fragment": null,
-          "obj_id": "bdbb81709c5e1c63",
+          "obj_id": "a95b99e0c7614110",
           "query": null,
           "target": null,
           "title": "Tickets buchen",
@@ -130,10 +138,6 @@
     },
     "179421f9": {
       "_obj_class": "CardWidget",
-      "background_animate_on_hover": [
-        "boolean",
-        true
-      ],
       "background_color": [
         "string",
         "white"
@@ -163,7 +167,7 @@
       ],
       "headline": [
         "string",
-        "Hannover Messe 2024"
+        "Hannover Messe"
       ]
     },
     "0cba35ee": {
@@ -174,7 +178,7 @@
       ],
       "text": [
         "html",
-        "<p>Produkte und vieles mehr</p>"
+        "<p>Neues bei Tynacoon-Abfüllanlagen</p>"
       ]
     },
     "45e3679a": {
@@ -187,7 +191,7 @@
         "link",
         {
           "fragment": null,
-          "obj_id": "bdbb81709c5e1c63",
+          "obj_id": "9dd6d1b926a6bbc6",
           "query": null,
           "target": null,
           "title": "Tickets buchen",
@@ -205,10 +209,6 @@
     },
     "364af88a": {
       "_obj_class": "CardWidget",
-      "background_animate_on_hover": [
-        "boolean",
-        true
-      ],
       "background_image": [
         "reference",
         "14c0a6ebac3c6e7b"
@@ -557,7 +557,7 @@
       "_obj_class": "CardWidget",
       "background_color": [
         "string",
-        "white"
+        "light-grey"
       ],
       "padding": [
         "string",

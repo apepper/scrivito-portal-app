@@ -49,6 +49,14 @@
       "074bc79a"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "70774feb6aba40dc",
   "_created_at": "20240405112821",
@@ -57,14 +65,14 @@
   "_first_published_at": "20240405121103",
   "_id": "dae0df2517e9f6c6",
   "_language": "de",
-  "_last_changed": "20240506091812",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/ed043d1606eaf539/2e9f2e07aeab717e/dae0df2517e9f6c6",
   "_permalink": null,
-  "_published_at": "20240506101501",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "20240506101501000000000000000062505874729738c7",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "1067da5a": {
       "_obj_class": "TextWidget",

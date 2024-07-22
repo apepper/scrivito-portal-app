@@ -30,12 +30,21 @@
   "body": [
     "widgetlist",
     [
+      "0f9bcfaa",
       "145e7c13",
       "3b1363c0",
       "239fe3f1",
       "1c87ea85",
       "ad5ba362"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "ec9a22125e28ddcc",
@@ -45,16 +54,16 @@
   "_first_published_at": "20240405121103",
   "_id": "7e68ab76a338b481",
   "_language": "de",
-  "_last_changed": "20240513123451",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/f16dc0fbeddfaa9f/7e68ab76a338b481",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "54958389": {
       "_obj_class": "ColumnWidget",
@@ -209,10 +218,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Quote.number__"
@@ -220,6 +225,14 @@
       "label": [
         "string",
         "Angebot"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "65f8fc09": {
@@ -240,13 +253,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "quoteAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "quoteAt",
+          "via_ref": "single"
+        }
       ]
     },
     "70b1e2c5": {
@@ -263,9 +280,13 @@
         "string",
         "h4"
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "c4a37b01": {
@@ -282,9 +303,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "a3e6ea9e": {
@@ -364,6 +389,21 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "0f9bcfaa": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Nach Angebot suchen"
       ]
     }
   },

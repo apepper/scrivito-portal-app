@@ -11,6 +11,7 @@
   "body": [
     "widgetlist",
     [
+      "13bb6079",
       "7e9fdc77",
       "5df71bf9",
       "6e8a35e6",
@@ -37,6 +38,14 @@
       "size": 10
     }
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "97c5809a3b2286f0",
   "_created_at": "20240213132529",
@@ -45,16 +54,16 @@
   "_first_published_at": "20240214090608",
   "_id": "97c5809a3b2286f0",
   "_language": "en",
-  "_last_changed": "20240513123214",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/02d09ad2dd7d2332/97c5809a3b2286f0",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "7e9fdc77": {
       "_obj_class": "DataWidget",
@@ -209,10 +218,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Order.number__"
@@ -220,6 +225,14 @@
       "label": [
         "string",
         "Order"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "104768f2": {
@@ -240,13 +253,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "orderAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "orderAt",
+          "via_ref": "single"
+        }
       ]
     },
     "e8775dfc": {
@@ -263,9 +280,13 @@
         "string",
         "h4"
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "eb145937": {
@@ -289,9 +310,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "f78f7eed": {
@@ -364,6 +389,21 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "13bb6079": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Search for order"
       ]
     }
   },

@@ -18,6 +18,10 @@
       "ab6ec47c"
     ]
   ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "3f4d1ebe4e291e04",
   "_created_at": "20240619122118",
@@ -26,14 +30,14 @@
   "_first_published_at": "20240620133534",
   "_id": "4b188044778bdb6e",
   "_language": "de",
-  "_last_changed": "20240620133840",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/6a5898770a646824/63a9473a132fba85",
   "_permalink": null,
-  "_published_at": "20240620133900",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "20240620133900000000000000000052478a32eaf4ddbd",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "ab6ec47c": {
       "_obj_class": "SectionWidget",

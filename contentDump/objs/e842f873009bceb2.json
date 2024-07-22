@@ -14,6 +14,10 @@
     "boolean",
     true
   ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "e842f873009bceb2",
   "_created_at": "20231020085515",
@@ -22,16 +26,16 @@
   "_first_published_at": "20231023100253",
   "_id": "e842f873009bceb2",
   "_language": "en",
-  "_last_changed": "20240418083035",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/4df09188b1541b70/606699b3b1e3d6ae",
   "_permalink": null,
-  "_published_at": "20240418085825",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "2024041808582500000000000000009438266ab389ba45",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "cdc93498": {
       "_obj_class": "DataFormInputFieldWidget",
@@ -115,7 +119,7 @@
       "content": [
         "widgetlist",
         [
-          "39b2dcb2"
+          "40218c97"
         ]
       ],
       "col_size": [
@@ -190,21 +194,21 @@
         "name"
       ]
     },
-    "39b2dcb2": {
-      "_obj_class": "ImageWidget",
+    "40218c97": {
+      "_obj_class": "DataImageWidget",
       "alignment": [
         "string",
         "center"
       ],
-      "attribute_name": [
-        "string",
-        "picture"
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "picture",
+          "via_ref": "single"
+        }
       ],
       "round_corners": [
-        "boolean",
-        true
-      ],
-      "image_from_data_item": [
         "boolean",
         true
       ]

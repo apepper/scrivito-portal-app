@@ -24,12 +24,6 @@
       "0ae872ae"
     ]
   ],
-  "site_header": [
-    "widgetlist",
-    [
-      "6253e7c8"
-    ]
-  ],
   "title": [
     "string",
     "Homepage"
@@ -44,17 +38,9 @@
     "reference",
     "1f6fc8477eeb0862"
   ],
-  "site_logo_light": [
-    "reference",
-    "5bf9b4a48a5031e3"
-  ],
   "site_cart_page": [
     "reference",
     "a8ede3121df9e2f6"
-  ],
-  "site_portal_overview_page": [
-    "reference",
-    "0e0e03ae10d47eee"
   ],
   "site_search_results_page": [
     "reference",
@@ -64,12 +50,6 @@
     "reference",
     "0e84d1e469f7cfac"
   ],
-  "site_footer": [
-    "widgetlist",
-    [
-      "a4b0baf5"
-    ]
-  ],
   "content_title": [
     "string",
     "Tynacoon - EN"
@@ -77,6 +57,46 @@
   "site_language_icon": [
     "reference",
     "2de7f41f5b80e6ab"
+  ],
+  "pisa_url": [
+    "string",
+    "https://web102.crm.pisasales.de/portal"
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_show_footer": [
+    "boolean",
+    true
+  ],
+  "layout_footer": [
+    "widgetlist",
+    [
+      "a4b0baf5"
+    ]
+  ],
+  "layout_header": [
+    "widgetlist",
+    [
+      "6253e7c8"
+    ]
+  ],
+  "layout_show_header": [
+    "boolean",
+    true
+  ],
+  "site_drop_shadow": [
+    "boolean",
+    true
+  ],
+  "site_rounded_corners": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "c2a0aab78be05a4e",
@@ -86,14 +106,14 @@
   "_first_published_at": "20230509091931",
   "_id": "c2a0aab78be05a4e",
   "_language": "en",
-  "_last_changed": "20240514083849",
+  "_last_changed": "20240716121558",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240514083925",
+  "_published_at": "20240716121624",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "202405140839250000000000000000c03585c78bfc7347",
+  "_version": "202407161216240000000000000000f5da13f84621626f",
   "_widget_pool": {
     "10914562": {
       "_obj_class": "ColumnContainerWidget",
@@ -203,11 +223,15 @@
       ],
       "background_color": [
         "string",
-        "transparent"
+        "light-grey"
+      ],
+      "show_padding": [
+        "boolean",
+        true
       ]
     },
     "6253e7c8": {
-      "_obj_class": "NavigationWidget",
+      "_obj_class": "TopNavigationWidget",
       "meta_navigation_objs": [
         "referencelist",
         [
@@ -224,13 +248,9 @@
         "string",
         "__CurrentUser.email__"
       ],
-      "search_input_label": [
-        "string",
-        "Search"
-      ],
-      "log_out_label": [
-        "string",
-        "Log out"
+      "meta_navigation_utility_link": [
+        "reference",
+        "0e0e03ae10d47eee"
       ]
     },
     "4fbaed63": {
@@ -701,7 +721,7 @@
       ],
       "alignment": [
         "string",
-        "center"
+        "start"
       ]
     },
     "369a1a2e": {
@@ -1652,10 +1672,6 @@
     },
     "56df0bbb": {
       "_obj_class": "AddressWidget",
-      "address_format": [
-        "string",
-        "GER"
-      ],
       "location_locality": [
         "string",
         "Leipzig"

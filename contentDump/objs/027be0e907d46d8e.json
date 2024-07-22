@@ -21,6 +21,14 @@
       "class": "Subscription"
     }
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "027be0e907d46d8e",
   "_created_at": "20240205134236",
@@ -29,16 +37,16 @@
   "_first_published_at": "20240220090610",
   "_id": "027be0e907d46d8e",
   "_language": "en",
-  "_last_changed": "20240513123304",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/027be0e907d46d8e",
   "_permalink": "subscriptions",
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "7fdb79f4": {
       "_obj_class": "DataWidget",
@@ -265,13 +273,17 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "details": [
         "string",
         "__Subscription.description__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Subscription",
+          "field": "title",
+          "via_ref": "single"
+        }
       ]
     },
     "c45aa226": {

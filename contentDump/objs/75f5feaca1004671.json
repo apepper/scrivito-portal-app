@@ -11,6 +11,14 @@
       "c8f56623"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "75f5feaca1004671",
   "_created_at": "20230607072520",
@@ -21,16 +29,16 @@
   "_first_published_at": "20230607082616",
   "_id": "75f5feaca1004671",
   "_language": "en",
-  "_last_changed": "20240513123319",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/02d09ad2dd7d2332/cfb24ef7ec3a4bc2",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "55815025": {
       "_obj_class": "DataLabelWidget",
@@ -50,10 +58,6 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "orderAt"
-      ],
       "label": [
         "string",
         "Ordered At"
@@ -61,6 +65,14 @@
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "orderAt",
+          "via_ref": "single"
+        }
       ]
     },
     "ed835dbb": {
@@ -211,13 +223,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Order.number__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "aa925e11": {
@@ -225,10 +241,6 @@
       "margin_bottom": [
         "boolean",
         true
-      ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
       ],
       "show_as": [
         "string",
@@ -241,6 +253,14 @@
       "value_size": [
         "string",
         "h3"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "6e11e0e8": {
@@ -265,9 +285,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "termsOfPayment"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "termsOfPayment",
+          "via_ref": "single"
+        }
       ]
     },
     "d7c2f716": {
@@ -301,10 +325,6 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "deliveryAt"
-      ],
       "label": [
         "string",
         "Delivery At"
@@ -312,6 +332,14 @@
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "deliveryAt",
+          "via_ref": "single"
+        }
       ]
     },
     "dc4f7ccb": {
@@ -332,13 +360,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "termsOfDelivery"
-      ],
       "label": [
         "string",
         "Terms of Delivery"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "termsOfDelivery",
+          "via_ref": "single"
+        }
       ]
     },
     "cc9cd870": {
@@ -373,13 +405,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "type"
-      ],
       "label": [
         "string",
         "Order Type"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "51124d05": {
@@ -400,13 +436,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "description"
-      ],
       "label": [
         "string",
         "Description"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "description",
+          "via_ref": "single"
+        }
       ]
     },
     "f3603dd5": {
@@ -441,13 +481,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "salesPartner"
-      ],
       "label": [
         "string",
         "Sales Partner"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "salesPartner",
+          "via_ref": "single"
+        }
       ]
     },
     "5d661530": {
@@ -506,9 +550,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "eb404b73": {
@@ -529,9 +577,13 @@
         "string",
         "Technical Agent"
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "63421c41": {
@@ -561,9 +613,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "0cb4500f": {
@@ -583,9 +639,13 @@
     },
     "2094f73c": {
       "_obj_class": "DataAttachmentsWidget",
-      "attribute_name": [
-        "string",
-        "body"
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "body",
+          "via_ref": "single"
+        }
       ]
     },
     "41f532db": {
@@ -622,9 +682,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "fbc00be0": {
@@ -670,13 +734,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "e7f659db": {
@@ -721,9 +789,13 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "single"
+        }
       ]
     },
     "7615736a": {
@@ -732,9 +804,13 @@
         "string",
         "Attachments"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "attachments",
+          "via_ref": "single"
+        }
       ]
     },
     "40ed47d6": {
@@ -844,9 +920,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "some_not_existing_attribute"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "some_not_existing_attribute",
+          "via_ref": "single"
+        }
       ]
     },
     "9dcd79d9": {
@@ -867,9 +947,13 @@
         "string",
         "Technical Agent"
       ],
-      "attribute_name": [
-        "string",
-        "some_not_existing_attribute"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "some_not_existing_attribute",
+          "via_ref": "single"
+        }
       ]
     },
     "48c20492": {

@@ -30,12 +30,21 @@
   "body": [
     "widgetlist",
     [
+      "6c61e0a7",
       "8e979267",
       "72f73a64",
       "504b7013",
       "ad0a272f",
       "3ed24758"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "97c5809a3b2286f0",
@@ -45,16 +54,16 @@
   "_first_published_at": "20240405121103",
   "_id": "6120bc3f0037c125",
   "_language": "de",
-  "_last_changed": "20240513123443",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/31f54bc713bc6050/6120bc3f0037c125",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "62223463": {
       "_obj_class": "ColumnWidget",
@@ -209,10 +218,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Order.number__"
@@ -220,6 +225,14 @@
       "label": [
         "string",
         "Bestellung"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "b412d5b2": {
@@ -240,13 +253,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "orderAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "orderAt",
+          "via_ref": "single"
+        }
       ]
     },
     "ae0996c3": {
@@ -263,9 +280,13 @@
         "string",
         "h4"
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "6a782e81": {
@@ -289,9 +310,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "9dc142f3": {
@@ -364,6 +389,21 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "6c61e0a7": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Nach Bestellung suchen"
       ]
     }
   },

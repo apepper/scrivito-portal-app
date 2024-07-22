@@ -8,10 +8,18 @@
     "widgetlist",
     [
       "0cbf22ef",
-      "22c039fa",
+      "6a8755bd",
       "e38c9c68",
       "76bc83a5"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "0092ff67875b69f8",
@@ -23,16 +31,16 @@
   "_first_published_at": "20240405121103",
   "_id": "52311cd4fb7fce3b",
   "_language": "de",
-  "_last_changed": "20240529104957",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/f16dc0fbeddfaa9f/52311cd4fb7fce3b",
   "_permalink": null,
-  "_published_at": "20240529122919",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024052912291900000000000000000e4a64d6aaae8da2",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "18793356": {
       "_obj_class": "DataFormUploadWidget",
@@ -115,13 +123,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Quote.number__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "cc0a9f72": {
@@ -153,9 +165,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "termsOfPayment"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "termsOfPayment",
+          "via_ref": "single"
+        }
       ]
     },
     "d263dda2": {
@@ -177,10 +193,6 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
-      ],
       "show_as": [
         "string",
         "currency"
@@ -192,6 +204,14 @@
       "value_size": [
         "string",
         "h3"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "6023ed21": {
@@ -266,9 +286,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "04b9ac8f": {
@@ -326,13 +350,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "deliveryAt"
-      ],
       "label": [
         "string",
         "Lieferung am"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "deliveryAt",
+          "via_ref": "single"
+        }
       ]
     },
     "cb6019dd": {
@@ -353,13 +381,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "termsOfDelivery"
-      ],
       "label": [
         "string",
         "Lieferbedingungen"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "termsOfDelivery",
+          "via_ref": "single"
+        }
       ]
     },
     "5b924998": {
@@ -395,13 +427,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "type"
-      ],
       "label": [
         "string",
         "Angebotstyp"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "191bbe23": {
@@ -422,13 +458,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "description"
-      ],
       "label": [
         "string",
         "Beschreibung"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "description",
+          "via_ref": "single"
+        }
       ]
     },
     "f04bae66": {
@@ -463,9 +503,13 @@
         "string",
         "Technischer Beauftragter"
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "f0afb2af": {
@@ -495,13 +539,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "salesPartner"
-      ],
       "label": [
         "string",
         "Vertriebspartner"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "salesPartner",
+          "via_ref": "single"
+        }
       ]
     },
     "7ad04b19": {
@@ -551,13 +599,17 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "validUntil"
-      ],
       "label": [
         "string",
         "Gültig bis"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "validUntil",
+          "via_ref": "single"
+        }
       ]
     },
     "9b882ffc": {
@@ -578,9 +630,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "53b268b9": {
@@ -601,10 +657,6 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "quoteAt"
-      ],
       "label": [
         "string",
         "Erstellt am"
@@ -612,6 +664,14 @@
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "quoteAt",
+          "via_ref": "single"
+        }
       ]
     },
     "1b8d286c": {
@@ -625,9 +685,13 @@
     },
     "734fb8a5": {
       "_obj_class": "DataAttachmentsWidget",
-      "attribute_name": [
-        "string",
-        "Körper"
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "Körper",
+          "via_ref": "single"
+        }
       ]
     },
     "358deee6": {
@@ -679,9 +743,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "ea0cd0a1": {
@@ -718,13 +786,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "a593fd1d": {
@@ -769,9 +841,13 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "single"
+        }
       ]
     },
     "0cb1aff1": {
@@ -780,9 +856,13 @@
         "string",
         "Anhänge"
       ],
-      "attribute_name": [
-        "string",
-        "Anhänge"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "Anhänge",
+          "via_ref": "single"
+        }
       ]
     },
     "77cf1d75": {
@@ -877,9 +957,13 @@
         "boolean",
         true
       ],
-      "attribute_name": [
-        "string",
-        "some_not_existing_attribute"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "some_not_existing_attribute",
+          "via_ref": "single"
+        }
       ]
     },
     "1d741e49": {
@@ -900,9 +984,13 @@
         "string",
         "Technischer Beauftragter"
       ],
-      "attribute_name": [
-        "string",
-        "some_not_existing_attribute"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "some_not_existing_attribute",
+          "via_ref": "single"
+        }
       ]
     },
     "52a4939f": {
@@ -1215,48 +1303,10 @@
           "size": 1
         }
       ]
-    },
-    "6ae295a4": {
-      "_obj_class": "DataWidget",
-      "content": [
-        "widgetlist",
-        [
-          "6a8755bd"
-        ]
-      ]
-    },
-    "22c039fa": {
-      "_obj_class": "DataGroupWidget",
-      "content": [
-        "widgetlist",
-        [
-          "6ae295a4"
-        ]
-      ],
-      "data": [
-        "datalocator",
-        {
-          "class": "Quote",
-          "query": [
-            {
-              "field": "_id",
-              "value_via": {
-                "class": "Quote",
-                "field": "_id"
-              }
-            },
-            {
-              "field": "open",
-              "value": "true"
-            }
-          ],
-          "size": 1
-        }
-      ]
     }
   },
   "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
   "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
-  "_last_changed_by": "scrivito:943667111e7b464abf6dba5382978956",
+  "_last_changed_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
   "_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71"
 }

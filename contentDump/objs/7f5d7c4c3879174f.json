@@ -13,6 +13,7 @@
     [
       "9ea8c8cb",
       "4dd4893c",
+      "0698aa82",
       "4300ccb1",
       "d61e370a",
       "7fbf1dd2",
@@ -39,6 +40,14 @@
       "size": 10
     }
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "7f5d7c4c3879174f",
   "_created_at": "20240213132919",
@@ -47,16 +56,16 @@
   "_first_published_at": "20240214090608",
   "_id": "7f5d7c4c3879174f",
   "_language": "en",
-  "_last_changed": "20240513123240",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/125f0003cf11c725/7f5d7c4c3879174f",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "20115999": {
       "_obj_class": "DataLabelWidget",
@@ -72,9 +81,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "4300ccb1": {
@@ -227,10 +240,6 @@
         "string",
         "Ticket"
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "show_as": [
         "string",
         "text"
@@ -238,6 +247,14 @@
       "details": [
         "string",
         "__Ticket.number__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "title",
+          "via_ref": "single"
+        }
       ]
     },
     "25ac1ccd": {
@@ -254,10 +271,6 @@
         "string",
         "bi-3x"
       ],
-      "attribute_name": [
-        "string",
-        "type"
-      ],
       "conditions": [
         "widgetlist",
         [
@@ -265,6 +278,14 @@
           "cc942e95",
           "c447048b"
         ]
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "cc942e95": {
@@ -336,13 +357,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "updatedAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "updatedAt",
+          "via_ref": "single"
+        }
       ]
     },
     "e3705a1c": {
@@ -411,6 +436,21 @@
       "title": [
         "string",
         "Load more"
+      ]
+    },
+    "0698aa82": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Search for ticket"
       ]
     }
   },

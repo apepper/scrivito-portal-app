@@ -10,13 +10,21 @@
   ],
   "meta_data_description": [
     "string",
-    "Verwalten Sie Ihre Kontoinformationen problemlos mit Tynacoon! Sehen Sie Ihren Namen, E-Mail-Adresse, JustRelate-ID und mehr. Bearbeiten Sie Ihre Telefonnummer, Firma und bevorzugte Anrede für ein personalisiertes Erlebnis. Halten Sie Ihre Details auf dem neuesten Stand, um eine zeitnahe Kommunikation und optimalen Service zu gewährleisten."
+    "Verwalten Sie Ihre Kontoinformationen einfach mit Tynacoon: Namen, E-Mail, JustRelate-ID ansehen und bearbeiten für optimale Kommunikation und Service."
   ],
   "body": [
     "widgetlist",
     [
       "4cc60f0b"
     ]
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "0e84d1e469f7cfac",
@@ -28,16 +36,16 @@
   "_first_published_at": "20240405121103",
   "_id": "09a152b36247dc0a",
   "_language": "de",
-  "_last_changed": "20240418084211",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40/09a152b36247dc0a",
   "_permalink": null,
-  "_published_at": "20240418085825",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024041808582500000000000000009438266ab389ba45",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "23885504": {
       "_obj_class": "ColumnWidget",
@@ -48,7 +56,7 @@
       "content": [
         "widgetlist",
         [
-          "ae05d22a"
+          "1fc2f619"
         ]
       ]
     },
@@ -145,13 +153,17 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "salutation"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "salutation",
+          "via_ref": "single"
+        }
       ]
     },
     "3dcc735d": {
@@ -168,13 +180,17 @@
         "string",
         "Name"
       ],
-      "attribute_name": [
-        "string",
-        "name"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "e3e9b09b": {
@@ -187,10 +203,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "email"
-      ],
       "label": [
         "string",
         "E-Mail"
@@ -198,6 +210,14 @@
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "email",
+          "via_ref": "single"
+        }
       ]
     },
     "cb940327": {
@@ -214,13 +234,17 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "phoneNumber"
-      ],
       "margin_bottom": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "phoneNumber",
+          "via_ref": "single"
+        }
       ]
     },
     "fe53805c": {
@@ -233,10 +257,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "company"
-      ],
       "label": [
         "string",
         "Firma"
@@ -244,35 +264,13 @@
       "margin_bottom": [
         "boolean",
         true
-      ]
-    },
-    "ae05d22a": {
-      "_obj_class": "ImageWidget",
-      "alignment": [
-        "string",
-        "center"
       ],
-      "attribute_name": [
-        "string",
-        "picture"
-      ],
-      "round_corners": [
-        "boolean",
-        true
-      ],
-      "image_from_data_item": [
-        "boolean",
-        true
-      ],
-      "link": [
-        "link",
+      "data": [
+        "datalocator",
         {
-          "fragment": null,
-          "obj_id": null,
-          "query": null,
-          "target": null,
-          "title": null,
-          "url": "#"
+          "class": "CurrentUser",
+          "field": "company",
+          "via_ref": "single"
         }
       ]
     },
@@ -340,6 +338,25 @@
         [
           "1fd2e36d"
         ]
+      ]
+    },
+    "1fc2f619": {
+      "_obj_class": "DataImageWidget",
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "picture",
+          "via_ref": "single"
+        }
+      ],
+      "alignment": [
+        "string",
+        "center"
+      ],
+      "round_corners": [
+        "boolean",
+        true
       ]
     }
   },

@@ -11,6 +11,7 @@
   "body": [
     "widgetlist",
     [
+      "21754359",
       "ce0cc3a6",
       "96026f14",
       "a90c6da9",
@@ -37,6 +38,14 @@
       "size": 10
     }
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "ec9a22125e28ddcc",
   "_created_at": "20240213122547",
@@ -45,17 +54,32 @@
   "_first_published_at": "20240214090608",
   "_id": "ec9a22125e28ddcc",
   "_language": "en",
-  "_last_changed": "20240513123228",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/f7da3de531e46fe9/ec9a22125e28ddcc",
   "_permalink": null,
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
+    "21754359": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Search for quote"
+      ]
+    },
     "ce0cc3a6": {
       "_obj_class": "DataWidget",
       "content": [
@@ -209,10 +233,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Quote.number__"
@@ -220,6 +240,14 @@
       "label": [
         "string",
         "Quote"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "47c68abf": {
@@ -240,13 +268,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "quoteAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "quoteAt",
+          "via_ref": "single"
+        }
       ]
     },
     "12d285eb": {
@@ -263,9 +295,13 @@
         "string",
         "h4"
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "4932e787": {
@@ -282,9 +318,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "4b243781": {

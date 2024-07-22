@@ -11,6 +11,7 @@
   "body": [
     "widgetlist",
     [
+      "0a3f8cf3",
       "ed8d9e2b",
       "4a8ad374",
       "6c2e26b8"
@@ -29,6 +30,14 @@
       "size": 10
     }
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "78d1e6ccd971faf3",
   "_created_at": "20240130131732",
@@ -37,16 +46,16 @@
   "_first_published_at": "20240130134453",
   "_id": "78d1e6ccd971faf3",
   "_language": "en",
-  "_last_changed": "20240513123252",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/c6db14f1d824259c",
   "_permalink": "documents",
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "ed8d9e2b": {
       "_obj_class": "DataWidget",
@@ -156,10 +165,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "details": [
         "string",
         "__Document.number__"
@@ -167,6 +172,14 @@
       "label": [
         "string",
         "Document"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "title",
+          "via_ref": "single"
+        }
       ]
     },
     "8d8232bf": {
@@ -183,13 +196,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "ae7a379f": {
@@ -206,9 +223,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "language"
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "language",
+          "via_ref": "single"
+        }
       ]
     },
     "c7831624": {
@@ -258,9 +279,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "type"
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "0d4abc1e": {
@@ -277,10 +302,6 @@
         "string",
         "bi-3x"
       ],
-      "attribute_name": [
-        "string",
-        "format"
-      ],
       "conditions": [
         "widgetlist",
         [
@@ -291,6 +312,14 @@
           "e464eba6",
           "840d0508"
         ]
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "format",
+          "via_ref": "single"
+        }
       ]
     },
     "5e4008c8": {
@@ -396,6 +425,21 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "0a3f8cf3": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "placeholder": [
+        "string",
+        "Search for document"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
       ]
     }
   },

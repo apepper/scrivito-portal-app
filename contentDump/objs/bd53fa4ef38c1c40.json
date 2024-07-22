@@ -1,5 +1,5 @@
 {
-  "_obj_class": "SubnavigationOverview",
+  "_obj_class": "Page",
   "title": [
     "string",
     "Mein Tynacoon"
@@ -13,6 +13,7 @@
       "31f54bc713bc6050",
       "486f8f791abc7a5f",
       "5ea4d48ed6e829a7",
+      "d54072c39c8ad493",
       "40fcff128372c95a",
       "09a152b36247dc0a"
     ]
@@ -31,6 +32,35 @@
       "e546c77d"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_show_header": [
+    "boolean",
+    true
+  ],
+  "layout_header": [
+    "widgetlist",
+    [
+      "784473e2",
+      "627c54bb"
+    ]
+  ],
+  "layout_main_background_color": [
+    "string",
+    "light-grey"
+  ],
+  "layout_show_left_sidebar": [
+    "boolean",
+    true
+  ],
+  "layout_left_sidebar": [
+    "widgetlist",
+    [
+      "fe2f2b64"
+    ]
+  ],
   "_conflicts": null,
   "_content_id": "59274260f223b65f",
   "_created_at": "20240405095850",
@@ -39,16 +69,16 @@
   "_first_published_at": "20240405121103",
   "_id": "bd53fa4ef38c1c40",
   "_language": "de",
-  "_last_changed": "20240513152219",
+  "_last_changed": "20240716113906",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40",
   "_permalink": null,
-  "_published_at": "20240514080213",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2024051408021300000000000000004022c6aa2c64cc9c",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "88220160": {
       "_obj_class": "TextWidget",
@@ -241,7 +271,10 @@
       "content": [
         "widgetlist",
         [
-          "9fa7252c"
+          "7c50b8c6",
+          "aa1a146e",
+          "b57771ac",
+          "03092e1f"
         ]
       ]
     },
@@ -496,10 +529,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Order.number__"
@@ -507,6 +536,14 @@
       "label": [
         "string",
         "Bestellung"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "5e87b55c": {
@@ -523,13 +560,17 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "label": [
         "string",
         "Veranstaltung"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "36abc995": {
@@ -598,10 +639,6 @@
         "string",
         "bi-3x"
       ],
-      "attribute_name": [
-        "string",
-        "type"
-      ],
       "conditions": [
         "widgetlist",
         [
@@ -609,6 +646,14 @@
           "f8baed93",
           "5c11ce09"
         ]
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "type",
+          "via_ref": "single"
+        }
       ]
     },
     "6a4e830c": {
@@ -638,10 +683,6 @@
         "string",
         "Ticket"
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "show_as": [
         "string",
         "text"
@@ -649,6 +690,14 @@
       "details": [
         "string",
         "__Ticket.number__"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "title",
+          "via_ref": "single"
+        }
       ]
     },
     "e8429e53": {
@@ -724,9 +773,13 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "single"
+        }
       ]
     },
     "e64fccd5": {
@@ -809,10 +862,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "details": [
         "string",
         "__Document.number__"
@@ -820,6 +869,14 @@
       "label": [
         "string",
         "Dokument"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Document",
+          "field": "title",
+          "via_ref": "single"
+        }
       ]
     },
     "93b70f79": {
@@ -923,13 +980,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "createdAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "createdAt",
+          "via_ref": "single"
+        }
       ]
     },
     "8513d688": {
@@ -951,9 +1012,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "User",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "3c87d9f4": {
@@ -1307,23 +1372,6 @@
         "Ihr Vertriebskontakt"
       ]
     },
-    "9fa7252c": {
-      "_obj_class": "DataGroupWidget",
-      "data": [
-        "datalocator",
-        {
-          "class": "CurrentUser"
-        }
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "aa1a146e",
-          "b57771ac",
-          "03092e1f"
-        ]
-      ]
-    },
     "03092e1f": {
       "_obj_class": "DataPersonCardWidget",
       "data": [
@@ -1456,10 +1504,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Quote.number__"
@@ -1467,6 +1511,14 @@
       "label": [
         "string",
         "Angebot"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Quote",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "bbc83127": {
@@ -1538,13 +1590,17 @@
         "string",
         "body-font-size"
       ],
-      "attribute_name": [
-        "string",
-        "beginsAt"
-      ],
       "datetime_format": [
         "string",
         "date"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Event",
+          "field": "beginsAt",
+          "via_ref": "single"
+        }
       ]
     },
     "3293b377": {
@@ -1566,10 +1622,237 @@
         "string",
         "left"
       ]
+    },
+    "784473e2": {
+      "_obj_class": "SectionWidget",
+      "background_color": [
+        "string",
+        "secondary"
+      ],
+      "show_padding": [
+        "boolean",
+        true
+      ],
+      "container_width": [
+        "string",
+        "fixed"
+      ],
+      "background_image": [
+        "reference",
+        "060918d8e44ae54f"
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "47ed5987"
+        ]
+      ]
+    },
+    "47ed5987": {
+      "_obj_class": "PageTitleWidget",
+      "background_color": [
+        "string",
+        "primary"
+      ]
+    },
+    "627c54bb": {
+      "_obj_class": "SectionWidget",
+      "background_color": [
+        "string",
+        "light-grey"
+      ],
+      "container_width": [
+        "string",
+        "fixed"
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "1b3aa47d"
+        ]
+      ]
+    },
+    "1b3aa47d": {
+      "_obj_class": "BreadcrumbWidget"
+    },
+    "fe2f2b64": {
+      "_obj_class": "VerticalNavigationWidget"
+    },
+    "492674a4": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "style": [
+        "string",
+        "h6"
+      ],
+      "headline": [
+        "string",
+        "Benötigen Sie einen Rückruf?"
+      ],
+      "uppercase": [
+        "boolean",
+        true
+      ]
+    },
+    "aa0dd15e": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "Ein Rückruf wurde eingeplant. Wir werden Sie in Kürze kontaktieren."
+      ],
+      "style": [
+        "string",
+        "h6"
+      ]
+    },
+    "a49f05db": {
+      "_obj_class": "DataWidget",
+      "content": [
+        "widgetlist",
+        [
+          "aa0dd15e",
+          "3cea0979"
+        ]
+      ]
+    },
+    "b5e94fe4": {
+      "_obj_class": "DataFormHiddenFieldWidget",
+      "attribute_name": [
+        "string",
+        "message"
+      ],
+      "hidden_value": [
+        "string",
+        "Bitte rufen Sie mich zurück."
+      ]
+    },
+    "78cf98d3": {
+      "_obj_class": "DataFormSubmitButtonWidget",
+      "submit_title": [
+        "string",
+        "Rufen Sie mich zurück"
+      ],
+      "reset_title": [
+        "string",
+        "cancel"
+      ],
+      "alignment": [
+        "string",
+        "block"
+      ],
+      "size": [
+        "string",
+        "small"
+      ]
+    },
+    "1205f7be": {
+      "_obj_class": "DataFormContainerWidget",
+      "hidden_fields": [
+        "widgetlist",
+        [
+          "b5e94fe4"
+        ]
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "78cf98d3"
+        ]
+      ],
+      "redirect_after_submit": [
+        "boolean",
+        true
+      ]
+    },
+    "bb303ba3": {
+      "_obj_class": "DataEmptyWidget",
+      "content": [
+        "widgetlist",
+        [
+          "1205f7be"
+        ]
+      ]
+    },
+    "a42d921a": {
+      "_obj_class": "CardWidget",
+      "card_body": [
+        "widgetlist",
+        [
+          "a49f05db",
+          "bb303ba3"
+        ]
+      ],
+      "background_color": [
+        "string",
+        "white"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
+      ],
+      "padding": [
+        "string",
+        "p-3"
+      ]
+    },
+    "7c50b8c6": {
+      "_obj_class": "DataGroupWidget",
+      "content": [
+        "widgetlist",
+        [
+          "492674a4",
+          "a42d921a"
+        ]
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CallbackRequest",
+          "size": 1
+        }
+      ]
+    },
+    "3cea0979": {
+      "_obj_class": "DataDeleteButtonWidget",
+      "alignment": [
+        "string",
+        "block"
+      ],
+      "button_color": [
+        "string",
+        "btn-danger"
+      ],
+      "button_size": [
+        "string",
+        "small"
+      ],
+      "cancel_title": [
+        "string",
+        "Cancel"
+      ],
+      "confirm_title": [
+        "string",
+        "Confirm delete"
+      ],
+      "deleted_message": [
+        "string",
+        "Ihr Rückruf wurde storniert."
+      ],
+      "title": [
+        "string",
+        "Rückruf stornieren"
+      ]
     }
   },
   "_created_by": "scrivito:943667111e7b464abf6dba5382978956",
   "_first_published_by": "scrivito:943667111e7b464abf6dba5382978956",
-  "_last_changed_by": "scrivito:95cc3b45bac04c01b7f9efdd41e262ce",
+  "_last_changed_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",
   "_published_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71"
 }

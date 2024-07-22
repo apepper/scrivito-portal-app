@@ -49,6 +49,14 @@
       "7a70bd9e"
     ]
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "6eff94f91196a7d4",
   "_created_at": "20240405112809",
@@ -57,14 +65,14 @@
   "_first_published_at": "20240405121103",
   "_id": "6c31d6fed5dc2915",
   "_language": "de",
-  "_last_changed": "20240506091800",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/ed043d1606eaf539/2e9f2e07aeab717e/6c31d6fed5dc2915",
   "_permalink": null,
-  "_published_at": "20240506101501",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "20240506101501000000000000000062505874729738c7",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "37173638": {
       "_obj_class": "ProductParameterWidget",

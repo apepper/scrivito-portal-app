@@ -22,17 +22,9 @@
     "reference",
     "1f6fc8477eeb0862"
   ],
-  "site_logo_light": [
-    "reference",
-    "5bf9b4a48a5031e3"
-  ],
   "site_cart_page": [
     "reference",
     "cb4df3bce5e37dd3"
-  ],
-  "site_portal_overview_page": [
-    "reference",
-    "e3dd81b9fab74d4f"
   ],
   "site_search_results_page": [
     "reference",
@@ -53,22 +45,10 @@
       "43fbd8e4"
     ]
   ],
-  "site_header": [
-    "widgetlist",
-    [
-      "efad7500"
-    ]
-  ],
   "site_not_found": [
     "widgetlist",
     [
       "b783b9d5"
-    ]
-  ],
-  "site_footer": [
-    "widgetlist",
-    [
-      "f915fe4f"
     ]
   ],
   "content_title": [
@@ -79,6 +59,42 @@
     "reference",
     "eaef667ca661db87"
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_footer": [
+    "widgetlist",
+    [
+      "f915fe4f"
+    ]
+  ],
+  "layout_header": [
+    "widgetlist",
+    [
+      "efad7500"
+    ]
+  ],
+  "layout_show_footer": [
+    "boolean",
+    true
+  ],
+  "layout_show_header": [
+    "boolean",
+    true
+  ],
+  "site_drop_shadow": [
+    "boolean",
+    true
+  ],
+  "site_rounded_corners": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "c2a0aab78be05a4e",
   "_created_at": "20240405091747",
@@ -87,14 +103,14 @@
   "_first_published_at": "20240405121103",
   "_id": "bdbb81709c5e1c63",
   "_language": "de",
-  "_last_changed": "20240514083815",
+  "_last_changed": "20240716121558",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240514083925",
+  "_published_at": "20240716121624",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202405140839250000000000000000c03585c78bfc7347",
+  "_version": "202407161216240000000000000000f5da13f84621626f",
   "_widget_pool": {
     "43891776": {
       "_obj_class": "ColumnWidget",
@@ -164,7 +180,7 @@
       "_obj_class": "SectionWidget",
       "background_color": [
         "string",
-        "transparent"
+        "light-grey"
       ],
       "content": [
         "widgetlist",
@@ -173,10 +189,14 @@
           "f2136b4a",
           "68f145ba"
         ]
+      ],
+      "show_padding": [
+        "boolean",
+        true
       ]
     },
     "efad7500": {
-      "_obj_class": "NavigationWidget",
+      "_obj_class": "TopNavigationWidget",
       "meta_navigation_objs": [
         "referencelist",
         [
@@ -193,13 +213,9 @@
         "string",
         "__CurrentUser.email__"
       ],
-      "search_input_label": [
-        "string",
-        "Suche"
-      ],
-      "log_out_label": [
-        "string",
-        "Abmelden"
+      "meta_navigation_utility_link": [
+        "reference",
+        "e3dd81b9fab74d4f"
       ]
     },
     "6c68cbcb": {
@@ -697,7 +713,7 @@
       "_obj_class": "ColumnContainerWidget",
       "alignment": [
         "string",
-        "center"
+        "start"
       ],
       "columns": [
         "widgetlist",
@@ -960,10 +976,6 @@
         "reference",
         "22d9c6805af643eb"
       ],
-      "background_animate_on_hover": [
-        "boolean",
-        true
-      ],
       "show_footer": [
         "boolean",
         true
@@ -981,6 +993,10 @@
           "80ca4e60",
           "02b3eb54"
         ]
+      ],
+      "background_animate_on_hover": [
+        "boolean",
+        true
       ]
     },
     "0473d267": {
@@ -1639,10 +1655,6 @@
     },
     "c0324f34": {
       "_obj_class": "AddressWidget",
-      "address_format": [
-        "string",
-        "GER"
-      ],
       "location_locality": [
         "string",
         "Leipzig"
@@ -1657,7 +1669,7 @@
       ],
       "location_country": [
         "string",
-        "Germany"
+        "Deutschland"
       ],
       "phone": [
         "string",

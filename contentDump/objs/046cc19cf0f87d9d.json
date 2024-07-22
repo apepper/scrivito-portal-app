@@ -11,6 +11,7 @@
   "body": [
     "widgetlist",
     [
+      "965b3611",
       "5795a282",
       "ffe2cecb",
       "48eb5a15"
@@ -30,10 +31,22 @@
         {
           "field": "isCustomer",
           "value": "true"
+        },
+        {
+          "field": "parentId",
+          "value": "null"
         }
       ],
       "size": 10
     }
+  ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
   ],
   "_conflicts": null,
   "_content_id": "046cc19cf0f87d9d",
@@ -43,16 +56,16 @@
   "_first_published_at": "20240402122425",
   "_id": "046cc19cf0f87d9d",
   "_language": "en",
-  "_last_changed": "20240513090716",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/046cc19cf0f87d9d",
   "_permalink": "equipment",
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "5795a282": {
       "_obj_class": "DataWidget",
@@ -116,7 +129,7 @@
       "content": [
         "widgetlist",
         [
-          "a5843ab2"
+          "bf7445ee"
         ]
       ]
     },
@@ -207,10 +220,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "product"
-      ],
       "details": [
         "string",
         "__ServiceObject.number__\n__ServiceObject.information__"
@@ -218,6 +227,14 @@
       "label": [
         "string",
         "Piece of equipment"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "product",
+          "via_ref": "single"
+        }
       ]
     },
     "9aab520d": {
@@ -238,13 +255,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "installedAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "installedAt",
+          "via_ref": "single"
+        }
       ]
     },
     "4d8736de": {
@@ -268,9 +289,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "7a6072bf": {
@@ -293,25 +318,6 @@
         ]
       ]
     },
-    "a5843ab2": {
-      "_obj_class": "ImageWidget",
-      "alignment": [
-        "string",
-        "center"
-      ],
-      "image_from_data_item": [
-        "boolean",
-        true
-      ],
-      "attribute_name": [
-        "string",
-        "picture"
-      ],
-      "round_corners": [
-        "boolean",
-        true
-      ]
-    },
     "ffe2cecb": {
       "_obj_class": "DataLoadMoreButtonWidget",
       "alignment": [
@@ -329,6 +335,40 @@
       "title": [
         "string",
         "Load more"
+      ]
+    },
+    "bf7445ee": {
+      "_obj_class": "DataImageWidget",
+      "alignment": [
+        "string",
+        "center"
+      ],
+      "round_corners": [
+        "boolean",
+        true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "ServiceObject",
+          "field": "picture",
+          "via_ref": "single"
+        }
+      ]
+    },
+    "965b3611": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "placeholder": [
+        "string",
+        "Search for equipment"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
       ]
     }
   },

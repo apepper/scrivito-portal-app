@@ -7,6 +7,7 @@
   "body": [
     "widgetlist",
     [
+      "44109464",
       "ff8cf44a",
       "5e101972",
       "ab484fec",
@@ -41,6 +42,14 @@
       "size": 10
     }
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "02d09ad2dd7d2332",
   "_created_at": "20230525073826",
@@ -49,17 +58,32 @@
   "_first_published_at": "20230526064258",
   "_id": "02d09ad2dd7d2332",
   "_language": "en",
-  "_last_changed": "20240513123246",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/02d09ad2dd7d2332",
   "_permalink": "orders",
-  "_published_at": "20240513123753",
+  "_published_at": "20240716121536",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "default",
-  "_version": "202405131237530000000000000000478d9653d10e681a",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
+    "44109464": {
+      "_obj_class": "DataSearchWidget",
+      "button_color": [
+        "string",
+        "btn-primary"
+      ],
+      "url_param_name": [
+        "string",
+        "search"
+      ],
+      "placeholder": [
+        "string",
+        "Search for order"
+      ]
+    },
     "ff8cf44a": {
       "_obj_class": "DataWidget",
       "content": [
@@ -213,10 +237,6 @@
         "string",
         "h6"
       ],
-      "attribute_name": [
-        "string",
-        "keyword"
-      ],
       "details": [
         "string",
         "__Order.number__"
@@ -224,6 +244,14 @@
       "label": [
         "string",
         "Order"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "keyword",
+          "via_ref": "single"
+        }
       ]
     },
     "d80664ba": {
@@ -244,13 +272,17 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "orderAt"
-      ],
       "datetime_format": [
         "string",
         "relative"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "orderAt",
+          "via_ref": "single"
+        }
       ]
     },
     "1014f5fc": {
@@ -267,9 +299,13 @@
         "string",
         "h4"
       ],
-      "attribute_name": [
-        "string",
-        "totalPrice"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "totalPrice",
+          "via_ref": "single"
+        }
       ]
     },
     "672b97c9": {
@@ -293,9 +329,13 @@
         "string",
         "text-small"
       ],
-      "attribute_name": [
-        "string",
-        "status"
+      "data": [
+        "datalocator",
+        {
+          "class": "Order",
+          "field": "status",
+          "via_ref": "single"
+        }
       ]
     },
     "03b3ea0f": {

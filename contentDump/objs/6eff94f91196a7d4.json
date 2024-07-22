@@ -49,6 +49,14 @@
     "string",
     "High-Quality Nozzle Solution"
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "6eff94f91196a7d4",
   "_created_at": "20230830072904",
@@ -57,14 +65,14 @@
   "_first_published_at": "20230831080316",
   "_id": "6eff94f91196a7d4",
   "_language": "en",
-  "_last_changed": "20240506091715",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/587d96465c3c69c4/7e48284613344ef2/8767657f952521a1",
   "_permalink": null,
-  "_published_at": "20240506101501",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "20240506101501000000000000000062505874729738c7",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "38984fd2": {
       "_obj_class": "TextWidget",

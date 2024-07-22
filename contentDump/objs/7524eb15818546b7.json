@@ -40,6 +40,14 @@
     "string",
     "Precise Coverage, Minimal Waste"
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "7524eb15818546b7",
   "_created_at": "20230830080610",
@@ -48,14 +56,14 @@
   "_first_published_at": "20230831080316",
   "_id": "7524eb15818546b7",
   "_language": "en",
-  "_last_changed": "20231006063232",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/587d96465c3c69c4/7a141950d1520c28/50b875b1af055869",
   "_permalink": null,
-  "_published_at": "20231006064235",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "202310060642350000000000000000e5173cd54d6fea40",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "1374924a": {
       "_obj_class": "ProductParameterWidget",

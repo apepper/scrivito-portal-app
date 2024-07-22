@@ -48,6 +48,14 @@
     "string",
     "Efficient Fluid Filtration"
   ],
+  "robots_index": [
+    "boolean",
+    true
+  ],
+  "layout_main_background_color": [
+    "string",
+    "transparent"
+  ],
   "_conflicts": null,
   "_content_id": "7aa779f9fcf90589",
   "_created_at": "20230824120934",
@@ -56,14 +64,14 @@
   "_first_published_at": "20230831080316",
   "_id": "7aa779f9fcf90589",
   "_language": "en",
-  "_last_changed": "20231006063058",
+  "_last_changed": "20240716093931",
   "_modification": null,
   "_path": "/587d96465c3c69c4/fa725f0b47fdc408/c4d5dd0a42e3f118",
   "_permalink": null,
-  "_published_at": "20231006064235",
+  "_published_at": "20240716121536",
   "_restriction": null,
   "_site_id": "default",
-  "_version": "202310060642350000000000000000e5173cd54d6fea40",
+  "_version": "202407161215360000000000000000cf5f645324ed600e",
   "_widget_pool": {
     "81830723": {
       "_obj_class": "DownloadCardWidget",
