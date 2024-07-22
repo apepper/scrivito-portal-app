@@ -159,7 +159,7 @@ async function fetchJson<T>(
   if (!apiToken) apiToken = await fetchIamToken()
 
   const response = await fetch(
-    `/jr-api/scrivito/tenants/${getInstanceId()}/${apiPath}`,
+    `https://api.scrivito.com/tenants/${getInstanceId()}/${apiPath}`,
     {
       body: options.data ? JSON.stringify(options.data) : undefined,
       credentials: 'include',
@@ -173,6 +173,10 @@ async function fetchJson<T>(
     },
   )
   if (response.status <= 204) return response.json()
+  if (response.status === 401) {
+    apiToken = undefined
+    return fetchJson(apiPath, options)
+  }
 
   throw new Error(`Failed to fetch ${apiPath}.`)
 }
@@ -180,7 +184,7 @@ async function fetchJson<T>(
 async function fetchIamToken(): Promise<string> {
   if (!credentials) throw new Error('Missing credentials.')
 
-  const response = await fetch('/jr-api/iam/token', {
+  const response = await fetch('https://api.justrelate.com/iam/token', {
     method: 'POST',
     headers: {
       Authorization: `Basic ${btoa(
