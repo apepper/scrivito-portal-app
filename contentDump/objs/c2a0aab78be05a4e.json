@@ -58,10 +58,6 @@
     "reference",
     "2de7f41f5b80e6ab"
   ],
-  "pisa_url": [
-    "string",
-    "https://web102.crm.pisasales.de/portal"
-  ],
   "robots_index": [
     "boolean",
     true
