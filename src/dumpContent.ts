@@ -54,6 +54,8 @@ if (API_CLIENT_ID && API_CLIENT_SECRET && INSTANCE_ID) {
 function clearDump() {
   fs.rmSync(DUMP_PATH, { force: true, recursive: true })
   fs.mkdirSync(DUMP_PATH, { recursive: true })
+  fs.mkdirSync(`${DUMP_PATH}/objs`, { recursive: true })
+  fs.mkdirSync(`${DUMP_PATH}/binaries`, { recursive: true })
 }
 
 function fileStats() {
@@ -139,7 +141,7 @@ async function dumpBinary(binaryId: string) {
   if (response.status !== 200) throw new Error(`Failed to fetch ${url}`)
   const blob = await response.blob()
   fs.writeFileSync(
-    `${DUMP_PATH}/blob-${urlSafeBase64(binaryId)}`,
+    `${DUMP_PATH}/binaries/${urlSafeBase64(binaryId)}`,
     Buffer.from(await blob.arrayBuffer()),
   )
 }
@@ -155,7 +157,7 @@ async function dumpMetadata(binaryId: string) {
   )) as BlobMetadata
   process.stdout.write('.')
   fs.writeFileSync(
-    `${DUMP_PATH}/blob-metadata-${urlSafeBase64(binaryId)}.json`,
+    `${DUMP_PATH}/binaries/metadata-${urlSafeBase64(binaryId)}.json`,
     JSON.stringify({ contentType, filename }, null, 2),
   )
 }
@@ -166,7 +168,7 @@ function urlSafeBase64(id: string): string {
 
 function dumpObj(objData: ObjData) {
   fs.writeFileSync(
-    `${DUMP_PATH}/obj-${objData._id}.json`,
+    `${DUMP_PATH}/objs/${objData._id}.json`,
     JSON.stringify(objData, null, 2),
   )
 }
