@@ -60,6 +60,15 @@ export async function restoreContent({
 
       await restoreBinaries(objData, objId)
 
+      // if (objId === 'bdbb81709c5e1c63') continue
+      // if (objId === 'c2a0aab78be05a4e') continue
+      if (['bdbb81709c5e1c63', 'c2a0aab78be05a4e'].includes(objId)) {
+        await fetchJson(`workspaces/${currentWorkspaceId()}/objs/${objId}`, {
+          data: { obj: { _obj_class: 'Homepage' } },
+          method: 'put',
+        })
+      }
+
       log({ step: ['adding', objData._obj_class, objData._permalink || objId] })
 
       await fetchJson(`workspaces/${currentWorkspaceId()}/objs/${objId}`, {
