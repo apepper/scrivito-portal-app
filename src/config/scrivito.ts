@@ -15,10 +15,6 @@ export function configureScrivito(options?: { priority?: 'background' }) {
     tenant: scrivitoTenantId(),
     // @ts-expect-error // TODO: Remove later on
     unstable: {
-      trustedUiOrigins: [
-        'http://localhost:8090',
-        'https://*.scrivito-ui.pages.dev',
-      ],
       initialContentDumpUrl:
         'https://demo4-content.scrivito-portal-app.pages.dev/index.json',
     },
