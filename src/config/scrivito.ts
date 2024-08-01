@@ -13,11 +13,6 @@ export function configureScrivito(options?: { priority?: 'background' }) {
     siteForUrl,
     strictSearchOperators: true,
     tenant: scrivitoTenantId(),
-    // @ts-expect-error // TODO: Remove later on
-    unstable: {
-      initialContentDumpUrl:
-        'https://demo4-content.scrivito-portal-app.pages.dev/index.json',
-    },
     ...options,
   })
 }
