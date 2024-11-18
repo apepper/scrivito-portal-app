@@ -69,16 +69,16 @@
   "_first_published_at": "20240405121103",
   "_id": "bd53fa4ef38c1c40",
   "_language": "de",
-  "_last_changed": "20240716113906",
+  "_last_changed": "20241016091223",
   "_modification": null,
   "_path": "/84435b45662730da/bd53fa4ef38c1c40",
   "_permalink": null,
-  "_published_at": "20240716121536",
+  "_published_at": "20241016091507",
   "_restriction": [
     "_auth"
   ],
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "202407161215360000000000000000cf5f645324ed600e",
+  "_version": "202410160915070000000000000000e7434eda20985b13",
   "_widget_pool": {
     "88220160": {
       "_obj_class": "TextWidget",

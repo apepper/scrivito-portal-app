@@ -58,16 +58,16 @@
   "_first_published_at": "20230626113100",
   "_id": "f7da3de531e46fe9",
   "_language": "en",
-  "_last_changed": "20240716093931",
+  "_last_changed": "20241007082232",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/edd1e72884bf7d89/f7da3de531e46fe9",
   "_permalink": "quotes",
-  "_published_at": "20240716121536",
+  "_published_at": "20241008122928",
   "_restriction": [
     "_auth"
   ],
-  "_site_id": "default",
-  "_version": "202407161215360000000000000000cf5f645324ed600e",
+  "_site_id": "56a14d0750cc844e",
+  "_version": "2024100812292800000000000000005896ecd5c33e5a21",
   "_widget_pool": {
     "39707421": {
       "_obj_class": "ColumnWidget",

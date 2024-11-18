@@ -102,14 +102,14 @@
   "_first_published_at": "20230509091931",
   "_id": "c2a0aab78be05a4e",
   "_language": "en",
-  "_last_changed": "20240716121558",
+  "_last_changed": "20241105132111",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20240716121624",
+  "_published_at": "20241107103100",
   "_restriction": null,
-  "_site_id": "default",
-  "_version": "202407161216240000000000000000f5da13f84621626f",
+  "_site_id": "56a14d0750cc844e",
+  "_version": "20241107103100000000000000000091a13793f6df5746",
   "_widget_pool": {
     "10914562": {
       "_obj_class": "ColumnContainerWidget",
