@@ -4,10 +4,6 @@
     "string",
     "Ticketarchiv"
   ],
-  "link_icon": [
-    "string",
-    "bi-headset"
-  ],
   "data": [
     "datalocator",
     {
@@ -21,7 +17,7 @@
       "query": [
         {
           "field": "open",
-          "value": "false"
+          "value": false
         }
       ],
       "size": 10

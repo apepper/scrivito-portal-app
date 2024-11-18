@@ -317,10 +317,6 @@
     },
     "1ca32b04": {
       "_obj_class": "DataFormBooleanWidget",
-      "attribute_name": [
-        "string",
-        "isConsentGiven"
-      ],
       "data_for_no": [
         "string",
         "notGiven"
@@ -340,6 +336,14 @@
       "label": [
         "string",
         "Subscribed"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "GeneralMarketingConsent",
+          "field": "isConsentGiven",
+          "via_ref": "single"
+        }
       ]
     },
     "7ea10790": {
@@ -357,10 +361,6 @@
     },
     "cfbb0072": {
       "_obj_class": "DataFormBooleanWidget",
-      "attribute_name": [
-        "string",
-        "isConsentGiven"
-      ],
       "data_for_no": [
         "string",
         "notGiven"
@@ -380,6 +380,14 @@
       "label": [
         "string",
         "Subscribed"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Subscription",
+          "field": "isConsentGiven",
+          "via_ref": "single"
+        }
       ]
     },
     "ba93dc83": {

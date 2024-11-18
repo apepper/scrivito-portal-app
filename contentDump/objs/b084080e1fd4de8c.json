@@ -46,13 +46,17 @@
         "string",
         "single_line"
       ],
-      "attribute_name": [
-        "string",
-        "title"
-      ],
       "required": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "title",
+          "via_ref": "multi"
+        }
       ]
     },
     "3513df5b": {
@@ -60,10 +64,6 @@
       "label": [
         "string",
         "Type"
-      ],
-      "attribute_name": [
-        "string",
-        "type"
       ],
       "options": [
         "stringlist",
@@ -80,6 +80,14 @@
       "default_value": [
         "string",
         "PSA_SVC_CAL"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "type",
+          "via_ref": "multi"
+        }
       ]
     },
     "32f0e582": {
@@ -116,13 +124,17 @@
         "string",
         "multi_line"
       ],
-      "attribute_name": [
-        "string",
-        "description"
-      ],
       "required": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "description",
+          "via_ref": "multi"
+        }
       ]
     },
     "591c5cbb": {
@@ -131,13 +143,17 @@
         "string",
         "Files"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
-      ],
       "multiple": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Ticket",
+          "field": "attachments",
+          "via_ref": "multi"
+        }
       ]
     },
     "fc027a95": {

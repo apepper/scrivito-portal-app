@@ -99,7 +99,7 @@
       ],
       "text": [
         "html",
-        "<p>Willkommen bei <strong>Mein Tynacoon</strong>! Hier können Sie Ihre Bestellungen und Lieferungen einsehen.</p>"
+        "<p>Willkommen bei <strong>Mein Tynacoon</strong> - Ihrem persönlichen Bereich für Tickets, Events und Angebote.</p>"
       ]
     },
     "1be6f0d4": {
@@ -421,7 +421,7 @@
       ],
       "headline": [
         "string",
-        "Neueste Bestellungen"
+        "Neueste Aufträge"
       ]
     },
     "1f5ffcb5": {
@@ -535,7 +535,7 @@
       ],
       "label": [
         "string",
-        "Bestellung"
+        "Auftrag"
       ],
       "data": [
         "datalocator",
@@ -1053,7 +1053,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine offenen Bestellungen gefunden.</p>"
+        "<p>Keine offenen Aufträge gefunden.</p>"
       ]
     },
     "bacc9802": {
@@ -1082,7 +1082,7 @@
           "query": [
             {
               "field": "open",
-              "value": "true"
+              "value": true
             }
           ],
           "size": 2
@@ -1122,7 +1122,7 @@
           "query": [
             {
               "field": "open",
-              "value": "true"
+              "value": true
             }
           ],
           "size": 2
@@ -1162,7 +1162,7 @@
           "query": [
             {
               "field": "open",
-              "value": "true"
+              "value": true
             }
           ],
           "size": 2
@@ -1676,7 +1676,15 @@
       "_obj_class": "BreadcrumbWidget"
     },
     "fe2f2b64": {
-      "_obj_class": "VerticalNavigationWidget"
+      "_obj_class": "VerticalNavigationWidget",
+      "navigation_depth": [
+        "string",
+        "0"
+      ],
+      "show_parent_link": [
+        "boolean",
+        true
+      ]
     },
     "492674a4": {
       "_obj_class": "HeadlineWidget",
@@ -1724,13 +1732,17 @@
     },
     "b5e94fe4": {
       "_obj_class": "DataFormHiddenFieldWidget",
-      "attribute_name": [
-        "string",
-        "message"
-      ],
       "hidden_value": [
         "string",
         "Bitte rufen Sie mich zurück."
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CallbackRequest",
+          "field": "message",
+          "via_ref": "multi"
+        }
       ]
     },
     "78cf98d3": {

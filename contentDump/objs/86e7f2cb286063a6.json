@@ -94,10 +94,6 @@
     },
     "af110771": {
       "_obj_class": "DataFormBooleanWidget",
-      "attribute_name": [
-        "string",
-        "active"
-      ],
       "data_for_no": [
         "string",
         "notGiven"
@@ -117,6 +113,14 @@
       "label": [
         "string",
         "Einwilligung gegeben"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Gdpr",
+          "field": "active",
+          "via_ref": "single"
+        }
       ]
     },
     "f9bbf77a": {

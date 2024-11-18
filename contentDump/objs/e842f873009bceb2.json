@@ -43,13 +43,17 @@
         "string",
         "single_line"
       ],
-      "attribute_name": [
-        "string",
-        "company"
-      ],
       "label": [
         "string",
         "Company"
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "company",
+          "via_ref": "single"
+        }
       ]
     },
     "551fcf52": {
@@ -62,9 +66,13 @@
         "string",
         "Phone number"
       ],
-      "attribute_name": [
-        "string",
-        "phoneNumber"
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "phoneNumber",
+          "via_ref": "single"
+        }
       ]
     },
     "3fbc294e": {
@@ -77,9 +85,13 @@
         "string",
         "Salutation"
       ],
-      "attribute_name": [
-        "string",
-        "salutation"
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "salutation",
+          "via_ref": "single"
+        }
       ]
     },
     "7aba7020": {
@@ -189,9 +201,13 @@
         "string",
         "Name"
       ],
-      "attribute_name": [
-        "string",
-        "name"
+      "data": [
+        "datalocator",
+        {
+          "class": "CurrentUser",
+          "field": "name",
+          "via_ref": "single"
+        }
       ]
     },
     "40218c97": {

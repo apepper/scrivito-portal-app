@@ -30,7 +30,7 @@
       "query": [
         {
           "field": "isCustomer",
-          "value": "true"
+          "value": true
         },
         {
           "field": "parentId",

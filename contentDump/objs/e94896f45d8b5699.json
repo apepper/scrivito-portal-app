@@ -4,10 +4,6 @@
     "string",
     "Parts"
   ],
-  "link_icon": [
-    "string",
-    "bi-wrench-adjustable"
-  ],
   "robots_index": [
     "boolean",
     true
@@ -371,7 +367,7 @@
             },
             {
               "field": "isCustomer",
-              "value": "true"
+              "value": true
             }
           ],
           "size": 10

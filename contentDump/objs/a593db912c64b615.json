@@ -117,9 +117,13 @@
         "string",
         "multi_line"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "multi"
+        }
       ]
     },
     "4599060e": {
@@ -151,42 +155,42 @@
         "widgetlist",
         [
           "52200ec8",
-          "176ef809",
-          "828519ba"
+          "176ef809"
         ]
-      ]
-    },
-    "828519ba": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        4
       ],
-      "content": [
-        "widgetlist",
-        [
-          "c30d0694"
-        ]
+      "layout_mode": [
+        "string",
+        "flex"
       ]
     },
     "52200ec8": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        6
       ],
       "content": [
         "widgetlist",
         [
           "59e13c56"
         ]
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ]
     },
     "176ef809": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "c30d0694"
+        ]
       ]
     },
     "2d6db3fe": {
@@ -199,36 +203,36 @@
         "widgetlist",
         [
           "d5342f58",
-          "c0af395f",
-          "3aa63e1b"
+          "c0af395f"
         ]
+      ],
+      "layout_mode": [
+        "string",
+        "flex"
       ]
     },
     "d5342f58": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        6
       ],
       "content": [
         "widgetlist",
         [
           "91defa90"
         ]
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ]
     },
     "c0af395f": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
-      ]
-    },
-    "3aa63e1b": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        4
+        6
       ],
       "content": [
         "widgetlist",
@@ -339,13 +343,17 @@
         "string",
         "Dateien"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
-      ],
       "multiple": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "attachments",
+          "via_ref": "multi"
+        }
       ]
     },
     "a07401e5": {

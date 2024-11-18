@@ -2,7 +2,7 @@
   "_obj_class": "Page",
   "title": [
     "string",
-    "Bestellanfrage"
+    "Auftragsanfrage"
   ],
   "exclude_from_search": [
     "boolean",
@@ -86,7 +86,7 @@
       ],
       "label": [
         "string",
-        "Bestellanfrage"
+        "Auftragsanfrage"
       ],
       "margin_bottom": [
         "boolean",
@@ -146,7 +146,7 @@
       ],
       "text": [
         "html",
-        "<p>Ihre Bestellanfrage ist bei uns eingegangen. Wir werden Ihnen so schnell wie möglich ein Angebot zusenden.</p>"
+        "<p>Ihre Auftragsanfrage ist bei uns eingegangen. Wir werden Ihnen so schnell wie möglich ein Angebot zusenden.</p>"
       ]
     },
     "ca639e64": {

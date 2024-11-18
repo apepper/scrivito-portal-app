@@ -91,7 +91,7 @@
       ],
       "text": [
         "html",
-        "<p>Welcome to <strong>My Tynacoon</strong>! Here you can see your orders and shipments.</p>"
+        "<p>Welcome to <strong>My Tynacoon</strong> – your personal area for tickets, events and offers.</p>"
       ]
     },
     "5ff3b46e": {
@@ -1071,7 +1071,7 @@
           "query": [
             {
               "field": "open",
-              "value": "true"
+              "value": true
             }
           ],
           "size": 2
@@ -1120,7 +1120,7 @@
           "query": [
             {
               "field": "open",
-              "value": "true"
+              "value": true
             }
           ],
           "size": 2
@@ -1160,7 +1160,7 @@
           "query": [
             {
               "field": "open",
-              "value": "true"
+              "value": true
             }
           ],
           "size": 2
@@ -1672,7 +1672,15 @@
       "_obj_class": "BreadcrumbWidget"
     },
     "2ccedd99": {
-      "_obj_class": "VerticalNavigationWidget"
+      "_obj_class": "VerticalNavigationWidget",
+      "navigation_depth": [
+        "string",
+        "0"
+      ],
+      "show_parent_link": [
+        "boolean",
+        true
+      ]
     },
     "0c4bd4b7": {
       "_obj_class": "DataGroupWidget",
@@ -1749,13 +1757,17 @@
     },
     "d285d0f8": {
       "_obj_class": "DataFormHiddenFieldWidget",
-      "attribute_name": [
-        "string",
-        "message"
-      ],
       "hidden_value": [
         "string",
         "Please call me back."
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "CallbackRequest",
+          "field": "message",
+          "via_ref": "multi"
+        }
       ]
     },
     "fd04463a": {

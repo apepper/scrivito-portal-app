@@ -2,11 +2,7 @@
   "_obj_class": "Page",
   "title": [
     "string",
-    "Bestellarchiv"
-  ],
-  "link_icon": [
-    "string",
-    "bi-envelope-paper"
+    "Auftragsarchiv"
   ],
   "data": [
     "datalocator",
@@ -21,7 +17,7 @@
       "query": [
         {
           "field": "open",
-          "value": "false"
+          "value": false
         }
       ],
       "size": 10
@@ -173,22 +169,22 @@
         "string",
         "mb-2"
       ],
-      "link_to": [
-        "link",
-        {
-          "fragment": null,
-          "obj_id": "75f5feaca1004671",
-          "query": null,
-          "target": null,
-          "title": null,
-          "url": null
-        }
-      ],
       "card_body": [
         "widgetlist",
         [
           "52a2beaf"
         ]
+      ],
+      "link_to": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "3e782832e1504ecd",
+          "query": null,
+          "target": null,
+          "title": null,
+          "url": null
+        }
       ]
     },
     "dce5f7ed": {
@@ -224,7 +220,7 @@
       ],
       "label": [
         "string",
-        "Bestellung"
+        "Auftrag"
       ],
       "data": [
         "datalocator",
@@ -239,7 +235,7 @@
       "_obj_class": "DataLabelWidget",
       "label": [
         "string",
-        "Bestellt Am"
+        "Beauftragt am"
       ],
       "show_as": [
         "string",
@@ -327,7 +323,7 @@
       ],
       "text": [
         "html",
-        "<p>Keine Bestellungen gefunden.</p>"
+        "<p>Keine Aufträge gefunden.</p>"
       ]
     },
     "ad0a272f": {
@@ -358,7 +354,7 @@
           "obj_id": "31f54bc713bc6050",
           "query": null,
           "target": null,
-          "title": "Bestellübersicht",
+          "title": "Auftragsübersicht",
           "url": null
         }
       ]
@@ -403,7 +399,7 @@
       ],
       "placeholder": [
         "string",
-        "Nach Bestellung suchen"
+        "Nach Aufträgen suchen"
       ]
     }
   },

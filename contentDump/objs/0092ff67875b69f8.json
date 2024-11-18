@@ -760,14 +760,24 @@
       ],
       "col_size": [
         "number",
-        4
+        9
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ]
     },
     "db2dc5a6": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        3
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "2bab5790"
+        ]
       ]
     },
     "2bab5790": {
@@ -797,32 +807,22 @@
         }
       ]
     },
-    "74a9ef08": {
-      "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "2bab5790"
-        ]
-      ],
-      "col_size": [
-        "number",
-        4
-      ]
-    },
     "60e7487f": {
       "_obj_class": "ColumnContainerWidget",
       "columns": [
         "widgetlist",
         [
           "38c64537",
-          "db2dc5a6",
-          "74a9ef08"
+          "db2dc5a6"
         ]
       ],
       "alignment": [
         "string",
         "start"
+      ],
+      "layout_mode": [
+        "string",
+        "flex"
       ]
     },
     "2ee30c75": {
@@ -884,9 +884,13 @@
         "string",
         "multi_line"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "multi"
+        }
       ]
     },
     "2adf4ed9": {
@@ -895,13 +899,17 @@
         "string",
         "Files"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
-      ],
       "multiple": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "attachments",
+          "via_ref": "multi"
+        }
       ]
     },
     "3ab25465": {

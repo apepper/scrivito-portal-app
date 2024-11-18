@@ -4,10 +4,6 @@
     "string",
     "Orders archive"
   ],
-  "link_icon": [
-    "string",
-    "bi-envelope-paper"
-  ],
   "body": [
     "widgetlist",
     [
@@ -32,7 +28,7 @@
       "query": [
         {
           "field": "open",
-          "value": "false"
+          "value": false
         }
       ],
       "size": 10

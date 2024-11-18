@@ -2,7 +2,7 @@
   "_obj_class": "Page",
   "title": [
     "string",
-    "Bestelldetails"
+    "Auftragsdetails"
   ],
   "body": [
     "widgetlist",
@@ -295,7 +295,7 @@
       ],
       "label": [
         "string",
-        "Bestellt am"
+        "Beauftragt am"
       ],
       "datetime_format": [
         "string",
@@ -322,7 +322,7 @@
       ],
       "label": [
         "string",
-        "Gesamtbetrag der Bestellung"
+        "Gesamtbetrag des Auftrags"
       ],
       "value_size": [
         "string",
@@ -481,7 +481,7 @@
       ],
       "label": [
         "string",
-        "Bestelltyp"
+        "Auftragstyp"
       ],
       "data": [
         "datalocator",
@@ -747,20 +747,30 @@
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        9
       ],
       "content": [
         "widgetlist",
         [
           "1f483914"
         ]
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ]
     },
     "c07b47df": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        3
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "1eefbc2b"
+        ]
       ]
     },
     "1eefbc2b": {
@@ -790,19 +800,6 @@
         }
       ]
     },
-    "3e913856": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        4
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "1eefbc2b"
-        ]
-      ]
-    },
     "0503b319": {
       "_obj_class": "ColumnContainerWidget",
       "alignment": [
@@ -813,9 +810,12 @@
         "widgetlist",
         [
           "6094e4dd",
-          "c07b47df",
-          "3e913856"
+          "c07b47df"
         ]
+      ],
+      "layout_mode": [
+        "string",
+        "flex"
       ]
     },
     "689651b7": {
@@ -877,9 +877,13 @@
         "string",
         "multi_line"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "multi"
+        }
       ]
     },
     "04b5dded": {
@@ -888,13 +892,17 @@
         "string",
         "Dateien"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
-      ],
       "multiple": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "attachments",
+          "via_ref": "multi"
+        }
       ]
     },
     "0272a047": {

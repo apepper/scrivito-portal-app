@@ -36,7 +36,7 @@
       "query": [
         {
           "field": "open",
-          "value": "true"
+          "value": true
         }
       ],
       "size": 10

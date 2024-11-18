@@ -317,7 +317,7 @@
         "datalocator",
         {
           "class": "ServiceObject",
-          "field": "warrentyEndsAt",
+          "field": "warrantyEndsAt",
           "via_ref": "single"
         }
       ]
@@ -1150,7 +1150,7 @@
             },
             {
               "field": "isCustomer",
-              "value": "true"
+              "value": true
             }
           ],
           "size": 1

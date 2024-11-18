@@ -4,10 +4,6 @@
     "string",
     "Angebotsarchiv"
   ],
-  "link_icon": [
-    "string",
-    "bi-file-earmark-text"
-  ],
   "data": [
     "datalocator",
     {
@@ -21,7 +17,7 @@
       "query": [
         {
           "field": "open",
-          "value": "false"
+          "value": false
         }
       ],
       "size": 10
@@ -186,22 +182,22 @@
         "string",
         "mb-2"
       ],
-      "link_to": [
-        "link",
-        {
-          "fragment": null,
-          "obj_id": "0092ff67875b69f8",
-          "query": null,
-          "target": null,
-          "title": null,
-          "url": null
-        }
-      ],
       "card_body": [
         "widgetlist",
         [
           "b1a6d82f"
         ]
+      ],
+      "link_to": [
+        "link",
+        {
+          "fragment": null,
+          "obj_id": "52311cd4fb7fce3b",
+          "query": null,
+          "target": null,
+          "title": null,
+          "url": null
+        }
       ]
     },
     "bc41343c": {

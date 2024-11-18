@@ -291,7 +291,7 @@
               "field": "_id",
               "value_via": {
                 "class": "CartItem",
-                "field": "productId"
+                "field": "product"
               }
             }
           ]

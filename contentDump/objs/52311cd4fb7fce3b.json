@@ -48,13 +48,17 @@
         "string",
         "Dateien"
       ],
-      "attribute_name": [
-        "string",
-        "attachments"
-      ],
       "multiple": [
         "boolean",
         true
+      ],
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "attachments",
+          "via_ref": "multi"
+        }
       ]
     },
     "a95a26d4": {
@@ -756,20 +760,30 @@
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        9
       ],
       "content": [
         "widgetlist",
         [
           "75862e50"
         ]
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ]
     },
     "ba76d0dd": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        3
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "4f87e1ae"
+        ]
       ]
     },
     "4f87e1ae": {
@@ -799,19 +813,6 @@
         }
       ]
     },
-    "a593fd1d": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        4
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "4f87e1ae"
-        ]
-      ]
-    },
     "13a5026c": {
       "_obj_class": "ColumnContainerWidget",
       "alignment": [
@@ -822,9 +823,12 @@
         "widgetlist",
         [
           "ea0cd0a1",
-          "ba76d0dd",
-          "a593fd1d"
+          "ba76d0dd"
         ]
+      ],
+      "layout_mode": [
+        "string",
+        "flex"
       ]
     },
     "b17ae71e": {
@@ -886,9 +890,13 @@
         "string",
         "multi_line"
       ],
-      "attribute_name": [
-        "string",
-        "text"
+      "data": [
+        "datalocator",
+        {
+          "class": "Message",
+          "field": "text",
+          "via_ref": "multi"
+        }
       ]
     },
     "39c2dab1": {
@@ -1233,7 +1241,7 @@
       ],
       "submit_title": [
         "string",
-        "Angebot annehmen und bestellen"
+        "Angebot annehmen und beauftragen"
       ]
     },
     "07cea73b": {
@@ -1266,7 +1274,7 @@
       ],
       "text": [
         "html",
-        "<p>Ihre auf diesem Angebot basierende Bestellung ist bei uns eingegangen. Sie werden in Kürze eine Rückmeldung von uns erhalten.</p>"
+        "<p>Ihr auf diesem Angebot basierender Auftrag ist bei uns eingegangen. Sie werden in Kürze eine Rückmeldung von uns erhalten.</p>"
       ]
     },
     "e6d48cf6": {

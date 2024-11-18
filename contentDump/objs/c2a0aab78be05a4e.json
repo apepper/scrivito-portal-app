@@ -94,6 +94,38 @@
     "string",
     "transparent"
   ],
+  "tc_image": [
+    "reference",
+    "22d9c6805af643eb"
+  ],
+  "og_image": [
+    "reference",
+    "22d9c6805af643eb"
+  ],
+  "tc_title": [
+    "string",
+    "Tynacoon—The Right Solution for Your Industry"
+  ],
+  "og_title": [
+    "string",
+    "Tynacoon—The Right Solution for Your Industry"
+  ],
+  "tc_description": [
+    "string",
+    "Spanning five continents with 33 subsidiaries in 29 countries, along with 19 manufacturing sites, and numerous importers and agencies."
+  ],
+  "og_description": [
+    "string",
+    "Spanning five continents with 33 subsidiaries in 29 countries, along with 19 manufacturing sites, and numerous importers and agencies."
+  ],
+  "tc_creator": [
+    "string",
+    "@tynacoon"
+  ],
+  "content_format": [
+    "string",
+    "portal-app:5"
+  ],
   "_conflicts": null,
   "_content_id": "c2a0aab78be05a4e",
   "_created_at": "20230509091921",
@@ -339,7 +371,7 @@
       ],
       "text": [
         "html",
-        "<p>With a global presence in over 70 countries through 33 subsidiaries, 19 production facilities, and a network of importers and agencies, our company guarantees accessibility. Safety-critical components are rigorously tested by the Research and Material Testing Institute for the Construction Industry (FMPA).</p>"
+        "<p>With a global presence in over 29 countries through 33 subsidiaries, 19 production facilities, and a network of importers and agencies, our company guarantees accessibility. Safety-critical components are rigorously tested by the Research and Material Testing Institute for the Construction Industry (FMPA).</p>"
       ]
     },
     "eaef75af": {
@@ -375,6 +407,10 @@
       "headline": [
         "string",
         "Architects & Planners"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "7bac5b31": {
@@ -454,6 +490,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "12b96b52": {
@@ -469,6 +509,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "56aa14f9": {
@@ -484,6 +528,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "b991db69": {
@@ -499,6 +547,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "e67a726a": {
@@ -514,6 +566,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "d8dcc39b": {
@@ -548,16 +604,15 @@
       "content": [
         "widgetlist",
         [
+          "f0f8242e",
+          "5e6ed9f2",
+          "9b6f5451",
           "9e356153"
         ]
       ],
       "background_color": [
         "string",
         "light-grey"
-      ],
-      "show_padding": [
-        "boolean",
-        true
       ]
     },
     "6b0be46a": {
@@ -870,10 +925,6 @@
       "style": [
         "string",
         "h2"
-      ],
-      "level": [
-        "string",
-        "h1"
       ]
     },
     "7e6116e7": {
@@ -1042,7 +1093,7 @@
       ],
       "style": [
         "string",
-        "h2"
+        "h3"
       ]
     },
     "91c7c162": {
@@ -1210,6 +1261,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "level": [
+        "string",
+        "h3"
       ]
     },
     "6fd58262": {
@@ -1236,6 +1291,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "level": [
+        "string",
+        "h3"
       ]
     },
     "ffdd20c8": {
@@ -1251,6 +1310,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "level": [
+        "string",
+        "h3"
       ]
     },
     "186776c9": {
@@ -1266,6 +1329,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "level": [
+        "string",
+        "h3"
       ]
     },
     "7d22001a": {
@@ -1276,7 +1343,7 @@
       ],
       "text": [
         "html",
-        "<p id=\"isPasted\">Press<br>Release Notes<br>Integrations<br>Pricing</p>"
+        "<p>Press<br>Release Notes<br>Integrations<br>Pricing</p>"
       ]
     },
     "fd110df0": {
@@ -1298,7 +1365,7 @@
       ],
       "text": [
         "html",
-        "<p id=\"isPasted\">Help<br>Your Account</p>"
+        "<p>Help<br>Your Account</p>"
       ]
     },
     "8d909c6f": {
@@ -1933,6 +2000,10 @@
       "style": [
         "string",
         "h2"
+      ],
+      "level": [
+        "string",
+        "h1"
       ]
     },
     "9ae96b67": {
@@ -2112,6 +2183,64 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "9b6f5451": {
+      "_obj_class": "SpaceWidget",
+      "size": [
+        "number",
+        3
+      ]
+    },
+    "5e6ed9f2": {
+      "_obj_class": "TickListWidget",
+      "items": [
+        "widgetlist",
+        [
+          "e1f8f89a",
+          "372970df",
+          "f123864f"
+        ]
+      ],
+      "icon": [
+        "string",
+        "bi-check"
+      ]
+    },
+    "e1f8f89a": {
+      "_obj_class": "TickListItemWidget",
+      "statement": [
+        "string",
+        "Global Presence:  In over 29 countries worldwide."
+      ]
+    },
+    "372970df": {
+      "_obj_class": "TickListItemWidget",
+      "statement": [
+        "string",
+        "Stringent Quality Control: Rigorously tested by FMPA."
+      ]
+    },
+    "f123864f": {
+      "_obj_class": "TickListItemWidget",
+      "statement": [
+        "string",
+        "Comprehensive Solutions: Ecoline and Proline series for industry and trade."
+      ]
+    },
+    "f0f8242e": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "Our ​products"
+      ],
+      "style": [
+        "string",
+        "h2"
       ]
     }
   },

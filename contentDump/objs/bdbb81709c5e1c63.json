@@ -95,6 +95,38 @@
     "string",
     "transparent"
   ],
+  "tc_image": [
+    "reference",
+    "22d9c6805af643eb"
+  ],
+  "og_image": [
+    "reference",
+    "22d9c6805af643eb"
+  ],
+  "tc_title": [
+    "string",
+    "Tynacoon – Die richtige Lösung für Ihre Branche"
+  ],
+  "og_title": [
+    "string",
+    "Tynacoon – Die richtige Lösung für Ihre Branche"
+  ],
+  "tc_description": [
+    "string",
+    "Über fünf Kontinente verteilt mit 33 Tochtergesellschaften in 29 Ländern sowie 19 Produktionsstandorten und zahlreichen Importeuren und Agenturen."
+  ],
+  "og_description": [
+    "string",
+    "Über fünf Kontinente verteilt mit 33 Tochtergesellschaften in 29 Ländern sowie 19 Produktionsstandorten und zahlreichen Importeuren und Agenturen."
+  ],
+  "tc_creator": [
+    "string",
+    "@tynacoon"
+  ],
+  "content_format": [
+    "string",
+    "portal-app:5"
+  ],
   "_conflicts": null,
   "_content_id": "c2a0aab78be05a4e",
   "_created_at": "20240405091747",
@@ -308,7 +340,7 @@
       ],
       "text": [
         "html",
-        "<p>Mit einer globalen Präsenz in über 70 Ländern durch 33 Tochtergesellschaften, 19 Produktionsstandorten und einem Netzwerk von Importeuren und Agenturen garantiert unser Unternehmen die Zugänglichkeit. Sicherheitskritische Komponenten werden vom Forschungs- und Materialprüfungsinstitut für das Bauwesen (FMPA) strengsten Tests unterzogen.</p>"
+        "<p>Mit einer globalen Präsenz in über 29 Ländern durch 33 Tochtergesellschaften, 19 Produktionsstandorten und einem Netzwerk von Importeuren und Agenturen garantiert unser Unternehmen die Zugänglichkeit. Sicherheitskritische Komponenten werden vom Forschungs- und Materialprüfungsinstitut für das Bauwesen (FMPA) strengsten Tests unterzogen.</p>"
       ]
     },
     "39d3a71d": {
@@ -344,6 +376,10 @@
       "headline": [
         "string",
         "Architekten & Planer"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "d74f8cc1": {
@@ -423,6 +459,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "65b4d286": {
@@ -438,6 +478,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "b19657e5": {
@@ -453,6 +497,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "af3b2116": {
@@ -468,6 +516,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "6c4d9f81": {
@@ -483,6 +535,10 @@
       "style": [
         "string",
         "h6"
+      ],
+      "level": [
+        "string",
+        "div"
       ]
     },
     "6ee40c01": {
@@ -525,6 +581,9 @@
       "content": [
         "widgetlist",
         [
+          "6a82de89",
+          "58de5784",
+          "00b7d889",
           "5125ead9"
         ]
       ]
@@ -873,10 +932,6 @@
       "style": [
         "string",
         "h2"
-      ],
-      "level": [
-        "string",
-        "h1"
       ]
     },
     "8d9f3e65": {
@@ -1024,7 +1079,7 @@
       ],
       "style": [
         "string",
-        "h2"
+        "h3"
       ]
     },
     "c7e25631": {
@@ -1192,6 +1247,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "level": [
+        "string",
+        "h3"
       ]
     },
     "5311a117": {
@@ -1218,6 +1277,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "level": [
+        "string",
+        "h3"
       ]
     },
     "3b5c5a5a": {
@@ -1233,6 +1296,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "level": [
+        "string",
+        "h3"
       ]
     },
     "66f1a2f5": {
@@ -1248,6 +1315,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "level": [
+        "string",
+        "h3"
       ]
     },
     "3f3b5c8d": {
@@ -1258,7 +1329,7 @@
       ],
       "text": [
         "html",
-        "<p id=\"isPasted\">Presse<br>Versionshinweise<br>Integrationen<br>Kosten</p>"
+        "<p>Presse<br>Versionshinweise<br>Integrationen<br>Kosten</p>"
       ]
     },
     "919c2d69": {
@@ -1280,7 +1351,7 @@
       ],
       "text": [
         "html",
-        "<p id=\"isPasted\">Hilfe<br>Ihr Konto</p>"
+        "<p>Hilfe<br>Ihr Konto</p>"
       ]
     },
     "68f145ba": {
@@ -1934,6 +2005,10 @@
       "style": [
         "string",
         "h2"
+      ],
+      "level": [
+        "string",
+        "h1"
       ]
     },
     "3f10c6de": {
@@ -2113,6 +2188,64 @@
       "button_size": [
         "string",
         "medium"
+      ]
+    },
+    "6a82de89": {
+      "_obj_class": "HeadlineWidget",
+      "alignment": [
+        "string",
+        "left"
+      ],
+      "headline": [
+        "string",
+        "Unsere Produkte"
+      ],
+      "style": [
+        "string",
+        "h2"
+      ]
+    },
+    "0f006f76": {
+      "_obj_class": "TickListItemWidget",
+      "statement": [
+        "string",
+        "Weltweite Präsenz: In über 70 Ländern weltweit."
+      ]
+    },
+    "8600c7c7": {
+      "_obj_class": "TickListItemWidget",
+      "statement": [
+        "string",
+        "Strenger Qualitätskontrolle: Strenge Überprüfung durch FMPA."
+      ]
+    },
+    "1cc2bb2b": {
+      "_obj_class": "TickListItemWidget",
+      "statement": [
+        "string",
+        "Umfassende Lösungen: Ecoline und Proline-Serie für Industrie und Handel."
+      ]
+    },
+    "58de5784": {
+      "_obj_class": "TickListWidget",
+      "items": [
+        "widgetlist",
+        [
+          "0f006f76",
+          "8600c7c7",
+          "1cc2bb2b"
+        ]
+      ],
+      "icon": [
+        "string",
+        "bi-check"
+      ]
+    },
+    "00b7d889": {
+      "_obj_class": "SpaceWidget",
+      "size": [
+        "number",
+        3
       ]
     }
   },
