@@ -22,7 +22,7 @@ export const DimensionsPicker = connect(function DimensionsPicker({
 
           <div className="item_content">
             <div className="input_group">
-              <input type="text" placeholder="100" />
+              <input type="number" min="0" max="100" placeholder="100" />
 
               <select>
                 <option value="pixel">px</option>
@@ -39,7 +39,7 @@ export const DimensionsPicker = connect(function DimensionsPicker({
 
           <div className="item_content">
             <div className="input_group">
-              <input type="text" placeholder="100" />
+              <input type="number" min="0" max="33000000" placeholder="100" />
               <span className="input_group_text">px</span>
             </div>
           </div>
@@ -55,7 +55,7 @@ export const DimensionsPicker = connect(function DimensionsPicker({
             className="enum_attribute_active"
             title="Image is scaled to maintain its aspect ratio while fitting within the element's content box."
           >
-            <div class="attribute-preview contain"></div>
+            <div className="attribute-preview contain"></div>
             <span>Contain</span>
           </li>
           <li title="Image is sized to maintain its aspect ratio while filling the element's entire content box. The Image will be clipped to fit.">
@@ -65,6 +65,14 @@ export const DimensionsPicker = connect(function DimensionsPicker({
           <li title="Image is sized to fill the element's content box. If necessary, the image will be stretched or squished to fit.">
             <div class="attribute-preview fill"></div>
             <span>Fill</span>
+          </li>
+          <li title="The content is sized as if none or contain were specified, whichever would result in a smaller concrete object size.">
+            <div class="attribute-preview scale-down"></div>
+            <span>Scale Down</span>
+          </li>
+          <li title="The replaced content is not resized.">
+            <div class="attribute-preview none"></div>
+            <span>None</span>
           </li>
         </ul>
       </div>

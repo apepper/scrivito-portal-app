@@ -18,11 +18,14 @@
 
   .input_group .read_only,
   .input_group input[type='text'],
+  .input_group input[type='number'],
   .input_group select {
     position: relative;
     flex: 1 1 auto;
     width: 1%;
     min-width: 0;
+    appearance: textfield;
+    -webkit-appearance: textfield;
   }
 
   .input_group input {
@@ -44,9 +47,13 @@
 
     &:focus {
       background: #fff;
-      box-shadow: 0 0 0 2px var(--jr-blue) inset;
+
       outline: none;
     }
+  }
+  .input_group:focus-within {
+    box-shadow: 0 0 0 2px var(--jr-blue);
+    border-radius: 2px;
   }
 
   .input_group .input_group_text {
@@ -112,6 +119,12 @@
     &.fill {
       background: no-repeat center/ contain url('object-fit-fill.svg');
     }
+    &.none {
+      background: no-repeat center/ contain url('object-fit-none.svg');
+    }
+    &.scale-down {
+      background: no-repeat center/ contain url('object-fit-none.svg');
+    }
   }
   .enum_attribute li span {
     color: #555;
@@ -176,10 +189,6 @@
     line-height: 18px;
     background: rgba(222, 222, 222, 0.2);
     color: #eee;
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 2px var(--jr-blue-light) inset;
   }
 
   .input_group .input_group_text {
