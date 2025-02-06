@@ -15,7 +15,7 @@ export const DimensionsPicker = connect(function DimensionsPicker({
       className={`dimensions-picker scrivito_detail_content scrivito_${theme}`}
     >
       <div className="row">
-        <div className="col-6">
+        <div className="col-auto">
           <div className="scrivito_detail_label">
             <span>Width</span>
           </div>
@@ -32,7 +32,7 @@ export const DimensionsPicker = connect(function DimensionsPicker({
           </div>
         </div>
 
-        <div className="col-6">
+        <div className="col-auto">
           <div className="scrivito_detail_label">
             <span>Height</span>
           </div>
