@@ -8,8 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-    width: 100%;
-
+    width: 130px;
     margin-bottom: 10px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
     white-space: pre-line;
@@ -26,6 +25,11 @@
     min-width: 0;
     appearance: textfield;
     -webkit-appearance: textfield;
+  }
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
   }
 
   .input_group input {
@@ -91,17 +95,19 @@
     list-style-type: none;
     margin: 0;
     padding: 0 0 3px 0;
+    display: grid;
+    gap: 6px;
+    grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
   }
   .enum_attribute li {
     position: relative;
     border-radius: 3px;
     border-left: 30px solid #f0f0f0;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
-    margin: 3px 4px 3px 0;
     padding: 4px 8px;
     line-height: 15px;
-    display: block;
-    float: left;
+    display: flex;
+    flex-flow: column;
     background: #fafafa;
     color: #555;
     font-size: 13px;
@@ -109,7 +115,8 @@
   }
   .enum_attribute li .attribute-preview {
     width: 45px;
-    height: 45px;
+    height: 30px;
+    margin: 2px auto;
     &.contain {
       background: no-repeat center/ contain url('object-fit-contain.svg');
     }
@@ -131,6 +138,7 @@
     font-size: 11px;
     text-align: center;
     display: block;
+    margin: auto;
   }
 
   .enum_attribute:not(.scrivito_multi_read_only) li:hover {
