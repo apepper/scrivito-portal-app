@@ -143,14 +143,14 @@
   "_first_published_at": "20240405121103",
   "_id": "bdbb81709c5e1c63",
   "_language": "de",
-  "_last_changed": "20250213091939",
+  "_last_changed": "20250307100554",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20250218093446",
+  "_published_at": "20250310125541",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2025021809344600000000000000005a88547829e1de41",
+  "_version": "2025031012554100000000000000003b9689f9a3c2f707",
   "_widget_pool": {
     "43891776": {
       "_obj_class": "ColumnWidget",
@@ -551,6 +551,10 @@
           "e5ec7763",
           "344aab4a"
         ]
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "220eeeca": {
@@ -650,6 +654,10 @@
           "113b83f8",
           "4e7e369c"
         ]
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "d2334b01": {
@@ -673,6 +681,14 @@
           "073f4bf6",
           "da965537"
         ]
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "073f4bf6": {
@@ -840,6 +856,14 @@
           "5ef7233d",
           "dffc234b"
         ]
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "43fbd8e4": {
@@ -1037,6 +1061,14 @@
       "background_animate_on_hover": [
         "boolean",
         true
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "0473d267": {
@@ -1124,6 +1156,14 @@
           "c7e25631",
           "3f10c6de"
         ]
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "be1b0d1d": {
@@ -1217,6 +1257,10 @@
           "4d364d73",
           "48041707"
         ]
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "8424363c": {
@@ -1401,14 +1445,14 @@
       "_obj_class": "SpaceWidget",
       "size": [
         "number",
-        5
+        5.5
       ]
     },
     "caf4292e": {
       "_obj_class": "SpaceWidget",
       "size": [
         "number",
-        5
+        5.5
       ]
     },
     "4b9b64be": {
@@ -2506,6 +2550,10 @@
       "min_height": [
         "number",
         566
+      ],
+      "autoplay_interval": [
+        "number",
+        5
       ]
     },
     "ce7fb962": {
@@ -2533,7 +2581,7 @@
       ],
       "col_size": [
         "number",
-        2
+        3
       ]
     },
     "6879b850": {
@@ -2577,7 +2625,11 @@
       ],
       "col_size": [
         "number",
-        10
+        9
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ]
     },
     "fd9e2fc3": {
@@ -2592,6 +2644,10 @@
       "alignment": [
         "string",
         "start"
+      ],
+      "layout_mode": [
+        "string",
+        "flex"
       ]
     },
     "af79fdce": {
@@ -2606,7 +2662,7 @@
       ],
       "icon": [
         "string",
-        "bi-hourglass-split"
+        "bi-speedometer2"
       ]
     },
     "b661cd8c": {
@@ -2619,7 +2675,7 @@
       ],
       "col_size": [
         "number",
-        2
+        6
       ]
     },
     "fad3a1c7": {
@@ -2659,7 +2715,11 @@
       ],
       "col_size": [
         "number",
-        10
+        6
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ]
     },
     "21f4f10c": {
@@ -2674,6 +2734,10 @@
       "alignment": [
         "string",
         "start"
+      ],
+      "layout_mode": [
+        "string",
+        "flex"
       ]
     }
   },

@@ -28,14 +28,14 @@
   "_first_published_at": "20230516091834",
   "_id": "fec151165aeb27da",
   "_language": "en",
-  "_last_changed": "20250131084128",
+  "_last_changed": "20250307101014",
   "_modification": null,
   "_path": "/33cbdf671c7b83b1/3cc07265490102de",
   "_permalink": null,
-  "_published_at": "20250131085822",
+  "_published_at": "20250310125541",
   "_restriction": null,
   "_site_id": "56a14d0750cc844e",
-  "_version": "20250131085822000000000000000012a19e159bb1c035",
+  "_version": "2025031012554100000000000000003b9689f9a3c2f707",
   "_widget_pool": {
     "74168031": {
       "_obj_class": "HeadlineWidget",
@@ -60,7 +60,7 @@
       ],
       "text": [
         "html",
-        "<p>Products and much more</p>"
+        "<p>Tynacoon's groundbreaking machine sets new industry standards for productivity.</p>"
       ]
     },
     "4bd811c3": {
@@ -92,7 +92,7 @@
       ],
       "headline": [
         "string",
-        "Factory 3000 ​live"
+        "Factory 3000 Live"
       ],
       "style": [
         "string",
@@ -107,7 +107,7 @@
       ],
       "text": [
         "html",
-        "<p>Products and much more</p>"
+        "<p>Tynacoon's latest innovation promises to revolutionize manufacturing processes.</p>"
       ]
     },
     "f9f26331": {
@@ -131,7 +131,7 @@
           "obj_id": "c2a0aab78be05a4e",
           "query": null,
           "target": null,
-          "title": "More Infos",
+          "title": "Read full story",
           "url": null
         }
       ]
@@ -157,6 +157,14 @@
       "image": [
         "reference",
         "1409db9bede134fb"
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "4d4a4446": {
@@ -240,7 +248,7 @@
       ],
       "headline": [
         "string",
-        "Maschine 3000"
+        "Breakthrough Machine"
       ]
     },
     "529110e3": {
@@ -256,7 +264,7 @@
           "obj_id": "c2a0aab78be05a4e",
           "query": null,
           "target": null,
-          "title": "Get involved",
+          "title": "Read full story",
           "url": null
         }
       ],
@@ -290,6 +298,14 @@
       "background_color": [
         "string",
         "white"
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "7b7785ff": {
@@ -304,7 +320,7 @@
       ],
       "headline": [
         "string",
-        "New Tynacoon Website"
+        "Website Redesign"
       ]
     },
     "b82bfabd": {
@@ -315,7 +331,7 @@
       ],
       "text": [
         "html",
-        "<p>Products and much more</p>"
+        "<p>Improved user experience and new features enhance online engagement for customers.</p>"
       ]
     },
     "3c469ee5": {
@@ -331,7 +347,7 @@
           "obj_id": "c2a0aab78be05a4e",
           "query": null,
           "target": null,
-          "title": "Get involved",
+          "title": "Read full story",
           "url": null
         }
       ],
@@ -365,6 +381,14 @@
       "background_color": [
         "string",
         "white"
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "e5bacd9e": {
@@ -384,13 +408,13 @@
         "string",
         "center"
       ],
-      "style": [
-        "string",
-        "display-6"
-      ],
       "level": [
         "string",
         "h2"
+      ],
+      "style": [
+        "string",
+        "display-6"
       ]
     },
     "aacfa3f9": {
@@ -472,20 +496,6 @@
       "background_image": [
         "reference",
         "d7cb8d71df8ef049"
-      ]
-    },
-    "964b5e0a": {
-      "_obj_class": "SpaceWidget",
-      "size": [
-        "number",
-        5
-      ]
-    },
-    "499c63d8": {
-      "_obj_class": "SpaceWidget",
-      "size": [
-        "number",
-        5
       ]
     },
     "2c4c0f01": {
@@ -585,6 +595,14 @@
       "background_color": [
         "string",
         "success"
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "0f2508c3": {
@@ -673,6 +691,14 @@
       "background_color": [
         "string",
         "secondary"
+      ],
+      "padding": [
+        "string",
+        "p-4"
+      ],
+      "margin": [
+        "string",
+        "mb-4"
       ]
     },
     "31b70fed": {
@@ -700,6 +726,20 @@
       "alignment": [
         "string",
         "start"
+      ]
+    },
+    "964b5e0a": {
+      "_obj_class": "SpaceWidget",
+      "size": [
+        "number",
+        5.5
+      ]
+    },
+    "499c63d8": {
+      "_obj_class": "SpaceWidget",
+      "size": [
+        "number",
+        5.5
       ]
     }
   },
