@@ -11,7 +11,13 @@
   "data": [
     "datalocator",
     {
-      "class": "Gdpr"
+      "class": "Gdpr",
+      "order_by": [
+        [
+          "name",
+          "asc"
+        ]
+      ]
     }
   ],
   "exclude_from_search": [
@@ -42,14 +48,14 @@
   "_first_published_at": "20250228133735",
   "_id": "3fda98a107e6ae1a",
   "_language": "de",
-  "_last_changed": "20250307122814",
+  "_last_changed": "20250325090640",
   "_modification": null,
   "_path": "/6a5898770a646824/3fda98a107e6ae1a",
   "_permalink": "dsgvo-einwilligungsformular",
-  "_published_at": "20250312090751",
+  "_published_at": "20250325092651",
   "_restriction": null,
   "_site_id": "dc07b5fb5abd4c35",
-  "_version": "2025031209075100000000000000008e4953658358d065",
+  "_version": "202503250926510000000000000000f84d58a5b7b1f114",
   "_widget_pool": {
     "28707073": {
       "_obj_class": "AddressWidget",
@@ -258,7 +264,7 @@
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        4
+        1
       ],
       "content": [
         "widgetlist",
@@ -292,10 +298,6 @@
         "string",
         "switch"
       ],
-      "label": [
-        "string",
-        "Einwilligung"
-      ],
       "data": [
         "datalocator",
         {
@@ -303,6 +305,14 @@
           "field": "active",
           "via_ref": "single"
         }
+      ],
+      "on_label": [
+        "string",
+        "Einwilligung gegeben"
+      ],
+      "off_label": [
+        "string",
+        "Keine Einwilligung gegeben"
       ]
     },
     "d3176d78": {
@@ -310,13 +320,6 @@
       "submit_on_change": [
         "boolean",
         true
-      ],
-      "content": [
-        "widgetlist",
-        [
-          "f267496b",
-          "9d26129c"
-        ]
       ]
     },
     "6e5c9a40": {
@@ -324,16 +327,13 @@
       "content": [
         "widgetlist",
         [
-          "dccdd8c3"
+          "f267496b",
+          "548b5bf4"
         ]
       ],
       "col_size": [
         "number",
-        8
-      ],
-      "flex_grow": [
-        "boolean",
-        true
+        3
       ]
     },
     "dccdd8c3": {
@@ -365,7 +365,8 @@
         "widgetlist",
         [
           "2174ae46",
-          "6e5c9a40"
+          "6e5c9a40",
+          "f9331164"
         ]
       ],
       "alignment": [
@@ -600,12 +601,121 @@
       "content": [
         "widgetlist",
         [
-          "9983b809"
+          "eef5ae1d"
         ]
       ]
     },
     "9983b809": {
       "_obj_class": "LogoWidget"
+    },
+    "f9331164": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        8
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "dccdd8c3"
+        ]
+      ],
+      "flex_grow": [
+        "boolean",
+        true
+      ]
+    },
+    "eef5ae1d": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "9d5cb0c0",
+          "78a8fd8c",
+          "fdf21a30",
+          "635b2619",
+          "0dc44f6e"
+        ]
+      ],
+      "layout_mode": [
+        "string",
+        "grid"
+      ]
+    },
+    "9d5cb0c0": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        2
+      ]
+    },
+    "78a8fd8c": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        1
+      ]
+    },
+    "fdf21a30": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "flex_grow": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "9983b809"
+        ]
+      ]
+    },
+    "5c78e622": {
+      "_obj_class": "LanguageSwitchWidget",
+      "alignment": [
+        "string",
+        "right"
+      ]
+    },
+    "635b2619": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        1
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "5c78e622"
+        ]
+      ]
+    },
+    "0dc44f6e": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        2
+      ]
+    },
+    "548b5bf4": {
+      "_obj_class": "DataFormContainerWidget",
+      "submit_on_change": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "9d26129c"
+        ]
+      ]
     }
   },
   "_created_by": "scrivito:65a0e747eaf64fa6a193cebce8470e71",

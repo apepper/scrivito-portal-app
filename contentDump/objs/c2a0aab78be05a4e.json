@@ -120,7 +120,7 @@
   ],
   "content_format": [
     "string",
-    "portal-app:5"
+    "portal-app:6"
   ],
   "site_font_headline_weight": [
     "string",
@@ -142,14 +142,14 @@
   "_first_published_at": "20230509091931",
   "_id": "c2a0aab78be05a4e",
   "_language": "en",
-  "_last_changed": "20250307100716",
+  "_last_changed": "20250321200922",
   "_modification": null,
   "_path": "/",
   "_permalink": null,
-  "_published_at": "20250310125541",
+  "_published_at": "20250324090106",
   "_restriction": null,
   "_site_id": "56a14d0750cc844e",
-  "_version": "2025031012554100000000000000003b9689f9a3c2f707",
+  "_version": "20250324090106000000000000000014fe911979b02945",
   "_widget_pool": {
     "10914562": {
       "_obj_class": "ColumnContainerWidget",
