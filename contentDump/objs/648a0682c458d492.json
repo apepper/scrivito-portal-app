@@ -51,14 +51,14 @@
   "_first_published_at": "20240422102317",
   "_id": "648a0682c458d492",
   "_language": "en",
-  "_last_changed": "20250320132422",
+  "_last_changed": "20250805132940",
   "_modification": null,
   "_path": "/53cdc93aeaeabc4b/648a0682c458d492",
   "_permalink": "white-paper/filling-lines",
-  "_published_at": "20250321140057",
+  "_published_at": "20250806071623",
   "_restriction": null,
   "_site_id": "56a14d0750cc844e",
-  "_version": "202503211400570000000000000000c2bd74ba6f5167e1",
+  "_version": "202508060716230000000000000000297565bdf5c97a35",
   "_widget_pool": {
     "65647889": {
       "_obj_class": "ImageWidget",
@@ -230,6 +230,10 @@
       "style": [
         "string",
         "h2"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "b6afd968": {
@@ -334,6 +338,10 @@
       "level": [
         "string",
         "h1"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "6ddfaa64": {
@@ -472,6 +480,10 @@
       "alignment": [
         "string",
         "left"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "a0fa055f": {
@@ -558,6 +570,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "54a20c29": {
@@ -644,6 +660,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "d25536d6": {
@@ -1056,6 +1076,10 @@
       "headline": [
         "string",
         "30% Reduction in Downtime"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "b3e05adc": {
@@ -1142,6 +1166,10 @@
       "headline": [
         "string",
         "ROI in Months, Not Years"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "261536b3": {
@@ -1227,13 +1255,12 @@
         "widgetlist",
         [
           "1250f817",
-          "3a11c662",
-          "125d2e49"
+          "3a11c662"
         ]
       ],
       "layout_mode": [
         "string",
-        "grid"
+        "flex"
       ],
       "disable_responsive_adaption": [
         "boolean",
@@ -1244,18 +1271,7 @@
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        2
-      ]
-    },
-    "3a11c662": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        8
-      ],
-      "flex_grow": [
-        "boolean",
-        true
+        3
       ],
       "content": [
         "widgetlist",
@@ -1264,11 +1280,15 @@
         ]
       ]
     },
-    "125d2e49": {
+    "3a11c662": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        2
+        9
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ],
       "content": [
         "widgetlist",

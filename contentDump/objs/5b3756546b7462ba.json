@@ -26,19 +26,19 @@
       ]
     }
   ],
-  "exclude_from_search": [
-    "boolean",
-    true
-  ],
-  "layout_show_header": [
-    "boolean",
-    true
-  ],
   "layout_header": [
     "widgetlist",
     [
       "67e43a32"
     ]
+  ],
+  "layout_show_header": [
+    "boolean",
+    true
+  ],
+  "exclude_from_search": [
+    "boolean",
+    true
   ],
   "_conflicts": null,
   "_content_id": "5b3756546b7462ba",
@@ -48,14 +48,14 @@
   "_first_published_at": "20250228133735",
   "_id": "5b3756546b7462ba",
   "_language": "en",
-  "_last_changed": "20250325090618",
+  "_last_changed": "20250805132940",
   "_modification": null,
   "_path": "/53cdc93aeaeabc4b/1c2dea326d6cd4bb",
   "_permalink": "gdpr-consent-form",
-  "_published_at": "20250325092651",
+  "_published_at": "20250806071623",
   "_restriction": null,
   "_site_id": "56a14d0750cc844e",
-  "_version": "202503250926510000000000000000f84d58a5b7b1f114",
+  "_version": "202508060716230000000000000000297565bdf5c97a35",
   "_widget_pool": {
     "1a9a9d04": {
       "_obj_class": "SectionWidget",
@@ -95,6 +95,10 @@
       "style": [
         "string",
         "h1"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "bb7d1703": {
@@ -255,6 +259,10 @@
       "level": [
         "string",
         "div"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "cb45c955": {
@@ -400,6 +408,10 @@
       "style": [
         "string",
         "h2"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "50d1afa6": {
@@ -426,6 +438,10 @@
       "style": [
         "string",
         "h2"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "6fc0c28b": {
@@ -452,6 +468,10 @@
       "headline": [
         "string",
         "Contact person"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "8ed0170d": {
@@ -636,9 +656,7 @@
         [
           "7cc7c95c",
           "8ad2119c",
-          "c5af1e3f",
-          "32cd0a39",
-          "f9af061d"
+          "c5af1e3f"
         ]
       ],
       "layout_mode": [
@@ -657,7 +675,17 @@
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        1
+        8
+      ],
+      "flex_grow": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "f0809cbc"
+        ]
       ]
     },
     "439a5a0b": {
@@ -668,36 +696,6 @@
       ]
     },
     "c5af1e3f": {
-      "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "0842bf4e"
-        ]
-      ],
-      "col_size": [
-        "number",
-        6
-      ],
-      "flex_grow": [
-        "boolean",
-        true
-      ]
-    },
-    "32cd0a39": {
-      "_obj_class": "ColumnWidget",
-      "content": [
-        "widgetlist",
-        [
-          "439a5a0b"
-        ]
-      ],
-      "col_size": [
-        "number",
-        1
-      ]
-    },
-    "f9af061d": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
@@ -715,6 +713,58 @@
       "submit_on_change": [
         "boolean",
         true
+      ]
+    },
+    "f0809cbc": {
+      "_obj_class": "ColumnContainerWidget",
+      "alignment": [
+        "string",
+        "start"
+      ],
+      "columns": [
+        "widgetlist",
+        [
+          "c1e7b449",
+          "3cb06e23"
+        ]
+      ],
+      "layout_mode": [
+        "string",
+        "flex"
+      ],
+      "disable_responsive_adaption": [
+        "boolean",
+        true
+      ]
+    },
+    "c1e7b449": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "0842bf4e"
+        ]
+      ]
+    },
+    "3cb06e23": {
+      "_obj_class": "ColumnWidget",
+      "col_size": [
+        "number",
+        6
+      ],
+      "flex_grow": [
+        "boolean",
+        true
+      ],
+      "content": [
+        "widgetlist",
+        [
+          "439a5a0b"
+        ]
       ]
     }
   },

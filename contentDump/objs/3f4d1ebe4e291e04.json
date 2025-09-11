@@ -46,14 +46,14 @@
   "_first_published_at": "20240620133534",
   "_id": "3f4d1ebe4e291e04",
   "_language": "en",
-  "_last_changed": "20250320132527",
+  "_last_changed": "20250805132940",
   "_modification": null,
   "_path": "/53cdc93aeaeabc4b/2230ada40f9189cc",
   "_permalink": null,
-  "_published_at": "20250321140057",
+  "_published_at": "20250806071623",
   "_restriction": null,
   "_site_id": "56a14d0750cc844e",
-  "_version": "202503211400570000000000000000c2bd74ba6f5167e1",
+  "_version": "202508060716230000000000000000297565bdf5c97a35",
   "_widget_pool": {
     "14cd3e7c": {
       "_obj_class": "SpaceWidget",
@@ -142,6 +142,10 @@
       "headline": [
         "string",
         "Thank you for your submission!"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "4cc440cc": {
@@ -157,6 +161,10 @@
       "style": [
         "string",
         "h5"
+      ],
+      "margin": [
+        "string",
+        "mb-2"
       ]
     },
     "49d52b07": {
@@ -296,13 +304,12 @@
         "widgetlist",
         [
           "c4d2dff6",
-          "8d6ac34c",
-          "1d5674a9"
+          "8d6ac34c"
         ]
       ],
       "layout_mode": [
         "string",
-        "grid"
+        "flex"
       ],
       "disable_responsive_adaption": [
         "boolean",
@@ -313,18 +320,7 @@
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        2
-      ]
-    },
-    "8d6ac34c": {
-      "_obj_class": "ColumnWidget",
-      "col_size": [
-        "number",
-        8
-      ],
-      "flex_grow": [
-        "boolean",
-        true
+        3
       ],
       "content": [
         "widgetlist",
@@ -333,11 +329,15 @@
         ]
       ]
     },
-    "1d5674a9": {
+    "8d6ac34c": {
       "_obj_class": "ColumnWidget",
       "col_size": [
         "number",
-        2
+        9
+      ],
+      "flex_grow": [
+        "boolean",
+        true
       ],
       "content": [
         "widgetlist",
