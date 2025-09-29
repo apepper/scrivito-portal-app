@@ -16,11 +16,12 @@ export async function prerenderObj(
     preloadDump,
   } = await renderPage(obj, () => {
     const rawBodyContent = ReactDOMServer.renderToString(<App />)
-    const { title, bodyContent } = extractTitle(rawBodyContent)
+    const { title, bodyContent, meta } = extractTitleAndMeta(rawBodyContent)
 
     return {
       bodyContent,
       htmlAttributes: `lang="${obj.language() || 'en'}"`,
+      meta,
       objId: obj.id(),
       objUrl: urlFor(obj),
       title,
@@ -44,13 +45,40 @@ export async function prerenderObj(
   ]
 }
 
-function extractTitle(html: string): {
+function extractTitleAndMeta(html: string): {
   title: string
   bodyContent: string
+  meta: string
 } {
   const parsedBodyContent = parse(html)
-  const title = parsedBodyContent.querySelector('title')?.toString() || ''
-  const bodyContent = html.replace(title, '')
 
-  return { title, bodyContent }
+  const title = parsedBodyContent.querySelector('title')?.toString() || ''
+
+  const metaTags = parsedBodyContent.querySelectorAll('meta')
+  const meta = metaTags.map((tag) => tag.toString()).join('')
+
+  let bodyContent = html
+
+  bodyContent = stripTag(bodyContent, title)
+
+  metaTags.forEach((tag) => {
+    const tagString = tag.toString()
+
+    // Adjust self-closing tags for React style if necessary
+    const reactTag = !tagString.endsWith('/>')
+      ? tagString.replace('>', '/>')
+      : tagString
+
+    bodyContent = stripTag(bodyContent, reactTag)
+  })
+
+  return { title, bodyContent, meta }
+}
+
+function stripTag(content: string, tag: string): string {
+  if (!content.includes(tag)) {
+    throw new Error(`HTML tag not found in content: ${tag}`)
+  }
+
+  return content.replace(tag, '')
 }
