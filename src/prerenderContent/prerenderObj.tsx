@@ -1,4 +1,5 @@
 import * as ReactDOMServer from 'react-dom/server'
+import { parse } from 'node-html-parser'
 import { App } from '../App'
 import { contentHash } from './contentHash'
 import { filenameFromUrl } from './filenameFromUrl'
@@ -47,9 +48,9 @@ function extractTitle(html: string): {
   title: string
   bodyContent: string
 } {
-  const titleMatch = html.match(/<title[^>]*>.*?<\/title>/i)
-  const title = titleMatch ? titleMatch[0] : ''
-  const bodyContent = title ? html.replace(title, '') : html
+  const parsedBodyContent = parse(html)
+  const title = parsedBodyContent.querySelector('title')?.toString() || ''
+  const bodyContent = html.replace(title, '')
 
   return { title, bodyContent }
 }
