@@ -16,11 +16,13 @@ export async function prerenderObj(
     preloadDump,
   } = await renderPage(obj, () => {
     const rawBodyContent = ReactDOMServer.renderToString(<App />)
-    const { title, bodyContent, meta } = extractTitleAndMeta(rawBodyContent)
+    const { title, bodyContent, meta, link } =
+      extractHeadElements(rawBodyContent)
 
     return {
       bodyContent,
       htmlAttributes: `lang="${obj.language() || 'en'}"`,
+      link,
       meta,
       objId: obj.id(),
       objUrl: urlFor(obj),
@@ -45,10 +47,11 @@ export async function prerenderObj(
   ]
 }
 
-function extractTitleAndMeta(html: string): {
+function extractHeadElements(html: string): {
   title: string
   bodyContent: string
   meta: string
+  link: string
 } {
   const parsedBodyContent = parse(html)
 
@@ -56,6 +59,9 @@ function extractTitleAndMeta(html: string): {
 
   const metaTags = parsedBodyContent.querySelectorAll('meta')
   const meta = metaTags.map((tag) => tag.toString()).join('')
+
+  const linkTags = parsedBodyContent.querySelectorAll('link')
+  const link = linkTags.map((tag) => tag.toString()).join('')
 
   let bodyContent = html
 
@@ -72,7 +78,18 @@ function extractTitleAndMeta(html: string): {
     bodyContent = stripTag(bodyContent, reactTag)
   })
 
-  return { title, bodyContent, meta }
+  linkTags.forEach((tag) => {
+    const tagString = tag.toString()
+
+    // Adjust self-closing tags for React style if necessary
+    const reactTag = !tagString.endsWith('/>')
+      ? tagString.replace('>', '/>')
+      : tagString
+
+    bodyContent = stripTag(bodyContent, reactTag)
+  })
+
+  return { title, bodyContent, meta, link }
 }
 
 function stripTag(content: string, tag: string): string {
