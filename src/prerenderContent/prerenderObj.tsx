@@ -16,7 +16,7 @@ export async function prerenderObj(
     preloadDump,
   } = await renderPage(obj, () => {
     const rawBodyContent = ReactDOMServer.renderToString(<App />)
-    const { title, bodyContent, meta, link } =
+    const { title, bodyContent, meta, link, style } =
       extractHeadElements(rawBodyContent)
 
     return {
@@ -26,6 +26,7 @@ export async function prerenderObj(
       meta,
       objId: obj.id(),
       objUrl: urlFor(obj),
+      style,
       title,
     }
   })
@@ -52,6 +53,7 @@ function extractHeadElements(html: string): {
   bodyContent: string
   meta: string
   link: string
+  style: string
 } {
   const parsedBodyContent = parse(html)
 
@@ -62,6 +64,9 @@ function extractHeadElements(html: string): {
 
   const linkTags = parsedBodyContent.querySelectorAll('link')
   const link = linkTags.map((tag) => tag.toString()).join('')
+
+  const styleTags = parsedBodyContent.querySelectorAll('style')
+  const style = styleTags.map((tag) => tag.toString()).join('')
 
   let bodyContent = html
 
@@ -89,7 +94,12 @@ function extractHeadElements(html: string): {
     bodyContent = stripTag(bodyContent, reactTag)
   })
 
-  return { title, bodyContent, meta, link }
+  styleTags.forEach((tag) => {
+    const tagString = tag.toString()
+    bodyContent = stripTag(bodyContent, tagString)
+  })
+
+  return { title, bodyContent, meta, link, style }
 }
 
 function stripTag(content: string, tag: string): string {
