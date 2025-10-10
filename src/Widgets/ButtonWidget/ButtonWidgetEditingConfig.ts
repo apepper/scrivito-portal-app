@@ -1,6 +1,10 @@
 import { provideEditingConfig, Link } from 'scrivito'
 import { ButtonWidget } from './ButtonWidgetClass'
 import Thumbnail from './thumbnail.svg'
+import {
+  paddingEditingConfigAttributes,
+  paddingPropertiesGroup,
+} from '../paddingEditingConfig'
 
 provideEditingConfig(ButtonWidget, {
   title: 'Button',
@@ -34,8 +38,10 @@ provideEditingConfig(ButtonWidget, {
       title: 'Target',
       description: 'The target and text of the button.',
     },
+    ...paddingEditingConfigAttributes,
   },
   properties: ['target', 'alignment', 'buttonColor', 'buttonSize'],
+  propertiesGroups: [paddingPropertiesGroup],
   initialContent: {
     alignment: 'left',
     buttonColor: 'btn-primary',

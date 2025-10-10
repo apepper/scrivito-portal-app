@@ -3,6 +3,10 @@ import { DataImageWidget } from './DataImageWidgetClass'
 import Thumbnail from './thumbnail.svg'
 import { AttributeDimensionEditor } from '../../Components/ScrivitoExtensions/AttributeDimensionEditor'
 import { ObjectFit } from '../../Components/ScrivitoExtensions/ObjectFitEditor'
+import {
+  paddingEditingConfigAttributes,
+  paddingPropertiesGroup,
+} from '../paddingEditingConfig'
 
 provideEditingConfig(DataImageWidget, {
   title: 'Data Image',
@@ -37,6 +41,7 @@ provideEditingConfig(DataImageWidget, {
     data: {
       restrictDataTo: ['itemAttribute'],
     },
+    ...paddingEditingConfigAttributes,
   },
   properties: ['alignment', 'link', 'roundCorners'],
   propertiesGroups: (widget) => [
@@ -73,6 +78,7 @@ provideEditingConfig(DataImageWidget, {
       ],
       key: 'dimensions-group',
     },
+    paddingPropertiesGroup,
   ],
   initialContent: {
     alignment: 'left',

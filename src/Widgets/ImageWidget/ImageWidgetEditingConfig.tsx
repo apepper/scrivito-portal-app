@@ -3,6 +3,10 @@ import { ImageWidget } from './ImageWidgetClass'
 import Thumbnail from './thumbnail.svg'
 import { AttributeDimensionEditor } from '../../Components/ScrivitoExtensions/AttributeDimensionEditor'
 import { ObjectFit } from '../../Components/ScrivitoExtensions/ObjectFitEditor'
+import {
+  paddingEditingConfigAttributes,
+  paddingPropertiesGroup,
+} from '../paddingEditingConfig'
 
 provideEditingConfig(ImageWidget, {
   title: 'Image',
@@ -46,6 +50,7 @@ provideEditingConfig(ImageWidget, {
     width: {
       title: 'Width',
     },
+    ...paddingEditingConfigAttributes,
   },
   properties: (widget) => [
     'alignment',
@@ -95,6 +100,7 @@ provideEditingConfig(ImageWidget, {
       ],
       key: 'dimensions-group',
     },
+    paddingPropertiesGroup,
   ],
   initialContent: {
     alignment: 'left',

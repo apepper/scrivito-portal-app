@@ -2,6 +2,10 @@ import { provideEditingConfig } from 'scrivito'
 import { TextWidget } from './TextWidgetClass'
 import Thumbnail from './thumbnail.svg'
 import {
+  paddingEditingConfigAttributes,
+  paddingPropertiesGroup,
+} from '../paddingEditingConfig'
+import {
   textStyleEditingConfigAttributes,
   textStylePropertiesGroup,
 } from '../textStyleEditingConfig'
@@ -23,9 +27,10 @@ provideEditingConfig(TextWidget, {
       title: 'Content',
     },
     ...textStyleEditingConfigAttributes,
+    ...paddingEditingConfigAttributes,
   },
   properties: ['alignment', 'text'],
-  propertiesGroups: [textStylePropertiesGroup],
+  propertiesGroups: [textStylePropertiesGroup, paddingPropertiesGroup],
   initialContent: {
     alignment: 'left',
     text: 'Text',

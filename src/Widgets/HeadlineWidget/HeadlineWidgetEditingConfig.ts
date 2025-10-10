@@ -2,6 +2,10 @@ import { provideEditingConfig } from 'scrivito'
 import { HeadlineWidget } from './HeadlineWidgetClass'
 import Thumbnail from './thumbnail.svg'
 import {
+  paddingEditingConfigAttributes,
+  paddingPropertiesGroup,
+} from '../paddingEditingConfig'
+import {
   textStyleEditingConfigAttributes,
   textStylePropertiesGroup,
 } from '../textStyleEditingConfig'
@@ -54,14 +58,11 @@ provideEditingConfig(HeadlineWidget, {
         { value: 'right', title: 'Right' },
       ],
     },
-    margin: {
-      title: 'Margin',
-      description: 'Space below the widget. Default: mb-2',
-    },
     ...textStyleEditingConfigAttributes,
+    ...paddingEditingConfigAttributes,
   },
-  properties: ['style', 'level', 'alignment', 'margin'],
-  propertiesGroups: [textStylePropertiesGroup],
+  properties: ['style', 'level', 'alignment'],
+  propertiesGroups: [textStylePropertiesGroup, paddingPropertiesGroup],
   initialContent: {
     alignment: 'left',
     headline: 'Headline',
