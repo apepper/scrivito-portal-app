@@ -9,6 +9,10 @@ import {
   textStyleEditingConfigAttributes,
   textStylePropertiesGroup,
 } from '../textStyleEditingConfig'
+import {
+  borderRadiusEditingConfigAttributes,
+  borderRadiusPropertiesGroup,
+} from '../borderRadiusEditingConfig'
 
 provideEditingConfig(HeadlineWidget, {
   title: 'Headline',
@@ -60,9 +64,14 @@ provideEditingConfig(HeadlineWidget, {
     },
     ...textStyleEditingConfigAttributes,
     ...paddingEditingConfigAttributes,
+    ...borderRadiusEditingConfigAttributes,
   },
   properties: ['style', 'level', 'alignment'],
-  propertiesGroups: [textStylePropertiesGroup, paddingPropertiesGroup],
+  propertiesGroups: [
+    textStylePropertiesGroup,
+    paddingPropertiesGroup,
+    borderRadiusPropertiesGroup,
+  ],
   initialContent: {
     alignment: 'left',
     headline: 'Headline',

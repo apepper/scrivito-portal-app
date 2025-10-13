@@ -1,6 +1,7 @@
 import { provideWidgetClass } from 'scrivito'
 import { paddingAttributes } from '../paddingAttributes'
 import { textStyleAttributes } from '../textStyleAttributes'
+import { borderRadiusAttributes } from '../borderRadiusAttributes'
 
 export const HeadlineWidget = provideWidgetClass('HeadlineWidget', {
   attributes: {
@@ -36,6 +37,7 @@ export const HeadlineWidget = provideWidgetClass('HeadlineWidget', {
     uppercase: 'boolean', // TODO: Remove, because of textTransform
     ...textStyleAttributes,
     ...paddingAttributes,
+    ...borderRadiusAttributes,
   },
   extractTextAttributes: ['headline'],
 })
