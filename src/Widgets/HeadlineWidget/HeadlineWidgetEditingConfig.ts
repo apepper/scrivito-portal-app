@@ -2,6 +2,10 @@ import { provideEditingConfig } from 'scrivito'
 import { HeadlineWidget } from './HeadlineWidgetClass'
 import Thumbnail from './thumbnail.svg'
 import {
+  bordersEditingConfigAttributes,
+  bordersPropertiesGroup,
+} from '../bordersEditingConfig'
+import {
   paddingEditingConfigAttributes,
   paddingPropertiesGroup,
 } from '../paddingEditingConfig'
@@ -65,12 +69,14 @@ provideEditingConfig(HeadlineWidget, {
     ...textStyleEditingConfigAttributes,
     ...paddingEditingConfigAttributes,
     ...borderRadiusEditingConfigAttributes,
+    ...bordersEditingConfigAttributes,
   },
   properties: ['style', 'level', 'alignment'],
   propertiesGroups: [
     textStylePropertiesGroup,
     paddingPropertiesGroup,
     borderRadiusPropertiesGroup,
+    bordersPropertiesGroup,
   ],
   initialContent: {
     alignment: 'left',

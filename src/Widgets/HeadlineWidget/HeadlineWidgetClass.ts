@@ -1,4 +1,5 @@
 import { provideWidgetClass } from 'scrivito'
+import { bordersAttributes } from '../bordersAttributes'
 import { paddingAttributes } from '../paddingAttributes'
 import { textStyleAttributes } from '../textStyleAttributes'
 import { borderRadiusAttributes } from '../borderRadiusAttributes'
@@ -38,6 +39,7 @@ export const HeadlineWidget = provideWidgetClass('HeadlineWidget', {
     ...textStyleAttributes,
     ...paddingAttributes,
     ...borderRadiusAttributes,
+    ...bordersAttributes,
   },
   extractTextAttributes: ['headline'],
 })
