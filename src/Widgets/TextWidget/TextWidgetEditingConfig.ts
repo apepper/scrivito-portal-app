@@ -9,6 +9,10 @@ import {
   textStyleEditingConfigAttributes,
   textStylePropertiesGroup,
 } from '../textStyleEditingConfig'
+import {
+  containerEditingAttributes,
+  containerPropertiesGroup,
+} from '../containerEditingConfig'
 
 provideEditingConfig(TextWidget, {
   title: 'Text',
@@ -26,11 +30,16 @@ provideEditingConfig(TextWidget, {
     text: {
       title: 'Content',
     },
+    ...containerEditingAttributes,
     ...textStyleEditingConfigAttributes,
     ...paddingEditingConfigAttributes,
   },
   properties: ['alignment', 'text'],
-  propertiesGroups: [textStylePropertiesGroup, paddingPropertiesGroup],
+  propertiesGroups: [
+    containerPropertiesGroup,
+    textStylePropertiesGroup,
+    paddingPropertiesGroup,
+  ],
   initialContent: {
     alignment: 'left',
     text: 'Text',

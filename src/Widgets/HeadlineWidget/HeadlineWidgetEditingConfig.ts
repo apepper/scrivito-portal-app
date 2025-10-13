@@ -17,6 +17,10 @@ import {
   borderRadiusEditingConfigAttributes,
   borderRadiusPropertiesGroup,
 } from '../borderRadiusEditingConfig'
+import {
+  containerEditingAttributes,
+  containerPropertiesGroup,
+} from '../containerEditingConfig'
 
 provideEditingConfig(HeadlineWidget, {
   title: 'Headline',
@@ -66,6 +70,7 @@ provideEditingConfig(HeadlineWidget, {
         { value: 'right', title: 'Right' },
       ],
     },
+    ...containerEditingAttributes,
     ...textStyleEditingConfigAttributes,
     ...paddingEditingConfigAttributes,
     ...borderRadiusEditingConfigAttributes,
@@ -73,6 +78,7 @@ provideEditingConfig(HeadlineWidget, {
   },
   properties: ['style', 'level', 'alignment'],
   propertiesGroups: [
+    containerPropertiesGroup,
     textStylePropertiesGroup,
     paddingPropertiesGroup,
     borderRadiusPropertiesGroup,

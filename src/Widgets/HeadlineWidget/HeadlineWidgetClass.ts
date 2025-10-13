@@ -3,6 +3,7 @@ import { bordersAttributes } from '../bordersAttributes'
 import { paddingAttributes } from '../paddingAttributes'
 import { textStyleAttributes } from '../textStyleAttributes'
 import { borderRadiusAttributes } from '../borderRadiusAttributes'
+import { containerAttributes } from '../containerAttributes'
 
 export const HeadlineWidget = provideWidgetClass('HeadlineWidget', {
   attributes: {
@@ -36,6 +37,7 @@ export const HeadlineWidget = provideWidgetClass('HeadlineWidget', {
       },
     ],
     uppercase: 'boolean', // TODO: Remove, because of textTransform
+    ...containerAttributes,
     ...textStyleAttributes,
     ...paddingAttributes,
     ...borderRadiusAttributes,
