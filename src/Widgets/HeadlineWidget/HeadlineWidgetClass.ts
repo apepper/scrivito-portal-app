@@ -4,6 +4,7 @@ import { paddingAttributes } from '../paddingAttributes'
 import { textStyleAttributes } from '../textStyleAttributes'
 import { borderRadiusAttributes } from '../borderRadiusAttributes'
 import { containerAttributes } from '../containerAttributes'
+import { alignmentAttributes } from '../alignmentAttributes'
 
 export const HeadlineWidget = provideWidgetClass('HeadlineWidget', {
   attributes: {
@@ -42,6 +43,7 @@ export const HeadlineWidget = provideWidgetClass('HeadlineWidget', {
     ...paddingAttributes,
     ...borderRadiusAttributes,
     ...bordersAttributes,
+    ...alignmentAttributes,
   },
   extractTextAttributes: ['headline'],
 })

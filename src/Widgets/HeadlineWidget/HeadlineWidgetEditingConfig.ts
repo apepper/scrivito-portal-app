@@ -21,6 +21,10 @@ import {
   containerEditingAttributes,
   containerPropertiesGroup,
 } from '../containerEditingConfig'
+import {
+  alignmentEditingAttributes,
+  alignmentPropertiesGroup,
+} from '../alignmentEditingConfig'
 
 provideEditingConfig(HeadlineWidget, {
   title: 'Headline',
@@ -61,28 +65,34 @@ provideEditingConfig(HeadlineWidget, {
         { value: 'div', title: 'No semantic tag' },
       ],
     },
-    alignment: {
-      title: 'Alignment',
-      description: 'Default: Left',
-      values: [
-        { value: 'left', title: 'Left' },
-        { value: 'center', title: 'Center' },
-        { value: 'right', title: 'Right' },
-      ],
-    },
+    // alignment: {
+    //   title: 'Alignment',
+    //   description: 'Default: Left',
+    //   values: [
+    //     { value: 'left', title: 'Left' },
+    //     { value: 'center', title: 'Center' },
+    //     { value: 'right', title: 'Right' },
+    //   ],
+    // },
     ...containerEditingAttributes,
     ...textStyleEditingConfigAttributes,
     ...paddingEditingConfigAttributes,
     ...borderRadiusEditingConfigAttributes,
     ...bordersEditingConfigAttributes,
+    ...alignmentEditingAttributes,
   },
-  properties: ['style', 'level', 'alignment'],
+  properties: [
+    'style',
+    'level',
+    // 'alignment'
+  ],
   propertiesGroups: [
     containerPropertiesGroup,
     textStylePropertiesGroup,
     paddingPropertiesGroup,
     borderRadiusPropertiesGroup,
     bordersPropertiesGroup,
+    alignmentPropertiesGroup,
   ],
   initialContent: {
     alignment: 'left',
