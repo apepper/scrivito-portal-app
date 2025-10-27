@@ -1,17 +1,27 @@
 import { provideWidgetClass } from 'scrivito'
-import { paddingAttributes } from '../paddingAttributes'
-import { textStyleAttributes } from '../textStyleAttributes'
-import { containerAttributes } from '../containerAttributes'
-import { alignmentAttributes } from '../alignmentAttributes'
+
+const textTransformOptions = {
+  values: ['none', 'uppercase', 'lowercase', 'capitalize'],
+} as const
 
 export const TextWidget = provideWidgetClass('TextWidget', {
   attributes: {
-    alignment: ['enum', { values: ['left', 'center', 'right'] }], // TODO: Remove deprecated attribute
     text: 'html',
-    ...containerAttributes,
-    ...textStyleAttributes,
-    ...paddingAttributes,
-    ...alignmentAttributes,
+    textTransform: ['enum', { ...textTransformOptions }],
+    textTransformTablet: [
+      'enum',
+      {
+        ...textTransformOptions,
+        emptyValue: (widget) => widget.get('textTransform'),
+      },
+    ],
+    textTransformMobile: [
+      'enum',
+      {
+        ...textTransformOptions,
+        emptyValue: (widget) => widget.get('textTransform'),
+      },
+    ],
   },
   extractTextAttributes: ['text'],
 })
