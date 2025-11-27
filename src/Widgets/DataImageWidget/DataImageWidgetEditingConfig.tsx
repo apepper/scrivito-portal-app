@@ -7,7 +7,6 @@ import {
 } from 'scrivito'
 import { DataImageWidget } from './DataImageWidgetClass'
 import Thumbnail from './thumbnail.svg'
-import { DimensionPicker } from '../../Components/ScrivitoExtensions/DimensionPicker'
 import { ObjectFitEditor } from '../../Components/ScrivitoExtensions/ObjectFitEditor'
 
 provideEditingConfig(DataImageWidget, {
@@ -25,6 +24,8 @@ provideEditingConfig(DataImageWidget, {
     },
     height: {
       title: 'Height',
+      editor: 'dimensionPicker',
+      options: { units: ['px'] },
     },
     link: {
       title: 'Link (optional)',
@@ -39,6 +40,8 @@ provideEditingConfig(DataImageWidget, {
     },
     width: {
       title: 'Width',
+      editor: 'dimensionPicker',
+      options: { units: ['px', '%'] },
     },
     data: {
       restrictDataTo: ['itemAttribute'],
@@ -49,38 +52,8 @@ provideEditingConfig(DataImageWidget, {
     {
       title: 'Dimensions',
       properties: [
-        [
-          'width',
-          {
-            component: ({ widget }: { widget: Widget }) => (
-              <DimensionPicker
-                attributeValue={widget.get('width')}
-                readOnly={!canEdit(widget.obj()) || isComparisonActive()}
-                theme={(uiContext() || { theme: null }).theme}
-                units={['px', '%']}
-                updateAttributeValue={(value) =>
-                  widget.update({ width: value })
-                }
-              />
-            ),
-          },
-        ],
-        [
-          'height',
-          {
-            component: ({ widget }: { widget: Widget }) => (
-              <DimensionPicker
-                attributeValue={widget.get('height')}
-                readOnly={!canEdit(widget.obj()) || isComparisonActive()}
-                theme={(uiContext() || { theme: null }).theme}
-                units={['px']}
-                updateAttributeValue={(value) =>
-                  widget.update({ height: value })
-                }
-              />
-            ),
-          },
-        ],
+        'width',
+        'height',
         ...(widget.get('width')
           ? ([
               [
