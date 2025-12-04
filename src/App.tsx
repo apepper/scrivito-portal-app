@@ -7,6 +7,7 @@ import { NotFoundErrorPage } from './Components/NotFoundErrorPage'
 import { Toasts } from './Components/Toasts'
 import { DesignAdjustments } from './Components/DesignAdjustments'
 import { SinglePageSite } from './Components/SinglePageSite'
+import { Light } from 'poc-vite-package'
 
 export const helmetContext: { helmet?: HelmetServerState } = {}
 
@@ -17,6 +18,7 @@ export function App({
 }) {
   return (
     <HelmetProvider context={helmetContext}>
+      <Light />
       <ErrorBoundary>
         <div ref={appWrapperRef} id="app-wrapper">
           <SkipToContent />
