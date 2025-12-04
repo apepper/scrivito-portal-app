@@ -90,6 +90,7 @@ export default defineConfig(({ mode }) => {
           ? '@honeybadger-io/js'
           : resolve(__dirname, 'src/honeybadgerStub.ts'),
       },
+      dedupe: ['react', 'react-dom'],
     },
     server: {
       port: 8080,
